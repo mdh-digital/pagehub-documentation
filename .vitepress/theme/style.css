@@ -1,0 +1,80 @@
+/* ------------------------------------------------------------------ *
+ * Warna merek PageHub (hijau #0a7a55 — sama dengan default app builder)
+ * ------------------------------------------------------------------ */
+:root {
+  --vp-c-brand-1: #0a7a55;
+  --vp-c-brand-2: #0c8f63;
+  --vp-c-brand-3: #12a877;
+  --vp-c-brand-soft: rgba(10, 122, 85, 0.14);
+
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-bg: #086545;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0a7a55 20%, #22b587);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #0a7a5533 40%, #22b58733 60%);
+  --vp-home-hero-image-filter: blur(48px);
+}
+
+.dark {
+  --vp-c-brand-1: #3fcb97;
+  --vp-c-brand-2: #2fb886;
+  --vp-c-brand-3: #26a175;
+  --vp-c-brand-soft: rgba(63, 203, 151, 0.16);
+
+  --vp-button-brand-bg: #12855e;
+  --vp-button-brand-hover-bg: #0f9c6d;
+  --vp-button-brand-active-bg: #0c6f4d;
+
+  --vp-home-hero-name-background: linear-gradient(120deg, #3fcb97 20%, #7fe3c0);
+}
+
+/* ------------------------------------------------------------------ *
+ * Arab / RTL
+ * ------------------------------------------------------------------ */
+html[dir='rtl'] {
+  --vp-font-family-base: 'IBM Plex Sans Arabic', ui-sans-serif, system-ui, 'Segoe UI', sans-serif;
+}
+
+/* Kode & path selalu dibaca kiri-ke-kanan, walaupun halamannya RTL. */
+html[dir='rtl'] :where(code, kbd, samp, pre, .vp-code) {
+  direction: ltr;
+  unicode-bidi: embed;
+  text-align: left;
+}
+
+/* ------------------------------------------------------------------ *
+ * Tabel — panduan ini banyak tabel referensi (status pesanan, peran, dst)
+ * ------------------------------------------------------------------ */
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+.vp-doc th {
+  font-size: 13px;
+  letter-spacing: 0.01em;
+}
+.vp-doc td {
+  vertical-align: top;
+}
+
+/* Daftar langkah bernomor dikasih nafas sedikit. */
+.vp-doc ol > li + li,
+.vp-doc ul > li + li {
+  margin-top: 6px;
+}
+
+/* Chip kecil buat nyebut label tombol/menu di dalam kalimat: <kbd>. */
+.vp-doc kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid var(--vp-c-divider);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+  font-size: 0.85em;
+  font-family: var(--vp-font-family-base);
+  color: var(--vp-c-text-1);
+  white-space: nowrap;
+}

@@ -1,0 +1,66 @@
+# Block palette
+
+The **Blocks** panel on the left of the editor holds ready-made page pieces. They come from two places: built-in blocks, and blocks **AI derives from your own page design**.
+
+<Shot src="/img/editor/blocks-panel.webp">
+The Blocks panel on the left of the editor: a "Blocks from this design" section at the top with a "Match my design" button, then Basic, Layout and Ready-made sections groups of block cards.
+</Shot>
+
+## Built-in blocks
+
+| Group | Contents |
+| --- | --- |
+| **Basic** | Heading, Text, Button, Image |
+| **Layout** | Container, 2 columns, 3 columns, 4 columns, Content + sidebar |
+| **Ready-made sections** | Hero, Features, Pricing, Testimonial, FAQ, Call to action, Form |
+
+Click to insert inside the selected element, or drag onto the canvas.
+
+The catch: built-in blocks look generic. Dropped into a page with a strong design, they read as patches.
+
+## Blocks from this design
+
+Which is why there's **Blocks from this design**. Click **Match my design** and AI reads the design of the page you have open — its colours, spacing, button shapes, card styling — then rebuilds the whole block set in that style.
+
+The result: heroes, forms, pricing tables and the rest that look like they were part of the page all along.
+
+| Button | When to use it |
+| --- | --- |
+| **Match my design** | The first time you derive blocks from a page's design |
+| **Rebuild blocks** | After you've substantially changed the page's CSS or HTML |
+| **Use the defaults** | Go back to the generic set |
+
+::: warning Rebuilding replaces the old set
+The existing block set is replaced, not added to. Blocks **you saved yourself** ("Your saved blocks") are not touched.
+:::
+
+If the page is still empty, the button won't work — there's no design to learn from. Add some content first.
+
+## Scope: website vs landing page
+
+This explains why results can feel different between the two:
+
+| | Website | Landing page |
+| --- | --- | --- |
+| Block set stored on | The website (shared by all its pages) | The page itself |
+| New block CSS goes into | The website's global stylesheet, in a marked segment | Planted once when the block is inserted |
+
+So for a website, deriving blocks once benefits every page in the site. For a landing page, each page has its own set — consistent with landing pages being standalone by nature.
+
+## AI credits
+
+Deriving blocks from a design uses [AI credits](/en/ai/credits). Doing it once per website is usually enough — you only need to rebuild when the design changes substantially.
+
+## Your saved blocks
+
+Beyond built-in and design-derived blocks, you can save any element as a block:
+
+1. Select it in [visual mode](/en/editor/visual-mode).
+2. Click **Save as block**.
+3. Give it a **Block name** and pick an **Icon**.
+
+It appears under **Your saved blocks**, ready to reuse.
+
+## Label language
+
+Block labels follow the app language active when the blocks were generated. If you switch language and want the labels to follow, rebuild the blocks.

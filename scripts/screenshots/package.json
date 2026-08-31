@@ -1,0 +1,10 @@
+{
+  "name": "pagehub-docs-screenshots",
+  "private": true,
+  "type": "module",
+  "description": "Harness penangkap screenshot panduan — dependensinya sengaja dipisah dari situs docs.",
+  "devDependencies": {
+    "playwright": "^1.49.0",
+    "sharp": "^0.33.0"
+  }
+}

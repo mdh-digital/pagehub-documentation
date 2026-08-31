@@ -1,0 +1,6 @@
+# Panduan PageHub — semuanya publik dan memang untuk dibaca mesin pencari
+# maupun mesin jawab AI.
+User-agent: *
+Allow: /
+
+Sitemap: https://documentations.pagehub.id/sitemap.xml

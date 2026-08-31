@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pagehub-documentation",
+  "compatibility_date": "2025-06-01",
+
+  // Worker tanpa skrip — cuma menyajikan hasil build VitePress sebagai
+  // static assets. `html_handling` bikin /website/pages melayani
+  // website/pages.html, jadi `cleanUrls: true` di VitePress jalan apa adanya.
+  "assets": {
+    "directory": "./.vitepress/dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
