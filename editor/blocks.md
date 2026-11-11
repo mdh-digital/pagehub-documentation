@@ -18,6 +18,8 @@ Klik untuk menyisipkan ke dalam elemen terpilih, atau seret ke kanvas.
 
 Masalahnya: blok bawaan tampilannya generik. Ditempel ke halaman yang desainnya kuat, dia kelihatan seperti tambalan.
 
+Dua blok bekerja berbeda dari yang lain. Blok **Form** membuka pemilih form; lihat [Form builder](/leads/form-builder). Saat toko menyala, grup **Toko** ikut muncul di palet; lihat [Kartu produk & blok toko](/commerce/product-cards).
+
 ## Blok dari desain halaman ini
 
 Karena itu ada **Blok desain ini**. Klik **Sesuaikan desainku**, dan AI membaca desain halaman yang sedang kamu buka — warnanya, jaraknya, bentuk tombolnya, gaya kartunya — lalu menyusun ulang seluruh set blok dengan gaya itu.
@@ -35,6 +37,12 @@ Set blok yang sudah ada diganti, bukan ditambahi. Blok yang **kamu simpan sendir
 :::
 
 Kalau halamannya masih kosong, tombolnya nggak jalan — nggak ada desain untuk dipelajari. Isi dulu kontennya.
+
+### Otomatis setelah build AI
+
+Website yang dibuat lewat build AI **langsung mendapat set blok desainnya sendiri**. Bloknya disusun di akhir proses build, jadi saat editor dibuka panel Blok sudah terisi dan kamu tidak perlu menekan apa pun. Pemakaian kreditnya sudah termasuk di perkiraan build.
+
+Tombol **Susun ulang blok** tetap ada untuk dipakai setelah desain berubah besar.
 
 ## Ruang lingkup: website vs landing page
 

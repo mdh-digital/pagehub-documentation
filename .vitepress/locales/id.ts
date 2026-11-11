@@ -61,11 +61,14 @@ const labels: Labels = {
     'commerce/categories-and-variants': 'Kategori & varian',
     'commerce/products': 'Produk',
     'commerce/storefront': 'Halaman toko',
+    'commerce/product-cards': 'Kartu produk & blok toko',
     'commerce/cart-and-checkout': 'Keranjang & checkout',
     'commerce/orders': 'Transaksi',
     'commerce/payments-and-invoices': 'Pembayaran & invoice',
     'commerce/public-invoice': 'Invoice publik',
     'commerce/abandoned-carts': 'Keranjang ditinggalkan',
+
+    'leads/form-builder': 'Form builder',
 
     'leads/form-submissions': 'Form masuk',
     'leads/pipeline': 'Pipeline kanban',
@@ -77,6 +80,7 @@ const labels: Labels = {
     'team/workspaces': 'Workspace',
     'team/members-and-access': 'Anggota & akses',
     'team/brand-white-label': 'Brand & white label',
+    'team/reseller': 'Reseller',
 
     'account/profile': 'Profil & preferensi',
     'account/plans-and-quota': 'Paket & kuota',

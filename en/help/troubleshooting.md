@@ -98,9 +98,13 @@ Custom domains need an active subscription. See [When a subscription lapses](/en
 
 ## Store
 
-### The Commerce menu shows an offer screen
+### I can't add a product
 
-The store add-on isn't active for this website. See [Add-ons](/en/account/add-ons).
+The product limit for this workspace is full. Existing products are safe; only new ones are refused. Add room under [Add-ons](/en/account/add-ons) or move to a larger plan.
+
+### An order is marked "Over quota"
+
+This month's order allowance for that workspace has been passed. The order still arrived and can be handled as usual; the mark is only a notice. See [Add-ons](/en/account/add-ons).
 
 ### I can't find the price field on the product form
 

@@ -61,11 +61,14 @@ const labels: Labels = {
     'commerce/categories-and-variants': 'Categories & variants',
     'commerce/products': 'Products',
     'commerce/storefront': 'Storefront pages',
+    'commerce/product-cards': 'Product cards & store blocks',
     'commerce/cart-and-checkout': 'Cart & checkout',
     'commerce/orders': 'Orders',
     'commerce/payments-and-invoices': 'Payments & invoices',
     'commerce/public-invoice': 'Public invoice',
     'commerce/abandoned-carts': 'Abandoned carts',
+
+    'leads/form-builder': 'Form builder',
 
     'leads/form-submissions': 'Form submissions',
     'leads/pipeline': 'Kanban pipeline',
@@ -77,6 +80,7 @@ const labels: Labels = {
     'team/workspaces': 'Workspaces',
     'team/members-and-access': 'Members & access',
     'team/brand-white-label': 'Brand & white label',
+    'team/reseller': 'Reseller',
 
     'account/profile': 'Profile & preferences',
     'account/plans-and-quota': 'Plans & quota',

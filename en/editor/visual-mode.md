@@ -30,7 +30,9 @@ Appears on the right as soon as something is selected. Its contents depend on th
 | Text | The text, alignment, colour, size, font weight |
 | Image | **Src** (swap the image from File Manager or upload a new one), **Alt** |
 | Link | **Link (href)**, open in new tab |
-| Form | The field list: add Input / Textarea, set label, type, required |
+| Form block | The form it shows, with its field and lead counts, and **Edit form**, **Leads** and **Change form** buttons |
+
+The sections of this panel **start folded**; click a section's title to open it. A small dot on the title marks a section that already holds something.
 
 ### Style
 

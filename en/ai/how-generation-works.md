@@ -44,6 +44,12 @@ The progress screen: the name of the running stage ("Building the structure"), a
 
 The stages are labelled: *Getting started* → *Choosing a look* → *Building the structure* → *Writing the content* → *Polishing*.
 
+## The store and blocks are prepared too
+
+For a website, the plan screen has a **Use an online store** card. Tick it and the site has a store from the start: the product list, product detail, cart and checkout pages exist as soon as the build finishes.
+
+At the end of the build, the site's [design blocks](/en/editor/blocks) are prepared automatically as well, so the Blocks panel in the editor already holds blocks that match the design.
+
 ## You can walk away
 
 This runs on the server, not in your browser. You can close the tab and come back later — the work continues. If a build is unfinished, PageHub offers **Resume the last build?** when you open that screen again.

@@ -18,6 +18,8 @@ Click to insert inside the selected element, or drag onto the canvas.
 
 The catch: built-in blocks look generic. Dropped into a page with a strong design, they read as patches.
 
+Two blocks work differently from the rest. The **Form** block opens a form picker; see [Form builder](/en/leads/form-builder). When the store is on, a **Store** group appears in the palette too; see [Product cards & store blocks](/en/commerce/product-cards).
+
 ## Blocks from this design
 
 Which is why there's **Blocks from this design**. Click **Match my design** and AI reads the design of the page you have open — its colours, spacing, button shapes, card styling — then rebuilds the whole block set in that style.
@@ -35,6 +37,12 @@ The existing block set is replaced, not added to. Blocks **you saved yourself** 
 :::
 
 If the page is still empty, the button won't work — there's no design to learn from. Add some content first.
+
+### Automatic after an AI build
+
+A website made with the AI build **gets its own design block set straight away**. The blocks are prepared at the end of the build, so the Blocks panel is already filled when you open the editor and there is nothing to press. Their credit use is part of the build estimate.
+
+**Rebuild blocks** is still there for after a big design change.
 
 ## Scope: website vs landing page
 

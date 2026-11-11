@@ -44,6 +44,12 @@ Layar progres: nama tahap yang sedang berjalan ("Menyusun struktur"), bilah kema
 
 Tahapnya dilabeli: *Mulai menyiapkan* → *Memilih tampilan* → *Menyusun struktur* → *Menulis isi* → *Merapikan*.
 
+## Toko dan blok ikut disiapkan
+
+Untuk website, layar rencana punya kartu **Pakai toko online**. Kalau dicentang, situsnya langsung punya toko: halaman produk, detail produk, keranjang, dan checkout tersedia begitu build selesai.
+
+Di akhir build, [blok desain](/editor/blocks) untuk situs itu juga disusun otomatis, jadi panel Blok di editor sudah berisi blok yang cocok dengan desainnya.
+
 ## Boleh ditinggal
 
 Proses ini berjalan di server, bukan di browser. Kamu boleh menutup tab dan balik lagi nanti — pekerjaannya jalan terus. Kalau ada build yang belum selesai, PageHub menawarkan **Lanjutkan yang tadi?** waktu kamu membuka layar itu lagi.

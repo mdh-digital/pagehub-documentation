@@ -4,19 +4,20 @@ The **Commerce** module turns a website into a store: a product catalogue, cart,
 
 A store belongs to **one website**. An organisation can run several stores at once — each with its own catalogue, currency and bank accounts.
 
-## An add-on
+## Part of every plan
 
-Commerce is a **paid add-on, per website**, separate from your subscription plan.
+The online store is **included in every plan**: one website, one store. There is no add-on to buy before you can sell; just switch the store on for that website.
 
-<Shot src="/img/commerce/locked.webp">
-The Commerce tab without the add-on: a single offer screen headed "Selling is an add-on", explaining that the catalogue, orders, invoices and public storefront switch on once the add-on is active, with a "See the store add-on" button.
+Plans differ on two limits only, counted **per workspace** (every store in that workspace added together):
+
+- **Number of products** — a hard limit. Once it is full, new products cannot be added.
+- **Orders per month** — a soft limit. Checkout is never refused; orders past the allowance still arrive and are marked **Over quota**.
+
+<Shot src="/img/commerce/usage.webp">
+The store usage card in the Commerce hub: the workspace name, a "products" bar and an "orders this month" bar showing used and limit, and a link to add more room.
 </Shot>
 
-Without the add-on, the Commerce tab shows one offer screen — not a row of menus that all refuse to work. How to buy it: [Add-ons](/en/account/add-ons).
-
-::: info Stores that were already running
-Websites already selling before this add-on was introduced keep working — their commerce access is carried over automatically.
-:::
+Need more room in one workspace? Buy extra room under [Add-ons](/en/account/add-ons).
 
 ## Module map
 

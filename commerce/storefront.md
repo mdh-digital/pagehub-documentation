@@ -4,6 +4,12 @@ Storefront adalah halaman toko publik: daftar produk, halaman detail produk, ker
 
 Yang membedakannya dari toko online biasa: **AI menulis templatenya dalam desain website kamu**, dan **server yang mengisi katalognya saat halaman dibuka**. Jadi tampilannya nyatu dengan situsmu, sementara harga dan stok nggak pernah basi.
 
+## Halaman toko bawaan
+
+Begitu toko dinyalakan, halaman **daftar produk, detail produk, keranjang, dan checkout langsung tersedia** dengan tampilan bawaan yang mengikuti warna dan huruf situsmu. Kamu tidak perlu menunggu AI untuk mulai menerima pesanan.
+
+Tampilan bawaan itu dipakai selama sebuah template belum punya versi sendiri. Begitu AI menyusun halaman toko, atau kamu menyuntingnya lewat **Sesuaikan**, versi itulah yang tampil.
+
 ## Membuat halaman toko
 
 **Commerce → Halaman toko** → **Buat halaman toko**.

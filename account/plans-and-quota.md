@@ -46,7 +46,7 @@ Selain angka, ada kapabilitas yang menyala atau mati tergantung paket:
 | --- | --- |
 | **[Domain kustom](/website/custom-domain)** | Khusus pelanggan berlangganan; paket trial belum bisa |
 | **[White label](/team/brand-white-label)** | Sebagian paket sudah termasuk; kalau tidak, tersedia sebagai [add-on](/account/add-ons) |
-| **[Toko online](/commerce/overview)** | Dijual sebagai add-on per website, terpisah dari paket |
+| **[Toko online](/commerce/overview)** | Termasuk di semua paket. Paket menentukan batas produk dan pesanan per bulan untuk tiap workspace; kapasitas tambahan dijual sebagai [add-on](/account/add-ons) |
 
 ## Keluarga paket
 

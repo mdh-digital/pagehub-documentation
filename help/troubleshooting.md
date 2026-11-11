@@ -98,9 +98,13 @@ Domain kustom butuh langganan aktif. Cek [Kalau langganan berhenti](/account/sub
 
 ## Toko
 
-### Menu Commerce tampil sebagai penawaran
+### Nggak bisa menambah produk
 
-Add-on toko belum aktif untuk website ini. Lihat [Add-on](/account/add-ons).
+Batas jumlah produk untuk workspace ini sudah penuh. Produk yang ada tetap aman; yang ditolak hanya produk baru. Tambah kapasitas di [Add-on](/account/add-ons) atau naikkan paket.
+
+### Pesanan ditandai "Melebihi kuota"
+
+Jatah pesanan bulan ini untuk workspace itu sudah terlewati. Pesanannya tetap masuk dan bisa diproses seperti biasa; penandanya hanya pemberitahuan. Lihat [Add-on](/account/add-ons).
 
 ### Nggak ketemu kolom harga di form produk
 

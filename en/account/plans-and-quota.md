@@ -46,7 +46,7 @@ Beyond numbers, some capabilities switch on or off with your plan:
 | --- | --- |
 | **[Custom domain](/en/website/custom-domain)** | Subscribers only; trial plans can't |
 | **[White label](/en/team/brand-white-label)** | Included in some plans; otherwise available as an [add-on](/en/account/add-ons) |
-| **[Online store](/en/commerce/overview)** | Sold as a per-website add-on, separate from plans |
+| **[Online store](/en/commerce/overview)** | Included in every plan. The plan sets the product and monthly order limits for each workspace; extra room is sold as an [add-on](/en/account/add-ons) |
 
 ## Plan families
 

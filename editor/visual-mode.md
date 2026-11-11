@@ -30,7 +30,9 @@ Muncul di kanan begitu ada elemen terpilih. Isinya tergantung jenis elemen.
 | Teks | Isi teks, perataan, warna, ukuran, ketebalan huruf |
 | Gambar | **Src** (ganti gambar lewat File Manager atau upload baru), **Alt** |
 | Tautan | **Link (href)**, buka di tab baru |
-| Form | Daftar field: tambah Input / Area teks, atur label, tipe, wajib diisi |
+| Blok form | Form yang terpasang beserta jumlah field dan lead-nya, dengan tombol **Edit form**, **Lead**, dan **Ganti form** |
+
+Bagian-bagian di panel ini **terlipat saat pertama dibuka**; klik judul bagian untuk membukanya. Titik kecil di judul menandai bagian yang sudah punya isi.
 
 ### Gaya
 

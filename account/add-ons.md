@@ -1,73 +1,72 @@
 # Add-on
 
-Add-on adalah kemampuan yang dijual **di samping** paket: beli saat butuh, tanpa harus mengubah paketmu.
+Add-on adalah kapasitas atau kemampuan yang dijual **di samping** paket: beli saat butuh, tanpa harus mengubah paketmu.
 
 **Billing → Add-on**.
 
 <Shot src="/img/account/addons.webp" wide>
-Halaman Add-on: kartu "Toko online" dengan harga per toko per bulan dan daftar centang website untuk dipilih, kartu "White label" dengan harga per bulan, panel ringkasan harga di kanan, dan bagian "Yang kamu punya" di bawah.
+Halaman Add-on: bagian "Pemakaian toko per workspace" dengan bilah produk dan pesanan bulan ini, kartu-kartu "Kapasitas toko tambahan" (tambahan produk dan tambahan pesanan per bulan) dengan harga per paket, kartu "White label", panel ringkasan harga di kanan, dan bagian "Yang kamu punya" di bawah.
 </Shot>
 
-## Kenapa terpisah dari paket
+## Toko sudah termasuk di semua paket
 
-Karena add-on **ortogonal terhadap paket**. Pembeli paket lifetime terkunci di paketnya dan nggak bisa di-upgrade — tanpa add-on, kapabilitas baru nggak akan pernah bisa dijual ke mereka.
+Setiap paket sudah menyertakan toko online di tiap website. Kamu **tidak perlu membeli add-on** untuk mulai berjualan. Yang dibedakan paket hanya dua angka, dan keduanya dihitung **per workspace** (semua toko di workspace itu dijumlah):
 
-## Toko online
+| Batas | Cara kerjanya |
+| --- | --- |
+| **Jumlah produk** | Batas keras. Setelah penuh, produk baru tidak bisa ditambahkan. Produk yang sudah ada tidak pernah dihapus. |
+| **Pesanan per bulan** | Batas lunak. Checkout **tidak pernah ditolak**. Pesanan yang melewati jatah tetap masuk dan ditandai **Melebihi kuota**. |
 
-Mengaktifkan modul [Commerce](/commerce/overview) untuk sebuah website: katalog, pesanan, invoice, dan storefront publik.
+Pemilik akun menerima email saat pemakaian pesanan mencapai 80% dan 100% dalam satu bulan.
 
-**Harganya per toko.** Centang tiap website yang mau berjualan — makin banyak sekaligus makin murah. Panel harga memberitahu tingkat berikutnya: *"Tambah 2 toko lagi, hemat 15%."*
+Bagian **Pemakaian toko per workspace** di halaman ini menampilkan angka terkini untuk tiap workspace.
 
-Yang termasuk:
+## Kapasitas toko tambahan
 
-- Follow-up keranjang ditinggal
-- Halaman invoice publik
-- Harga grosir bertingkat
-- Laporan penjualan
-- Banyak rekening bank
-- Storefront dibuat AI
-- Strip produk di halaman mana pun
+Kalau satu workspace butuh ruang lebih, beli paket tambahan untuk workspace itu:
+
+- **Tambahan produk** menaikkan batas jumlah produk.
+- **Tambahan pesanan** menaikkan jatah pesanan per bulan.
+
+Paket tambahan berlaku untuk **satu workspace**, ditambahkan **di atas** jatah paket, dan bisa ditumpuk: beli beberapa paket sekaligus, atau beli lagi nanti.
+
+Cara membelinya:
+
+1. Pilih paket tambahan yang kamu mau.
+2. Pilih **workspace** tujuannya. Pemakaian saat ini tampil di samping namanya.
+3. Tentukan **berapa paket** dan **durasinya**.
+4. **Lanjut ke pembayaran**.
+
+Makin banyak paket sekaligus, makin murah. Panel harga memberitahu tingkat berikutnya, misalnya *"Beli 2 lagi, hemat 15%."*
 
 ::: info Harga selalu dihitung server
-Tiap kali kamu mencentang atau membatalkan satu toko, harga diminta ulang ke server. Kalau permintaan itu gagal, totalnya dikosongkan — bukan menyisakan angka lama yang mungkin sudah salah.
-:::
-
-::: info Toko yang sudah jalan
-Website yang sudah berjualan sebelum add-on ini diberlakukan tetap jalan; akses commerce-nya diteruskan otomatis.
+Tiap kali kamu mengubah jumlah paket, harga diminta ulang ke server. Kalau permintaan itu gagal, totalnya dikosongkan, bukan menyisakan angka lama yang mungkin sudah salah.
 :::
 
 ## White label
 
 Mengganti PageHub dengan nama, logo, dan alamat pengirim kamu sendiri di seluruh builder. Lihat [Brand & white label](/team/brand-white-label).
 
-Berlaku **seluruh akun**, bukan per website.
+Berlaku **seluruh akun**, bukan per workspace.
 
 Dua catatan yang muncul di layar tergantung situasimu:
 
 - Kalau ada paket yang **sudah termasuk** white label dan itu lebih murah daripada membeli add-on, PageHub bilang begitu dan menawarkan melihat paketnya.
-- Kalau kamu di paket lifetime yang nggak bisa di-upgrade, add-on ini adalah caranya menambahkan white label.
+- Kalau kamu di paket lifetime yang tidak bisa di-upgrade, add-on ini adalah caranya menambahkan white label.
 
 ## Yang kamu punya
 
 Bagian **Yang kamu punya** mencantumkan add-on aktif beserta lingkupnya:
 
-- Add-on toko menyebut **website mana** yang ditempeli. Yang belum dipasang ditandai **Belum ditempelkan ke toko**.
+- Kapasitas tambahan menyebut **workspace mana** yang mendapatkannya.
 - White label ditandai **Seluruh akun**.
 - Add-on tanpa masa berlaku ditandai **Tanpa masa berlaku**.
 
-## Membeli
+## Pembayaran dan perpanjangan
 
-1. Centang apa yang kamu mau.
-2. Pilih **Durasi**.
-3. **Lanjut ke pembayaran**.
+Alur pembayarannya sama dengan pembelian paket. Lihat [Upgrade & pembayaran](/account/billing).
 
-Alur pembayarannya sama dengan pembelian paket — kartu atau transfer manual. Lihat [Upgrade & pembayaran](/account/billing).
-
-## Perpanjangan
-
-Memperpanjang add-on yang masih berjalan **menambah** dari sisa masanya, bukan mengulang dari nol.
-
-Satu website nggak bisa punya dua add-on toko yang tumpang tindih; PageHub menolaknya.
+Tiap pembelian kapasitas tambahan punya masa berlakunya sendiri. Saat satu pembelian habis, batas workspace turun sebesar pembelian itu. Produk dan pesanan yang sudah ada tidak dihapus; yang berhenti hanya penambahan produk baru bila jumlahnya sudah melewati batas.
 
 ## Riwayat
 

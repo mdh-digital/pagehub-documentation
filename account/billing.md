@@ -76,7 +76,7 @@ Detail: [Kredit AI](/ai/credits).
 
 ## Add-on
 
-**Billing → Add-on** untuk toko online dan white label. Lihat [Add-on](/account/add-ons).
+**Billing → Add-on** untuk kapasitas toko tambahan dan white label. Lihat [Add-on](/account/add-ons).
 
 ## Riwayat transaksi
 

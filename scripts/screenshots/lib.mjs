@@ -5,10 +5,13 @@ import { mkdirSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-export const FE = 'http://localhost:5174'
-export const BE = 'http://localhost:8080'
-export const PSQL = '/Applications/Postgres.app/Contents/Versions/18/bin/psql'
-export const DB = 'landing_builder'
+// Overridable from the environment so the harness runs on any machine:
+// SHOT_FE, SHOT_BE, SHOT_PSQL, SHOT_DB, and SHOT_CHROME (a Chromium binary to
+// use when the Playwright version here has no matching browser downloaded).
+export const FE = process.env.SHOT_FE || 'http://localhost:5174'
+export const BE = process.env.SHOT_BE || 'http://localhost:8080'
+export const PSQL = process.env.SHOT_PSQL || '/Applications/Postgres.app/Contents/Versions/18/bin/psql'
+export const DB = process.env.SHOT_DB || 'landing_builder'
 // Skrip ini hidup di dalam repo docs; naik dua tingkat dari scripts/screenshots/.
 export const DOCS = fileURLToPath(new URL('../..', import.meta.url))
 
@@ -53,7 +56,7 @@ export function otpFor(email, purpose = 'verify_email') {
 }
 
 export async function launch() {
-  const browser = await chromium.launch()
+  const browser = await chromium.launch(process.env.SHOT_CHROME ? { executablePath: process.env.SHOT_CHROME } : {})
   const ctx = await browser.newContext({
     viewport: VIEWPORT,
     deviceScaleFactor: 2,

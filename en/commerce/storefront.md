@@ -4,6 +4,12 @@ The storefront is your public shop: the product list, product detail pages, cart
 
 What makes it different from an ordinary online store: **AI writes the templates in your website's design**, and **the server fills in the catalogue when a page is opened**. So it blends with your site, while prices and stock are never stale.
 
+## Built-in store pages
+
+As soon as the store is switched on, the **product list, product detail, cart and checkout pages exist** in a built-in design that follows your site's colours and fonts. You do not have to wait for the AI before taking orders.
+
+The built-in design is used for as long as a template has no version of its own. Once the AI builds the storefront, or you edit a template through **Customise**, that version is what visitors see.
+
 ## Generating the storefront
 
 **Commerce → Storefront** → **Build storefront**.

@@ -76,7 +76,7 @@ Details: [AI credits](/en/ai/credits).
 
 ## Add-ons
 
-**Billing → Add-ons** for the online store and white label. See [Add-ons](/en/account/add-ons).
+**Billing → Add-ons** for extra store room and white label. See [Add-ons](/en/account/add-ons).
 
 ## Transaction history
 

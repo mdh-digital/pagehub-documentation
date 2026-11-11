@@ -5,7 +5,7 @@ Dibuat otomatis oleh `npm run shots` — jangan diedit tangan.
 Tiap tangkapan diambil per bahasa antarmuka, jadi satu baris di bawah bisa
 sudah lengkap di satu bahasa dan belum di bahasa lain.
 
-**Progres per bahasa antarmuka:** id 76/76 · en 74/76 · ar 71/76
+**Progres per bahasa antarmuka:** id 84/84 · en 82/84 · ar 79/84
 
 Cara mengisi: ambil screenshot sesuai deskripsi dengan antarmuka aplikasi dalam
 bahasa yang bersangkutan, simpan ke `public/img/<bahasa>/…`, lalu restart
@@ -20,7 +20,7 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 
 - `/img/account/addons.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `account/add-ons.md`
-  - isi: Halaman Add-on: kartu "Toko online" dengan harga per toko per bulan dan daftar centang website untuk dipilih, kartu "White label" dengan harga per bulan, panel ringkasan harga di kanan, dan bagian "Yang kamu punya" di bawah.
+  - isi: Halaman Add-on: bagian "Pemakaian toko per workspace" dengan bilah produk dan pesanan bulan ini, kartu-kartu "Kapasitas toko tambahan" (tambahan produk dan tambahan pesanan per bulan) dengan harga per paket, kartu "White label", panel ringkasan harga di kanan, dan bagian "Yang kamu punya" di bawah.
 - `/img/account/appsumo.webp` ✓id ✓en ✓ar
   - halaman: `account/appsumo.md`
   - isi: Halaman "Lisensi AppSumo": kolom tempel kode dengan tombol Tukar, panduan tiga langkah di bawahnya, dan tabel "Lisensimu" berisi kode, tanggal ditukar, tier, dan status.
@@ -87,15 +87,24 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 - `/img/commerce/order-form.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `commerce/orders.md`
   - isi: Form pesanan baru: bagian Item dengan pencarian produk dan tabel item, bagian Pelanggan (nama, HP, email, alamat), bagian Pengiriman (kurir, layanan, resi), dan panel Total di kanan berisi Subtotal, Diskon, Ongkir, Biaya tambahan, dan Total.
-- `/img/commerce/locked.webp` ✓id ✓en ✓ar
+- `/img/commerce/usage.webp` ✓id ✓en ✓ar
   - halaman: `commerce/overview.md`
-  - isi: Tab Commerce tanpa add-on: satu layar penawaran berjudul "Jualan itu add-on" dengan penjelasan bahwa katalog, pesanan, invoice, dan storefront nyala setelah add-on aktif, dan tombol "Lihat add-on toko".
+  - isi: Kartu pemakaian toko di hub Commerce: nama workspace, bilah "produk" dan bilah "pesanan bulan ini" dengan angka terpakai dan batasnya, serta tautan untuk menambah kapasitas.
 - `/img/commerce/payment-dialog.webp` ✓id ✓en ✓ar
   - halaman: `commerce/payments-and-invoices.md`
   - isi: Dialog Pembayaran: pilihan metode (Transfer bank, E-wallet, Tunai, COD), pemilih rekening tujuan berbentuk chip, kolom Nominal, tanggal Diterima, dan pengunggah Bukti transfer.
 - `/img/commerce/invoice-print.webp` ✓id ✓en ✓ar
   - halaman: `commerce/payments-and-invoices.md`
   - isi: Pratinjau cetak invoice: logo dan identitas toko di kiri atas, nomor & tanggal invoice di kanan, blok "Dari" dan "Ditagihkan ke", tabel item, total keseluruhan, blok info pembayaran berisi rekening utama, dan catatan footer.
+- `/img/commerce/shop-blocks.webp` ✓id ✓en ✓ar
+  - halaman: `commerce/product-cards.md`
+  - isi: Grup Toko di palet blok editor: Produk unggulan, Produk terlaris, Produk terbaru, Produk pilihan, Produk per kategori, Satu produk, dan Tombol beli.
+- `/img/commerce/shop-block-panel.webp` ✓id ✓en ✓ar
+  - halaman: `commerce/product-cards.md`
+  - isi: Panel blok toko di tab Atribut: pilihan sumber produk, tombol memilih produk, pilihan kartu, tata letak (grid, daftar, carousel), jumlah kolom per ukuran layar, batas jumlah produk, dan centang bagian yang ditampilkan.
+- `/img/commerce/shop-design.webp` ✓id ✓en ✓ar — **lebar**
+  - halaman: `commerce/product-cards.md`
+  - isi: Halaman Desain toko: bagian Gaya toko dengan pemilih warna tombol, latar kartu, rasio gambar, radius, jarak, dan bayangan; di bawahnya perpustakaan kartu berisi pratinjau tiap kartu dengan produk asli toko.
 - `/img/commerce/products-list.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `commerce/products.md`
   - isi: Halaman Master produk: tabel dengan kolom Produk (nama + thumbnail), Kategori, Harga, Stok, dan sakelar aktif/nonaktif; filter kategori dan status di atas, kotak "Cari nama atau SKU", tombol "Tambah produk".
@@ -198,6 +207,15 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 
 ## leads
 
+- `/img/leads/forms-list.webp` ✓id ✓en ✓ar — **lebar**
+  - halaman: `leads/form-builder.md`
+  - isi: Halaman Form: daftar form milik workspace aktif, masing-masing dengan nama, jumlah field, jumlah lead, status aktif, dan tombol untuk membuka builder serta papan leadnya; tombol "Form baru" di kanan atas.
+- `/img/leads/form-builder.webp` ✓id ✓en ✓ar — **lebar**
+  - halaman: `leads/form-builder.md`
+  - isi: Layar form builder: daftar tipe field di kiri, kanvas form di tengah dengan section dan field-nya, panel pengaturan field terpilih di kanan (label, placeholder, bantuan, wajib diisi), dan tab Pengaturan serta Bagikan & embed di atas.
+- `/img/leads/form-picker.webp` ✓id ✓en ✓ar
+  - halaman: `leads/form-builder.md`
+  - isi: Jendela "Pilih form" di editor: daftar form workspace dengan jumlah field dan lead, kolom pencarian, dan kolom nama untuk membuat form baru di bagian bawah.
 - `/img/leads/form-fields.webp` ✓id ✓en ✓ar
   - halaman: `leads/form-submissions.md`
   - isi: Panel properti untuk elemen form: daftar field dengan nama, tipe, dan centang wajib; tombol "Input" dan "Area teks" untuk menambah field baru.
@@ -240,6 +258,12 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 - `/img/team/access-dialog.webp` ✓id ✓en ·ar
   - halaman: `team/members-and-access.md`
   - isi: Dialog Akses untuk satu anggota: dua bagian (Website dan Landing Page), tiap baris punya pilihan Tidak ada akses / Viewer / Editor.
+- `/img/team/reseller-clients.webp` ✓id ✓en ✓ar — **lebar**
+  - halaman: `team/reseller.md`
+  - isi: Halaman Reseller, tab Klien: tiga kartu angka (slot klien terpakai, fee platform, masa coba klien baru), lalu tabel klien berisi nama, pemilik, paket, status, tanggal lunas, jumlah situs, dan tombol Buka.
+- `/img/team/reseller-balance.webp` ✓id ✓en ✓ar — **lebar**
+  - halaman: `team/reseller.md`
+  - isi: Tab Saldo: empat kartu (bisa dicairkan, ditahan, sedang dicairkan, sudah dicairkan), tabel pembayaran klien dengan kolom dibayar, fee, dan bagianmu, serta daftar pencairan dengan statusnya.
 - `/img/team/workspaces.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `team/workspaces.md`
   - isi: Halaman Workspace: kartu-kartu workspace berwarna dengan nama, catatan, alamat publik, dan hitungan isi (website, landing page, media, anggota); tombol "Workspace baru" di kanan atas.

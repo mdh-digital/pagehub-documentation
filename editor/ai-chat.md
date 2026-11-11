@@ -18,6 +18,14 @@ Tulis permintaan, tekan <kbd>Enter</kbd> (<kbd>Shift</kbd>+<kbd>Enter</kbd> untu
 
 AI **ingat percakapan sebelumnya** di halaman ini. Jadi setelah "ganti warna jadi hijau", kamu bisa langsung bilang "kurang gelap" tanpa mengulang konteks.
 
+## Melihat AI bekerja
+
+Selama AI mengerjakan permintaanmu, chat menampilkan langkahnya satu per satu: **membaca** halaman, **menganalisis**, **menulis** tiap file dengan jumlah karakter yang terus bertambah, **memeriksa**, lalu **menyimpan**. Ada penghitung waktu, dan kamu bisa mengintip kode yang sedang ditulis.
+
+Setelah selesai, satu baris ringkasan tersisa di chat, misalnya *"Selesai dalam 42 dtk · konten +12 −3"*: berapa lama, file mana yang berubah, dan berapa baris yang ditambah atau dibuang. Klik baris itu untuk melihat daftar langkahnya lagi. Ringkasannya tetap ada setelah halaman dimuat ulang.
+
+Kalau sebuah permintaan gagal, langkah tempat gagalnya ikut tercatat.
+
 ## Lampiran
 
 Tombol klip memungkinkan kamu melampirkan:

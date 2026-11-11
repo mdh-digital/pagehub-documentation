@@ -61,11 +61,14 @@ const labels: Labels = {
     'commerce/categories-and-variants': 'التصنيفات والخيارات',
     'commerce/products': 'المنتجات',
     'commerce/storefront': 'صفحات المتجر',
+    'commerce/product-cards': 'بطاقات المنتجات وكتل المتجر',
     'commerce/cart-and-checkout': 'السلة وإتمام الطلب',
     'commerce/orders': 'الطلبات',
     'commerce/payments-and-invoices': 'المدفوعات والفواتير',
     'commerce/public-invoice': 'الفاتورة العامة',
     'commerce/abandoned-carts': 'السلات المتروكة',
+
+    'leads/form-builder': 'منشئ النماذج',
 
     'leads/form-submissions': 'رسائل النماذج',
     'leads/pipeline': 'لوحة المراحل',
@@ -77,6 +80,7 @@ const labels: Labels = {
     'team/workspaces': 'مساحات العمل',
     'team/members-and-access': 'الأعضاء والصلاحيات',
     'team/brand-white-label': 'الهوية والعلامة البيضاء',
+    'team/reseller': 'الموزّع',
 
     'account/profile': 'الملف الشخصي والتفضيلات',
     'account/plans-and-quota': 'الباقات والحصص',

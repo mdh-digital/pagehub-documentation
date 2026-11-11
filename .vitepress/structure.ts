@@ -96,6 +96,7 @@ export const STRUCTURE: Section[] = [
       'commerce/categories-and-variants',
       'commerce/products',
       'commerce/storefront',
+      'commerce/product-cards',
       'commerce/cart-and-checkout',
       'commerce/orders',
       'commerce/payments-and-invoices',
@@ -105,7 +106,7 @@ export const STRUCTURE: Section[] = [
   },
   {
     key: 'leads',
-    items: ['leads/form-submissions', 'leads/pipeline'],
+    items: ['leads/form-builder', 'leads/form-submissions', 'leads/pipeline'],
   },
   {
     key: 'reports',
@@ -117,7 +118,7 @@ export const STRUCTURE: Section[] = [
   },
   {
     key: 'team',
-    items: ['team/workspaces', 'team/members-and-access', 'team/brand-white-label'],
+    items: ['team/workspaces', 'team/members-and-access', 'team/brand-white-label', 'team/reseller'],
   },
   {
     key: 'account',

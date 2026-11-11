@@ -1,73 +1,72 @@
 # Add-ons
 
-Add-ons are capabilities sold **alongside** your plan: buy them when you need them, without changing your plan.
+An add-on is extra room or an extra capability sold **beside** your plan: buy it when you need it, without changing plans.
 
 **Billing → Add-ons**.
 
 <Shot src="/img/account/addons.webp" wide>
-The Add-ons page: an "Online store" card with a per-store monthly price and a checklist of websites to pick, a "White label" card with a monthly price, a price summary panel on the right, and a "What you own" section below.
+The Add-ons page: a "Store usage per workspace" section with bars for products and orders this month, "Extra store room" cards (extra products and extra orders per month) priced per pack, the "White label" card, a price summary panel on the right, and the "What you hold" section below.
 </Shot>
 
-## Why they're separate from plans
+## The store is part of every plan
 
-Because add-ons are **orthogonal to plans**. Lifetime plan holders are locked into their plan and can't upgrade — without add-ons, new capabilities could never be sold to them.
+Every plan includes an online store on each website. You **do not need an add-on** to start selling. Plans differ on two numbers only, both counted **per workspace** (every store in that workspace added together):
 
-## Online store
+| Limit | How it works |
+| --- | --- |
+| **Number of products** | A hard limit. Once it is full, new products cannot be added. Existing products are never deleted. |
+| **Orders per month** | A soft limit. Checkout is **never refused**. Orders past the allowance still arrive and are marked **Over quota**. |
 
-Switches on the [Commerce](/en/commerce/overview) module for a website: catalogue, orders, invoices and the public storefront.
+The account owner gets an email when order usage reaches 80% and 100% in a month.
 
-**Pricing is per store.** Tick each website that will sell — the more at once, the cheaper. The price panel tells you the next tier: *"Add 2 more stores, save 15%."*
+The **Store usage per workspace** section on this page shows the current numbers for each workspace.
 
-What's included:
+## Extra store room
 
-- Abandoned cart follow-up
-- Public invoice page
-- Tiered wholesale pricing
-- Sales reports
-- Multiple bank accounts
-- An AI-built storefront
-- Product strips on any page
+When one workspace needs more room, buy a pack for that workspace:
 
-::: info The price is always computed on the server
-Every time you tick or untick a store, the price is requested again. If that request fails, the total is cleared — rather than leaving a stale number that might be wrong.
-:::
+- **Extra products** raises the product limit.
+- **Extra orders** raises the monthly order allowance.
 
-::: info Stores already running
-Websites already selling before this add-on was introduced keep working; their commerce access is carried over automatically.
+A pack applies to **one workspace**, is added **on top of** your plan, and stacks: buy several at once, or buy more later.
+
+To buy:
+
+1. Choose the pack you want.
+2. Pick the **workspace** it is for. Its current usage is shown beside its name.
+3. Set **how many packs** and the **duration**.
+4. **Continue to payment**.
+
+The more packs you buy at once, the cheaper each one is. The price panel tells you the next tier, for example *"Buy 2 more and save 15%."*
+
+::: info The price is always worked out by the server
+Every time you change the number of packs, the price is requested again. If that request fails, the total is cleared rather than left showing a number that may be wrong.
 :::
 
 ## White label
 
-Replaces PageHub with your own name, logo and sender address throughout the builder. See [Brand & white label](/en/team/brand-white-label).
+Replaces PageHub with your own name, logo and sender address across the builder. See [Brand & white label](/en/team/brand-white-label).
 
-It applies to the **whole account**, not per website.
+It applies to the **whole account**, not to one workspace.
 
-Two notes appear depending on your situation:
+Two notes appear on screen depending on your situation:
 
-- If a plan **already includes** white label and works out cheaper than the add-on, PageHub says so and offers to show you those plans.
-- If you're on a lifetime plan that can't be upgraded, this add-on is how you add white label.
+- If a plan that **already includes** white label costs less than buying the add-on, PageHub says so and offers to show you the plans.
+- If you are on a lifetime plan that cannot be upgraded, this add-on is how you add white label to it.
 
-## What you own
+## What you hold
 
-The **What you own** section lists your active add-ons and their scope:
+The **What you hold** section lists your active add-ons and their scope:
 
-- Store add-ons name **which website** they're attached to. Unattached ones are marked **Not attached to a store**.
+- Extra room names **the workspace** it was bought for.
 - White label is marked **Whole account**.
-- Add-ons with no expiry are marked **No expiry**.
+- An add-on that never expires is marked **No expiry**.
 
-## Buying
+## Payment and renewal
 
-1. Tick what you want.
-2. Pick a **Duration**.
-3. **Continue to payment**.
+Payment works the same way as buying a plan. See [Upgrade & payment](/en/account/billing).
 
-The payment flow matches buying a plan — card or manual transfer. See [Upgrading & payment](/en/account/billing).
-
-## Renewal
-
-Renewing a running add-on **extends** from the remaining time rather than restarting from zero.
-
-One website can't hold two overlapping store add-ons; PageHub refuses it.
+Each purchase of extra room has its own end date. When a purchase ends, the workspace's limit drops by that purchase. Existing products and orders are not deleted; what stops is adding new products once the count is over the limit.
 
 ## History
 

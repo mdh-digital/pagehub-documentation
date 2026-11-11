@@ -18,6 +18,14 @@ Write your request and press <kbd>Enter</kbd> (<kbd>Shift</kbd>+<kbd>Enter</kbd>
 
 AI **remembers the earlier conversation** on this page. So after "make it green" you can just say "a bit darker" without repeating context.
 
+## Watching the AI work
+
+While the AI works on your request, the chat shows its steps one by one: **reading** the page, **analysing**, **writing** each file with a character count that keeps growing, **checking**, then **saving**. There is a timer, and you can peek at the code as it is written.
+
+When it finishes, one summary line stays in the chat, for example *"Done in 42 s · content +12 −3"*: how long it took, which files changed, and how many lines were added or removed. Click the line to see the list of steps again. The summary is still there after the page is reloaded.
+
+If a request fails, the step it failed at is recorded too.
+
 ## Attachments
 
 The clip button lets you attach:

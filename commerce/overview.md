@@ -4,19 +4,20 @@ Modul **Commerce** mengubah sebuah website jadi toko: katalog produk, keranjang,
 
 Toko itu **milik satu website**. Satu organisasi bisa punya beberapa toko sekaligus — masing-masing dengan katalog, mata uang, dan rekening banknya sendiri.
 
-## Add-on
+## Termasuk di semua paket
 
-Commerce adalah **add-on berbayar per website**, terpisah dari paket langganan.
+Toko online **sudah termasuk di setiap paket**: satu website, satu toko. Tidak ada add-on yang perlu dibeli untuk mulai berjualan; cukup nyalakan toko di website itu.
 
-<Shot src="/img/commerce/locked.webp">
-Tab Commerce tanpa add-on: satu layar penawaran berjudul "Jualan itu add-on" dengan penjelasan bahwa katalog, pesanan, invoice, dan storefront nyala setelah add-on aktif, dan tombol "Lihat add-on toko".
+Yang dibedakan paket hanya dua batas, dihitung **per workspace** (semua toko di workspace itu dijumlah):
+
+- **Jumlah produk** — batas keras. Setelah penuh, produk baru tidak bisa ditambahkan.
+- **Pesanan per bulan** — batas lunak. Checkout tidak pernah ditolak; pesanan yang melewati jatah tetap masuk dan ditandai **Melebihi kuota**.
+
+<Shot src="/img/commerce/usage.webp">
+Kartu pemakaian toko di hub Commerce: nama workspace, bilah "produk" dan bilah "pesanan bulan ini" dengan angka terpakai dan batasnya, serta tautan untuk menambah kapasitas.
 </Shot>
 
-Tanpa add-on, tab Commerce menampilkan satu layar penawaran — bukan deretan menu yang semuanya menolak bekerja. Cara membelinya ada di [Add-on](/account/add-ons).
-
-::: info Toko yang sudah jalan sebelumnya
-Website yang sudah berjualan sebelum add-on ini diberlakukan tetap jalan — akses commerce-nya diteruskan otomatis.
-:::
+Butuh ruang lebih di satu workspace? Beli kapasitas tambahan di [Add-on](/account/add-ons).
 
 ## Peta modul
 
