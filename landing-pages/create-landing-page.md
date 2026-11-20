@@ -61,21 +61,32 @@ Slug landing page unik di seluruh workspace.
 
 Kuota website dan landing dihitung **terpisah** — kuota website penuh nggak menghalangi kamu bikin landing page.
 
-## Tab-tab landing page
+## Membuka layar landing page
 
-Buka satu landing page dari daftarnya:
+Mengklik kartu landing page langsung membuka **editor**. Untuk membuka layar landing page itu sendiri (produk yang dijual, SEO, tracking, leads), klik **⋯** di kartunya lalu pilih **Detail**.
+
+Layar itu punya tab-tab berikut:
 
 | Tab | Isinya |
 | --- | --- |
-| **Ringkasan** | Preview, tombol edit, dan kartu **Produk di situs ini** untuk memilih produk yang dijual |
-| **Pengaturan** | Nama, alamat, tracking & pixel, hapus halaman |
+| **Ringkasan** | Preview, tombol edit, alamat publik, status, views, dan kartu **Produk di situs ini** untuk memilih produk yang dijual |
+| **Pengaturan** | Nama, alamat, domain kustom, SEO, tracking & pixel, ekspor ZIP, hapus halaman |
 | **Leads** | Isian form dari halaman ini |
+| **Pemakaian AI** | Kredit AI yang terpakai untuk halaman ini |
 | **Sharing** | Tautan preview read-only dan kolaborator |
+
+::: warning Landing page yang menjual produk
+Kalau landing page-mu memasang tombol beli atau kartu produk, pilih produknya di **Ringkasan → Produk di situs ini**. Landing page baru tidak menjual produk apa pun sampai kamu memilihnya, jadi tombol belinya tidak bisa membuat pesanan. Lihat [Menjual di website & landing page](/commerce/sell-on-sites).
+:::
 
 ## Mengelola daftar
 
-Halaman **Landing Page** menampilkan semua landing page di workspace aktif — dengan pencarian, pengurutan (terbaru diubah / nama / views terbanyak), dan menu ⋯ per kartu berisi **Duplikat**, **Salin link**, **Unduh ZIP**, dan **Hapus**.
+Halaman **Landing Page** menampilkan semua landing page di workspace aktif, dengan pencarian dan pengurutan (terbaru diubah / nama / views terbanyak). Menu **⋯** per kartu berisi **Buka halaman** dan **Salin link** (untuk halaman yang sudah terbit), **Detail**, **Duplikat**, **Ganti nama**, **Unpublish**, dan **Hapus landing page**. Unduh ZIP ada di tab **Pengaturan**.
 
 <Shot src="/img/landing/landing-list.webp">
 Halaman Landing Pages: kartu-kartu landing page dengan thumbnail, judul, jumlah views, waktu terakhir diubah, dan menu tiga titik. Di atas ada kotak pencarian, pemilih urutan, dan tombol "Landing page baru".
 </Shot>
+
+## Kalau akun tidak punya paket aktif
+
+Landing page selalu memakai kuota **paket**. Kalau masa coba habis atau langganan berhenti, landing page **berhenti tayang** dan kemudian dihapus sesuai [alur masa aktif](/account/subscription-lapse). Ini tetap berlaku walaupun kamu punya [Partner Store](/commerce/partner-store): Partner Store hanya menggratiskan website tokonya. Untuk jualan tanpa paket, buat halaman promonya di dalam website Partner Store.

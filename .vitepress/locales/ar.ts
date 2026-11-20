@@ -81,6 +81,7 @@ const labels: Labels = {
 
     'reports/overview': 'التقارير العشرة',
 
+    'seo/optimise-seo': 'كيف تحسّن SEO',
     'seo/search-and-ai-discovery': 'محركات البحث والذكاء الاصطناعي',
 
     'team/workspaces': 'مساحات العمل',

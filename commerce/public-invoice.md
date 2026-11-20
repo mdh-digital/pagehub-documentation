@@ -22,6 +22,20 @@ Halaman invoice publik dari sisi pembeli: kepala hijau berisi nama toko, nomor i
 
 Item, jumlah, harga, total, status pesanan, dan status pembayarannya.
 
+### Membayar online (QRIS, VA, e-wallet)
+
+Kalau tokomu memakai [pembayaran online lewat PageHub](/commerce/online-payments):
+
+1. Pembeli klik **Bayar sekarang**. Halaman turun ke bagian **Bayar online**.
+2. Tiap kanal tampil sebagai satu tombol dengan **total akhirnya**, misalnya *QRIS · Rp588.830*, dan di bawahnya *"Termasuk biaya layanan Rp5.830"*. Biaya layanan ditambahkan **di atas** total pesanan dan dibayar pembeli; kamu menerima total pesanan utuh.
+3. Pembeli memilih kanal, lalu diarahkan ke halaman pembayaran. Setelah dibayar, invoice berubah jadi **Lunas** sendiri.
+
+**Kanal yang tidak cocok dengan nominalnya tidak ditampilkan.** Tiap kanal punya batas nominal. Contohnya virtual account biasanya punya minimal sekitar Rp10.000, jadi pesanan Rp5.000 hanya menampilkan kanal lain seperti QRIS. Kalau tidak ada satu kanal pun yang cocok dan transfer manual mati (misalnya di [Partner Store](/commerce/partner-store)), invoice menulis *"Belum ada metode pembayaran."*
+
+Besaran biaya, batas nominal, dan kanal yang aktif diatur tim PageHub, bukan dari akunmu. Kalau tidak ada kanal yang muncul padahal nominalnya wajar, buka [tiket bantuan](/help/support-tickets).
+
+Mengganti kanal di tengah jalan membuat tagihan baru dan membatalkan yang lama.
+
 ### Mengirim klaim bayar
 
 1. Pilih **rekening tujuan** dari daftar [rekening bank](/commerce/store-settings) kamu.
@@ -54,4 +68,8 @@ Tiga keputusan yang menjelaskan perilakunya:
 
 ## Bahasa
 
-Halaman ini mengikuti [bahasa situs publik](/website/settings) website tersebut — bukan bahasa dashboardmu.
+Teks di halaman ini (judul, label, tombol, pesan) mengikuti **bahasa situs publik website**, bukan bahasa dashboardmu atau bahasa akun. Hal yang sama berlaku untuk halaman toko, keranjang, checkout, dan halaman 404 website itu.
+
+Untuk mengubahnya: **Websites** → pilih website → tab **Pengaturan** → **Bahasa situs publik**. Lihat [Pengaturan website](/website/settings).
+
+Untuk pesanan dari landing page, teksnya mengikuti bahasa website **tertua** di workspace yang sama. Kalau workspace itu belum punya website, dipakai bahasa akun pemiliknya.

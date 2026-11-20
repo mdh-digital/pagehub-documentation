@@ -46,6 +46,10 @@ features:
     details: "Form entries land on a kanban board: stages, notes, an owner, and a form builder."
     link: /en/leads/pipeline
     linkText: "Manage leads"
+  - title: "How to optimise SEO for a website / landing page"
+    details: "Step by step: fill in each page's SEO, a worked example, submitting the sitemap to Google Search Console, and content that gets found."
+    link: /en/seo/optimise-seo
+    linkText: "Optimise SEO"
 ---
 
 ## Other popular guides

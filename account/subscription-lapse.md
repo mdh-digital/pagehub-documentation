@@ -73,6 +73,22 @@ Pada tanggal yang tertulis di spanduk dan email (30 hari setelah tidak tayang un
 Kalau ragu sempat memperpanjang, simpan situsmu sebagai [template website](/website/website-templates) atau unduh ZIP-nya dari [Pengaturan website](/website/settings) **sebelum** tanggal penghapusan.
 :::
 
+## Toko yang lama tidak dipakai
+
+Penghapusan di atas tidak menyentuh katalog dan pesanan toko. Tapi toko yang **lama tidak dipakai** di akun tanpa paket aktif dibersihkan dengan aturan tersendiri:
+
+1. Akunmu **tanpa paket aktif** (status tidak tayang/Parked, atau tidak punya paket sama sekali), dan toko di sebuah workspace masih menyimpan produk atau pesanan.
+2. Toko itu **tidak ada aktivitas selama 90 hari**. Yang dihitung aktivitas: menambah atau mengubah produk, kategori, master varian, pengaturan toko, atau pesanan (termasuk pesanan baru dari pembeli).
+3. Pemilik akun menerima **email peringatan** dengan tanggal penghapusan, **14 hari** setelahnya. Satu email pengingat lagi dikirim di hari terakhir.
+4. Kalau sampai tanggal itu tetap tidak ada aktivitas, **produk dan pesanan toko itu dihapus**, beserta kategori, master varian, dan keranjang yang ditinggalkan. Pemilik menerima email berisi jumlah yang dihapus.
+
+Cara membatalkannya: lakukan satu aktivitas di toko itu (misalnya ubah satu produk) sebelum tanggalnya, atau aktifkan paket lagi. Hitungan 90 hari mulai dari awal.
+
+Yang **tidak pernah** dibersihkan:
+
+- Toko yang dijadikan [Partner Store](/commerce/partner-store).
+- Toko di akun yang **masih punya uang tertahan**: saldo di [Saldo](/commerce/online-payments) lebih dari nol, atau ada penarikan yang sedang diproses. Pesanan adalah catatan uang itu, jadi penghapusan menunggu sampai saldonya ditarik.
+
 ## Membayar di tengah jalan
 
 Pembayaran yang masuk sebelum penghapusan **langsung mengaktifkan kembali** akunmu: situs tayang lagi, edit kembali menyala, dan penghapusan dibatalkan. Pembayaran yang masuk tepat saat penghapusan mulai berjalan juga aman: kontenmu tidak akan terhapus setelah pembayaran tercatat.
@@ -81,7 +97,9 @@ Pembayaran yang masuk sebelum penghapusan **langsung mengaktifkan kembali** akun
 
 Toko yang dijadikan [Partner Store](/commerce/partner-store) tetap tayang dan tetap bisa diurus walaupun paketmu berakhir, dan tidak pernah ikut dihapus.
 
-Kamu juga bisa **membuat Partner Store baru** saat paket sudah berakhir, dari **Billing → Partner Store**.
+Kamu juga bisa **membuat Partner Store baru** saat paket sudah berakhir, dari **Billing → Partner Store**, lewat template, AI, atau halaman kosong.
+
+Yang dikecualikan hanya **website toko** itu. Landing page tetap tidak tayang dan tetap dihapus, walaupun menjual produk dari toko yang sama. Kalau butuh halaman promo tanpa paket, buat sebagai halaman di dalam website Partner Store.
 
 ## Paket lifetime
 

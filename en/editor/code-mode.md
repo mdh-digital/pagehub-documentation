@@ -20,6 +20,7 @@ For website pages that use a shell, the left panel separates:
 | Section | Contents |
 | --- | --- |
 | **Content** | This page's HTML only |
+| **styles.css** / **script.js** | The website's global CSS and JavaScript, loaded on **every** page including the shop pages |
 | **Header / Footer** | Part of the [shell](/en/website/header-footer) — labelled *used by every page* |
 
 Watch that label before editing: changing the header changes it for the **whole** website.

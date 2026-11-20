@@ -26,7 +26,9 @@ The image shown on the website card on your dashboard. For you only — visitors
 
 ### Public site language
 
-This is **not** your app language. It's the language of the text PageHub injects around your content on public pages: blog titles and widgets, pagination buttons, month names, and 404/500 error pages.
+This is **not** your app language. It's the language of the text PageHub injects around your content on public pages: blog titles and widgets, pagination buttons, month names, 404/500 error pages, and the shop text: the built-in shop pages, cart, checkout, [public invoice](/en/commerce/public-invoice) and order emails to buyers.
+
+If your buyers see the invoice or checkout in the wrong language, this is the setting to change, not your account language.
 
 Why it's separate: one agency can run a German client site and an Arabic one while using the dashboard in Indonesian. Arabic also renders those pages right-to-left automatically.
 

@@ -27,8 +27,8 @@ Ranges: Today · This week · This month · Pick dates.
 | Status | Meaning |
 | --- | --- |
 | **New** | Order received, not started |
-| **Processing** | Being prepared. **Stock is deducted here** |
-| **Shipped** | Handed to the courier |
+| **Processing** | Being prepared |
+| **Shipped** | Handed to the courier. **Stock is deducted here** |
 | **Completed** | Done. Only now does it count as revenue |
 | **Rejected** | Cancelled. Stock is returned |
 | **Refund** | Money returned. Stock is returned |
@@ -44,11 +44,21 @@ Change the status with **Change status** on the order detail page. PageHub asks 
 
 ## Stock
 
-Stock is deducted when an order moves to **Processing**, and returned if the order is **Rejected** or **Refunded**.
+Stock is deducted the first time an order reaches **Shipped** or **Completed**, and returned if the order goes back to **New** or **Processing**, or is **Rejected** or **Refunded**. Digital products have no stock, so they are never deducted.
 
 Orders whose stock is currently deducted are marked **stock deducted**, and **their items are locked**. To change items, move the status back first.
 
 The reason is simple: if items could change after stock was deducted, the stock figure and the order contents could drift apart unnoticed.
+
+## Digital product orders
+
+An order whose items are **all** [digital products](/en/commerce/digital-products) has no parcel to send, so its path is shorter:
+
+- Once paid, by any payment method, its status moves to **Completed** by itself. The steps are only **New → Completed**.
+- Its detail page shows one **Delivery: Digital download** card instead of the origin, destination and courier cards. The public invoice and its printed version show no courier, tracking number or shipping line.
+- **Mark as unpaid** sends it back to **New**, and the buyer's downloads stop.
+
+Mixed orders (digital and physical) run like ordinary orders, because there is still a parcel to send. Digital orders paid before this rule existed stay **New**; move them to **Completed** yourself.
 
 ## Creating an order manually
 

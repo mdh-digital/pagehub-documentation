@@ -112,7 +112,7 @@ Prices always live **on the variant**, in the **Pricing & stock** section — no
 
 ### Order items can't be edited
 
-An order in **Processing** has already had its stock deducted, so items are locked. Move the status back first if you need to change them.
+Two causes: the order's stock has been deducted (status **Shipped** or **Completed**), or the order is already paid. Move the status back to **Processing**, or remove the payment record, then change the items.
 
 ### I can't mark an order paid
 
@@ -125,6 +125,42 @@ The webhook URL isn't registered in the gateway dashboard. See [Store settings](
 ### Product prices are wrong after changing currency
 
 Changing the store currency **converts nothing** — it only swaps the label. You have to adjust the numbers yourself.
+
+### The invoice, cart or checkout shows the wrong language
+
+The text of the store's public pages follows the **website's public site language**, not your account language. Change it in **Websites** → choose the website → **Settings** → **Public site language**. See [Public invoice](/en/commerce/public-invoice#language).
+
+### Buyers don't see the VA option (or another channel) on the invoice
+
+Each channel has amount limits. Channels that don't fit the order total are not shown; a VA, for example, usually only appears from around Rp10,000. See [Pay online](/en/commerce/public-invoice).
+
+### The buy button on a landing page doesn't create an order
+
+No products have been chosen for that landing page. Open **Landing Page** → **⋯** on its card → **Details** → **Overview** → **Products on this site**, and pick them. See [Selling on websites & landing pages](/en/commerce/sell-on-sites).
+
+### My landing page is offline even though I have a Partner Store
+
+A Partner Store only makes its own store website free. Landing pages need an active plan. Build the promo page inside the Partner Store website, or reactivate a plan. See [Partner Store](/en/commerce/partner-store).
+
+### I can't switch on Stripe, PayPal or manual transfer
+
+The store is a Partner Store. Payments there only go through PageHub's QRIS, VA and e-wallets, because that is what keeps it free. To use your own gateway, request removal in **Billing → Partner Store** and use a paid plan.
+
+### I can't delete a Partner Store website
+
+Not from the website list. Request removal in **Billing → Partner Store → Request removal**; the PageHub team reviews it and replies by email. Products, orders and balance stay either way.
+
+### A digital-product buyer can't find the download button
+
+Download buttons only appear on a **paid** invoice opened through the **full link** (the one carrying `k=`). Typing the invoice number alone does not show downloads. Resend the link from **Store → Orders** → the order → **Public invoice**. See [Digital products](/en/commerce/digital-products).
+
+### Downloads ran out and the buyer wants more
+
+Each file can be downloaded 5 times per order, and that limit can't be raised from the order screen. Send the file to the buyer directly, or create a new order for them.
+
+### My edited shop page won't save
+
+That is the **Checkout** template missing a required field or marker. Put back what the screen names (for example the `customerPhone` field or the `data-shop-checkout` attribute), then save again. See [Customising the shop pages](/en/commerce/storefront#customising-the-shop-pages).
 
 ## Media
 

@@ -81,6 +81,7 @@ const labels: Labels = {
 
     'reports/overview': 'The ten reports',
 
+    'seo/optimise-seo': 'How to optimise SEO',
     'seo/search-and-ai-discovery': 'Search & AI discovery',
 
     'team/workspaces': 'Workspaces',

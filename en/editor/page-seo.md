@@ -15,8 +15,8 @@ The "SEO & Appearance" panel: a Thumbnail uploader at the top, a Focus keyphrase
 | Field | Where it shows | Quick guidance |
 | --- | --- | --- |
 | **Thumbnail** | The page card on your PageHub dashboard | For you only; visitors never see it |
-| **Title** | Browser tab and the search-result headline | Around 50–60 characters. Name the page, then the business |
-| **Description** | The summary under the headline in search results | Around 140–160 characters. A real sentence, not a pile of keywords |
+| **Title** | Browser tab and the search-result headline | 30–60 characters (the meter in the panel turns green in this range). Name the page, then the business |
+| **Description** | The summary under the headline in search results | 120–160 characters. A real sentence, not a pile of keywords |
 | **Keywords** | Meta keywords | Type then Enter or comma. Modern search engines weigh these lightly |
 | **OG Image** | The preview image when shared on WhatsApp / Facebook / X | 1200×630 px is the safest ratio |
 | **Favicon URL** | The small browser-tab icon | Usually set once at website level |
@@ -51,3 +51,5 @@ Details: [Search & AI discovery](/en/seo/search-and-ai-discovery).
 ## Blog articles
 
 Articles have their own SEO fields in the article editor, not here. See [Writing articles](/en/blog/write-articles).
+
+The full working order, with an example: [How to optimise SEO](/en/seo/optimise-seo).

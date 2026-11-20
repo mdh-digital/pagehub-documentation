@@ -8,7 +8,7 @@ What makes it different from an ordinary online store: **AI writes the templates
 
 As soon as the store is switched on, the **product list, product detail, cart and checkout pages exist** in a built-in design that follows your site's colours and fonts. You do not have to wait for the AI before taking orders.
 
-The built-in design is used for as long as a template has no version of its own. Once the AI builds the storefront, or you edit a template through **Customise**, that version is what visitors see.
+The built-in design is used for as long as a template has no version of its own. Once the AI builds the storefront, or you edit a template through **Customise pages**, that version is what visitors see.
 
 ## Generating the storefront
 
@@ -46,6 +46,46 @@ The slugs `products`, `cart` and `checkout` are reserved — ordinary pages can'
 Templates hold only the **frame**: the HTML skeleton plus markers showing where data belongs. The catalogue is read straight from the database every time a page is opened.
 
 Which means: change a price in Products and the shop page follows immediately. There's no "republish the catalogue" step.
+
+## Customising the shop pages
+
+You can change the shop pages yourself, like any page, without regenerating them all.
+
+1. **Websites** → choose the website → **Commerce** tab.
+2. On the storefront card, click **Customise pages**. The button is there even if the AI has never built the shop pages; you start from the built-in design.
+3. The shop-page editor opens full screen. The tabs along the top pick the template you edit: **Shop** (product list), **Product page**, **Cart**, **Checkout** and **Product strip**.
+4. Pick a mode: **Code**, **Visual** or **AI**. They work as in the [page editor](/en/editor/overview). In AI mode, describe the change, for example *"Two product cards per row on phones, and a bigger price"*.
+5. The preview beside it uses your own products and your site's header and footer. Click **Save**.
+
+Changes apply per template. Editing the product page does not change the cart or the checkout.
+
+### Changing the look (CSS)
+
+There are three places; pick by how far the change should reach:
+
+| To change | Where |
+| --- | --- |
+| One element (the buy button colour, the card spacing) | **Visual** mode → click the element → right panel, **Attributes** tab: the style groups, or **Custom CSS** under **Advanced** |
+| One shop template | **Code** mode: the `<style>` block inside that template. Applies to that shop page only |
+| The whole site, shop pages included | The website's `styles.css`: open any page in the editor → **Code** mode → the **styles.css** file in the file panel |
+
+Shop pages load the website's `styles.css`, so its rules apply there too. Edit `styles.css` with care: it touches **every** page.
+
+### What you must not remove
+
+::: v-pre
+
+A shop template works because of the markers inside it. If one goes, the button still shows but does nothing, or orders arrive without the buyer's details. When editing, do not remove:
+
+- attributes starting with `data-shop-` (for example `data-shop-add` on the add-to-cart button, `data-shop-buy`, `data-shop-checkout` on the checkout form);
+- the buyer field names in the checkout: `customerName`, `customerPhone`, `customerAddress` (and `customerEmail` and `note` if present);
+- the `<!-- EB:… -->` marker comments (for example `EB:PRODUCTS_START` and `EB:PRODUCTS_END` around one product card);
+- `{{…}}` placeholders such as `{{NAME}}`, `{{PRICE}}`, `{{URL}}`, `{{IMAGE}}`.
+
+Moving, wrapping and restyling them is fine. The editor helps in two ways: in Visual mode an element carrying a required marker **cannot be deleted**, and the panel beside it names what is missing as you type.
+
+**Checkout is refused if something is missing.** A checkout template that has lost a required field or marker **cannot be saved**; the screen lists what is missing and the old version stays in use. Other templates are still saved, but with a warning that the page is incomplete. Fix it before you share your store's link.
+:::
 
 ## Rebuilding
 

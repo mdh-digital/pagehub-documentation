@@ -20,6 +20,7 @@ Untuk halaman website yang memakai shell, panel di sisi kiri memisahkan:
 | Bagian | Isinya |
 | --- | --- |
 | **Konten** | HTML halaman ini saja |
+| **styles.css** / **script.js** | CSS dan JavaScript global website, dimuat di **semua** halaman termasuk halaman toko |
 | **Header / Footer** | Milik [shell](/website/header-footer) — ditandai *dipakai semua halaman* |
 
 Perhatikan tandanya sebelum mengedit: mengubah header berarti mengubahnya untuk **seluruh** website.

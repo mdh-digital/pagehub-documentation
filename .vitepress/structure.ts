@@ -120,7 +120,7 @@ export const STRUCTURE: Section[] = [
   },
   {
     key: 'seo',
-    items: ['seo/search-and-ai-discovery'],
+    items: ['seo/optimise-seo', 'seo/search-and-ai-discovery'],
   },
   {
     key: 'team',

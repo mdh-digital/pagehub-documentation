@@ -61,21 +61,32 @@ Landing page slugs are unique across a workspace.
 
 Website and landing quotas are counted **separately** — a full website quota doesn't stop you creating landing pages.
 
-## Landing page tabs
+## Opening a landing page's own screen
 
-Open a landing page from the list:
+Clicking a landing page card opens the **editor** straight away. To open the landing page's own screen (products sold on it, SEO, tracking, leads), click **⋯** on its card and choose **Details**.
+
+That screen has these tabs:
 
 | Tab | Contents |
 | --- | --- |
-| **Overview** | Preview, the edit button, and the **Products on this site** card for choosing what the page sells |
-| **Settings** | Name, address, tracking & pixels, delete |
+| **Overview** | Preview, the edit button, public address, status, views, and the **Products on this site** card for choosing what the page sells |
+| **Settings** | Name, address, custom domain, SEO, tracking & pixels, ZIP export, delete |
 | **Leads** | Form submissions from this page |
+| **AI usage** | AI credits used on this page |
 | **Sharing** | Read-only preview link and collaborators |
+
+::: warning A landing page that sells products
+If your landing page has a buy button or product cards, choose the products under **Overview → Products on this site**. A new landing page sells nothing until you pick, so its buy button cannot create an order. See [Selling on websites & landing pages](/en/commerce/sell-on-sites).
+:::
 
 ## Managing the list
 
-The **Landing Page** screen shows every landing page in the active workspace — with search, sorting (recently edited / name / most views), and a ⋯ menu per card offering **Duplicate**, **Copy link**, **Download ZIP** and **Delete**.
+The **Landing Page** screen shows every landing page in the active workspace, with search and sorting (recently edited / name / most views). The **⋯** menu on each card offers **Open page** and **Copy link** (for published pages), **Details**, **Duplicate**, **Rename**, **Unpublish** and **Delete landing page**. ZIP download is in the **Settings** tab.
 
 <Shot src="/img/landing/landing-list.webp">
 The Landing Pages screen: cards with thumbnails, titles, view counts, last-edited time, and a three-dot menu. Above them a search box, a sort picker, and a "New landing page" button.
 </Shot>
+
+## When the account has no active plan
+
+Landing pages always count against your **plan**. If the trial ends or the subscription stops, landing pages **go offline** and are later deleted, following the [active period flow](/en/account/subscription-lapse). This holds even if you have a [Partner Store](/en/commerce/partner-store): a Partner Store only makes its own store website free. To sell without a plan, build the promo page inside the Partner Store website.

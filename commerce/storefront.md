@@ -8,7 +8,7 @@ Yang membedakannya dari toko online biasa: **AI menulis templatenya dalam desain
 
 Begitu toko dinyalakan, halaman **daftar produk, detail produk, keranjang, dan checkout langsung tersedia** dengan tampilan bawaan yang mengikuti warna dan huruf situsmu. Kamu tidak perlu menunggu AI untuk mulai menerima pesanan.
 
-Tampilan bawaan itu dipakai selama sebuah template belum punya versi sendiri. Begitu AI menyusun halaman toko, atau kamu menyuntingnya lewat **Sesuaikan**, versi itulah yang tampil.
+Tampilan bawaan itu dipakai selama sebuah template belum punya versi sendiri. Begitu AI menyusun halaman toko, atau kamu menyuntingnya lewat **Custom halaman**, versi itulah yang tampil.
 
 ## Membuat halaman toko
 
@@ -46,6 +46,46 @@ Slug `products`, `cart`, dan `checkout` dipesan sistem — nggak bisa dipakai ha
 Template cuma berisi **bingkai**: kerangka HTML plus penanda tempat data harus masuk. Katalog dibaca langsung dari database tiap kali halaman dibuka.
 
 Artinya: kamu ubah harga di Master produk, halaman toko langsung ikut. Nggak ada langkah "publish ulang katalog".
+
+## Menyesuaikan halaman toko
+
+Halaman toko bisa kamu ubah sendiri seperti halaman biasa, tanpa menyusun ulang semuanya.
+
+1. **Websites** → pilih website → tab **Commerce**.
+2. Di kartu Halaman toko, klik **Custom halaman**. Tombol ini ada walaupun AI belum pernah menyusun halaman toko; kamu mulai dari tampilan bawaan.
+3. Editor halaman toko terbuka layar penuh. Tab di atasnya memilih template yang disunting: **Etalase** (daftar produk), **Halaman produk**, **Keranjang**, **Checkout**, dan **Strip produk**.
+4. Pilih mode: **Code**, **Visual**, atau **AI**. Ketiganya sama dengan [editor halaman](/editor/overview). Di mode AI, tulis perubahan yang kamu mau, misalnya *"Bikin kartu produk dua per baris di HP, harganya diperbesar"*.
+5. Pratinjau di samping memakai produk dan header/footer situsmu sendiri. Klik **Simpan**.
+
+Perubahan berlaku per template. Menyunting halaman produk tidak mengubah keranjang atau checkout.
+
+### Mengubah tampilan (CSS)
+
+Ada tiga tempat, pilih sesuai jangkauannya:
+
+| Mau mengubah | Tempatnya |
+| --- | --- |
+| Satu elemen saja (warna tombol beli, jarak kartu) | Mode **Visual** → klik elemennya → panel kanan tab **Atribut**: grup gaya, atau **CSS kustom** di bagian **Lanjutan** |
+| Satu template toko | Mode **Code**: blok `<style>` di dalam template itu. Hanya berlaku di halaman toko tersebut |
+| Seluruh situs, termasuk halaman toko | `styles.css` website: buka halaman mana pun di editor → mode **Code** → file **styles.css** di panel file |
+
+Halaman toko memuat `styles.css` website, jadi aturan di sana ikut berlaku. Ubah `styles.css` dengan hati-hati: perubahan di situ menyentuh **semua** halaman.
+
+### Bagian yang tidak boleh dihapus
+
+::: v-pre
+
+Template toko bekerja karena penanda di dalamnya. Kalau penandanya hilang, tombol tetap tampil tapi tidak melakukan apa-apa, atau pesanan masuk tanpa data pembeli. Saat menyunting, jangan menghapus:
+
+- atribut yang diawali `data-shop-` (misalnya `data-shop-add` di tombol tambah ke keranjang, `data-shop-buy`, `data-shop-checkout` di form checkout);
+- nama field pembeli di checkout: `customerName`, `customerPhone`, `customerAddress` (juga `customerEmail` dan `note` kalau ada);
+- komentar penanda `<!-- EB:… -->` (misalnya `EB:PRODUCTS_START` dan `EB:PRODUCTS_END` yang mengapit satu kartu produk);
+- placeholder `{{…}}` seperti `{{NAME}}`, `{{PRICE}}`, `{{URL}}`, `{{IMAGE}}`.
+
+Memindah, membungkus, dan mengganti gayanya bebas. Editor membantu dua cara: di mode Visual, elemen yang membawa penanda wajib **tidak bisa dihapus**, dan panel di samping menyebut apa yang hilang sambil kamu mengetik.
+
+**Checkout ditolak kalau kurang.** Template checkout yang kehilangan field atau penanda wajib **tidak bisa disimpan**; layar menyebut apa yang hilang dan versi lamanya tetap dipakai. Template lain tetap tersimpan, tapi dengan peringatan *"Tersimpan, tapi halaman ini ada yang kurang"*. Betulkan sebelum menyebar tautan tokomu.
+:::
 
 ## Susun ulang
 

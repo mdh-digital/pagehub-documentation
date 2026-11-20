@@ -26,7 +26,9 @@ Gambar yang tampil di kartu website di dashboard. Cuma buat kamu — pengunjung 
 
 ### Bahasa situs publik
 
-Ini **bukan** bahasa tampilan aplikasi kamu, tapi bahasa teks yang PageHub sisipkan di sekitar kontenmu di halaman publik: judul dan widget blog, tombol pagination, nama bulan, dan halaman error 404/500.
+Ini **bukan** bahasa tampilan aplikasi kamu, tapi bahasa teks yang PageHub sisipkan di sekitar kontenmu di halaman publik: judul dan widget blog, tombol pagination, nama bulan, halaman error 404/500, serta teks toko: halaman toko bawaan, keranjang, checkout, [invoice publik](/commerce/public-invoice), dan email pesanan ke pembeli.
+
+Kalau invoice atau checkout pembelimu tampil dalam bahasa yang salah, yang perlu diubah adalah pilihan ini, bukan bahasa akunmu.
 
 Kenapa dipisah: satu agensi bisa punya situs klien berbahasa Jerman dan Arab sekaligus, sementara dashboard-nya sendiri dipakai dalam Bahasa Indonesia. Bahasa Arab juga otomatis bikin halamannya dirender kanan-ke-kiri.
 

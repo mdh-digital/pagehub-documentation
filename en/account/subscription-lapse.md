@@ -73,6 +73,22 @@ On the date shown in the banner and emails (30 days after going offline on a pai
 If you are not sure you will renew in time, save your site as a [website template](/en/website/website-templates) or download its ZIP from [Website settings](/en/website/settings) **before** the deletion date.
 :::
 
+## Stores that sit unused
+
+The deletion above does not touch the store's catalogue and orders. But a store that **sits unused** on an account without an active plan is cleaned up under its own rule:
+
+1. Your account has **no active plan** (offline/Parked, or no plan at all), and the store in a workspace still holds products or orders.
+2. The store has had **no activity for 90 days**. Activity means adding or changing a product, category, master variant, store setting or order (a new order from a buyer counts too).
+3. The account owner gets a **warning email** with the deletion date, **14 days** later. One more reminder goes out on the last day.
+4. If there is still no activity by then, **the store's products and orders are deleted**, along with its categories, master variants and abandoned carts. The owner gets an email saying how much was removed.
+
+To stop it: do one thing in that store (for example edit a product) before the date, or reactivate a plan. The 90 days start again.
+
+**Never** cleaned up:
+
+- A store that is a [Partner Store](/en/commerce/partner-store).
+- A store on an account that **still has money held**: a [Balance](/en/commerce/online-payments) above zero, or a withdrawal in progress. The orders are the record of that money, so deletion waits until it has been paid out.
+
 ## Paying midway
 
 A payment that arrives before deletion **reactivates** your account at once: sites go live again, editing comes back, and the deletion is cancelled. A payment that lands just as deletion starts is also safe: your content is not deleted once the payment is recorded.
@@ -81,7 +97,9 @@ A payment that arrives before deletion **reactivates** your account at once: sit
 
 A store made a [Partner Store](/en/commerce/partner-store) stays live and can still be managed when your plan ends, and is never deleted with the rest.
 
-You can also **create a new Partner Store** after your plan has ended, from **Billing → Partner Store**.
+You can also **create a new Partner Store** after your plan has ended, from **Billing → Partner Store**, using a template, AI or a blank site.
+
+Only that **store website** is exempt. Landing pages still go offline and are still deleted, even when they sell products from the same store. If you need a promo page without a plan, build it as a page inside the Partner Store website.
 
 ## Lifetime plans
 

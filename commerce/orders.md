@@ -27,8 +27,8 @@ Rentang: Hari ini · Minggu ini · Bulan ini · Pilih tanggal.
 | Status | Artinya |
 | --- | --- |
 | **Baru** | Pesanan masuk, belum dikerjakan |
-| **Diproses** | Sedang disiapkan. **Di sini stok dipotong** |
-| **Dikirim** | Sudah diserahkan ke kurir |
+| **Diproses** | Sedang disiapkan |
+| **Dikirim** | Sudah diserahkan ke kurir. **Di sini stok dipotong** |
 | **Selesai** | Tuntas. Baru di sini pesanan dihitung sebagai omzet |
 | **Ditolak** | Dibatalkan. Stok dikembalikan |
 | **Refund** | Dana dikembalikan. Stok dikembalikan |
@@ -44,11 +44,21 @@ Mengubah status lewat **Ubah status** di halaman detail pesanan. PageHub minta k
 
 ## Stok
 
-Stok dipotong saat pesanan masuk ke **Diproses**, dan dikembalikan kalau pesanan **Ditolak** atau di-**Refund**.
+Stok dipotong saat pesanan pertama kali masuk ke **Dikirim** atau **Selesai**, dan dikembalikan kalau pesanan mundur ke **Baru** atau **Diproses**, **Ditolak**, atau di-**Refund**. Produk digital tidak punya stok, jadi tidak pernah dipotong.
 
 Pesanan yang stoknya sedang terpotong ditandai **stok terpotong**, dan **itemnya terkunci**. Mau mengubah item? Kembalikan dulu ke status sebelumnya.
 
 Alasannya sederhana: kalau item boleh diubah setelah stok dipotong, angka stok dan isi pesanan bisa berpisah tanpa ketahuan.
+
+## Pesanan produk digital
+
+Pesanan yang **semua** itemnya [produk digital](/commerce/digital-products) tidak punya paket untuk dikirim, jadi alurnya lebih pendek:
+
+- Begitu lunas, lewat cara bayar apa pun, statusnya pindah sendiri ke **Selesai**. Langkahnya hanya **Baru → Selesai**.
+- Detail pesanannya menampilkan satu kartu **Pengiriman: Unduhan digital**, bukan kartu asal, tujuan, dan ekspedisi. Invoice publik dan versi cetaknya tidak memuat kurir, resi, atau baris ongkir.
+- **Tandai belum bayar** mengembalikannya ke **Baru**, dan unduhan pembeli berhenti.
+
+Pesanan campuran (digital dan fisik) tetap berjalan seperti pesanan biasa karena masih ada paket yang dikirim. Pesanan digital yang lunas sebelum aturan ini berlaku tetap **Baru**; ubah ke **Selesai** sendiri.
 
 ## Membuat pesanan manual
 

@@ -46,6 +46,10 @@ features:
     details: "Isian form masuk ke papan kanban: tahapan, catatan, penanggung jawab, dan form builder."
     link: /leads/pipeline
     linkText: "Kelola lead"
+  - title: "Cara optimasi SEO website / landing page"
+    details: "Langkah demi langkah: isi SEO tiap halaman, contoh nyata, sitemap ke Google Search Console, dan isi yang mudah ditemukan."
+    link: /seo/optimise-seo
+    linkText: "Optimasi SEO"
 ---
 
 ## Panduan lain yang sering dicari

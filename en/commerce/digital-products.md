@@ -39,13 +39,43 @@ The size of each file is shown in MB.
 Google's own document types have no file that can be downloaded. Save it as a PDF (or another format) in Drive first, then pick the PDF.
 :::
 
+## Stock
+
+A digital product **has no stock** and never shows **Sold out**, however many you sell. The only thing that stops it selling is its **Active** status: an inactive product is not shown and cannot be bought.
+
 ## What the buyer sees
 
-1. The buyer checks out. No address is asked for, and email is **required**.
-2. Once the payment is settled, their invoice page shows a downloads block with a download button per file.
-3. Each file can be downloaded **up to 5 times** per order. The remaining count is shown next to the button.
+1. **Checkout.** When the basket holds **only digital products**, the checkout form asks for no address and quotes no shipping. **Email** is required instead. If there is even one physical product in the basket, the address is required again. See [Cart & checkout](/en/commerce/cart-and-checkout).
+2. **Invoice page.** After checkout the buyer lands on their invoice page. Until it is paid, the **Your downloads** block says the files will appear once the payment is confirmed.
+3. **Once paid**, the block shows a **Download** button for each file. An order with several digital products lists **every file of every product**, each with its own allowance.
+4. Each file can be downloaded **up to 5 times** per order. The remaining count is shown next to the button. When it runs out, the button goes.
 
-The invoice link is the key to the files, so ask buyers to keep it.
+Buyers never see your Google Drive link. The **Download** button points at PageHub, which fetches the file from Drive and passes it on.
+
+## The invoice link is the key
+
+The download buttons only appear when the invoice page is opened through the **full link**: the one carrying an access key (the `k=` part of the address). That is the link the buyer opens right after checkout, and the one sent in the order email.
+
+- A buyer who opens the `invoices` page and **types only the invoice number** sees the order details and status, but **not** the download buttons.
+- **Anyone holding the full link can download.** Ask buyers not to share it. The 5-downloads-per-file cap is what limits the damage if it does get passed around.
+
+So buyers don't lose the link:
+
+- Turn on [store email notifications](/en/commerce/store-settings). The order email contains the full link. Without an active, verified store SMTP, PageHub sends the buyer no email, and the only copy of the link is in the buyer's browser.
+- If a buyer has lost it, open the order in **Store → Orders**, click **Public invoice**, copy the address of the page that opens and send it to them. It already carries the key.
+
+## Status of a digital order
+
+An order whose items are **all** digital products has no parcel to send:
+
+- As soon as it is **paid**, its status moves to **Completed** by itself. This applies to every way of paying: QRIS/VA/e-wallet through PageHub, your own gateway, staff using **Mark as paid**, or accepting the buyer's transfer receipt.
+- Its status steps are only **New → Completed**. There is no Processing or Shipped.
+- On the order detail, the origin, destination and courier cards are replaced by one **Delivery: Digital download** card. The public invoice and its printed version show no courier, tracking number or shipping line either.
+- If the payment is taken back (**Mark as unpaid**), the order returns to **New** and its downloads stop.
+
+A **mixed** order (digital and physical items) is not completed automatically, because you still have a parcel to send. Its digital files can be downloaded as soon as the order is paid.
+
+Digital orders paid **before** this rule existed stay **New**. Move them to **Completed** yourself with **Change status**.
 
 ## If Drive is disconnected
 

@@ -10,8 +10,19 @@ Product page  →  Cart  →  Checkout  →  Public invoice
 
 1. **Product page.** The buyer picks a variant and a quantity, then adds it to the cart.
 2. **Cart.** Contents are stored in the buyer's browser. Each time it's opened, the server recalculates prices from the catalogue — including [wholesale tiers](/en/commerce/products).
-3. **Checkout.** The buyer fills in name, contact details, address and notes.
+3. **Checkout.** The buyer fills in name, contact details and notes, plus an address or an email depending on what is in the basket (see below).
 4. **The order is created** through exactly the same path staff-created orders use, and the buyer is sent to their [public invoice](/en/commerce/public-invoice).
+
+## Digital, physical or mixed
+
+What is in the basket decides which fields are required:
+
+| Basket | Address | Shipping | Email |
+| --- | --- | --- | --- |
+| Only [digital products](/en/commerce/digital-products) | Not asked | None | **Required**, because the download link is sent there |
+| At least one physical product | **Required** | Quoted or entered by hand | Optional |
+
+The checkout form adjusts itself: the address field disappears for an all-digital basket. The server checks the rule again too, so an order without an email (for digital products) or without an address (for physical ones) cannot be created, even from a checkout template you edited yourself.
 
 ## Prices always come from the catalogue
 
@@ -35,14 +46,17 @@ If [email notifications](/en/commerce/store-settings) are on, emails go to you a
 
 The buyer gets a link to their [public invoice](/en/commerce/public-invoice), where they can see the details, pick an account to transfer to, upload proof of payment, or cancel an order that hasn't started yet.
 
-## Payment methods at checkout
+## Payment methods on the invoice
+
+The buyer chooses how to pay on the [public invoice](/en/commerce/public-invoice), after the order is created.
 
 | Method | How it works |
 | --- | --- |
 | **Manual bank transfer** | The buyer transfers to your [bank account](/en/commerce/store-settings), then submits a payment claim from the public invoice. You approve it |
-| **Payment gateway** | If you connect your own gateway account, buyers can pay directly; the order is marked paid automatically via webhook |
+| **QRIS, VA, e-wallet through PageHub** | The buyer pays through the PageHub gateway and covers a service fee. The order is marked paid automatically. See [Online payments & balance](/en/commerce/online-payments) |
+| **Your own payment gateway** | If you connect your own gateway account, buyers pay straight into it; the order is marked paid automatically via webhook |
 
-Both can be active at once.
+All three can be active at once, **except in a [Partner Store](/en/commerce/partner-store)**: there, only QRIS, VA and e-wallets through PageHub.
 
 ## The checkout form is not a lead form
 

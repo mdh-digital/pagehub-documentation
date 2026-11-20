@@ -20,11 +20,15 @@ Produk yang tidak dipilih tidak muncul di halaman toko website itu, tidak bisa d
 
 Landing page juga bisa jualan, walaupun tidak punya halaman keranjang atau checkout.
 
-1. Buka **Landing Page**, pilih halamannya, lalu di tab **Ringkasan** cari kartu **Produk di situs ini**.
+1. Buka **Landing Page**, klik **⋯** di kartu halamannya, lalu pilih **Detail**. (Mengklik kartunya sendiri membuka editor, bukan layar ini.) Di tab **Ringkasan**, cari kartu **Produk di situs ini**.
 2. Pilih produk yang dijual landing page itu.
 3. Di editor, tambahkan blok dari grup **Toko** di palet blok: kartu produk, satu produk, atau tombol beli. Grup ini muncul begitu toko punya minimal satu produk.
 
 Saat pengunjung menekan tombol beli, **form checkout terbuka di halaman itu juga**. Pembeli mengisi nama, nomor HP, dan email (plus alamat untuk produk fisik), lalu diarahkan ke halaman tagihannya.
+
+Kalau langkah 1–2 dilewati, landing page tidak menjual produk apa pun: blok produk kosong di halaman terbit, dan tombol beli tidak bisa membuat pesanan. Pilih produknya dulu, baru sebar tautannya.
+
+Landing page hanya tayang selama akunmu punya paket aktif. Partner Store tidak mencakup landing page; lihat [Partner Store](/commerce/partner-store).
 
 Menekan tombol beli dua kali tetap satu barang: isi keranjang di landing page **diganti**, bukan ditambah.
 

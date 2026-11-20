@@ -112,7 +112,7 @@ Harga selalu ada **di varian**, di bagian **Harga & stok** — bukan di produkny
 
 ### Item pesanan nggak bisa diubah
 
-Pesanan yang sedang **Diproses** stoknya sudah terpotong, dan itemnya terkunci. Kembalikan dulu statusnya kalau mau mengubah.
+Dua penyebab: stok pesanan sudah terpotong (status **Dikirim** atau **Selesai**), atau pesanan sudah lunas. Kembalikan dulu statusnya ke **Diproses**, atau hapus catatan pembayarannya, lalu ubah itemnya.
 
 ### Nggak bisa menandai lunas
 
@@ -125,6 +125,42 @@ URL webhook belum didaftarkan di dashboard gateway. Lihat [Pengaturan toko](/com
 ### Harga produk salah setelah ganti mata uang
 
 Mengganti mata uang toko **nggak mengonversi** apa pun — cuma menukar labelnya. Angkanya harus kamu sesuaikan sendiri.
+
+### Invoice, keranjang, atau checkout tampil dalam bahasa yang salah
+
+Teks halaman publik toko mengikuti **bahasa situs publik website**, bukan bahasa akunmu. Ubah di **Websites** → pilih website → **Pengaturan** → **Bahasa situs publik**. Lihat [Invoice publik](/commerce/public-invoice#bahasa).
+
+### Pembeli tidak melihat pilihan VA (atau kanal lain) di invoice
+
+Tiap kanal punya batas nominal. Kanal yang tidak cocok dengan total pesanan tidak ditampilkan; contohnya VA biasanya baru muncul mulai sekitar Rp10.000. Lihat [Membayar online](/commerce/public-invoice).
+
+### Tombol beli di landing page tidak membuat pesanan
+
+Produknya belum dipilih untuk landing page itu. Buka **Landing Page** → **⋯** di kartunya → **Detail** → **Ringkasan** → **Produk di situs ini**, lalu pilih produknya. Lihat [Menjual di website & landing page](/commerce/sell-on-sites).
+
+### Landing page tidak tayang padahal saya punya Partner Store
+
+Partner Store hanya menggratiskan website tokonya. Landing page butuh paket aktif. Buat halaman promonya di dalam website Partner Store, atau aktifkan paket. Lihat [Partner Store](/commerce/partner-store).
+
+### Stripe, PayPal, atau transfer manual tidak bisa dinyalakan
+
+Tokonya Partner Store. Pembayaran di Partner Store hanya lewat QRIS, VA, dan e-wallet PageHub, karena itu yang membuatnya gratis. Untuk memakai gateway sendiri, ajukan pelepasan di **Billing → Partner Store** dan gunakan paket berbayar.
+
+### Website Partner Store tidak bisa dihapus
+
+Memang tidak bisa dari daftar website. Ajukan pelepasan di **Billing → Partner Store → Ajukan pelepasan**; tim PageHub meninjaunya dan mengabari lewat email. Produk, pesanan, dan saldo tetap ada apa pun keputusannya.
+
+### Pembeli produk digital tidak menemukan tombol unduh
+
+Tombol unduh hanya muncul di invoice yang sudah **lunas** dan dibuka lewat **tautan lengkap** (yang membawa `k=`). Mengetik nomor invoice saja tidak menampilkan unduhan. Kirim ulang tautannya dari **Toko → Transaksi** → pesanannya → **Invoice publik**. Lihat [Produk digital](/commerce/digital-products).
+
+### Unduhan habis, pembeli minta lagi
+
+Tiap berkas bisa diunduh 5 kali per pesanan, dan batas itu tidak bisa ditambah dari layar pesanan. Kirimkan berkasnya langsung ke pembeli, atau buat pesanan baru untuknya.
+
+### Halaman toko yang saya ubah tidak bisa disimpan
+
+Itu template **Checkout** yang kehilangan field atau penanda wajib. Kembalikan bagian yang disebut di layar (misalnya field `customerPhone` atau atribut `data-shop-checkout`), lalu simpan lagi. Lihat [Menyesuaikan halaman toko](/commerce/storefront#menyesuaikan-halaman-toko).
 
 ## Media
 

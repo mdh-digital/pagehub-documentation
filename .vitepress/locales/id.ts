@@ -81,6 +81,7 @@ const labels: Labels = {
 
     'reports/overview': 'Sepuluh laporan',
 
+    'seo/optimise-seo': 'Cara optimasi SEO',
     'seo/search-and-ai-discovery': 'Search & AI discovery',
 
     'team/workspaces': 'Workspace',

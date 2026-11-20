@@ -22,6 +22,20 @@ The public invoice page from the buyer's side: a green header with the shop name
 
 Items, quantities, prices, the total, the order status and the payment status.
 
+### Pay online (QRIS, VA, e-wallet)
+
+If your store uses [online payments through PageHub](/en/commerce/online-payments):
+
+1. The buyer clicks **Pay now**. The page scrolls to the **Pay online** section.
+2. Each channel is one button showing its **final total**, for example *QRIS · Rp588,830*, with *"Includes a Rp5,830 service fee"* underneath. The service fee is added **on top of** the order total and paid by the buyer; you receive the full order total.
+3. The buyer picks a channel and is sent to the payment page. Once paid, the invoice turns **Paid** by itself.
+
+**Channels that don't fit the amount are not shown.** Each channel has amount limits. A virtual account, for example, usually has a minimum of around Rp10,000, so a Rp5,000 order only shows other channels such as QRIS. If no channel fits and manual transfer is off (as in a [Partner Store](/en/commerce/partner-store)), the invoice says *"No payment method is available yet."*
+
+Fees, amount limits and which channels are active are set by the PageHub team, not from your account. If no channel appears for a normal amount, open a [support ticket](/en/help/support-tickets).
+
+Switching channel midway creates a new charge and cancels the old one.
+
 ### Submit a payment claim
 
 1. Pick a **destination account** from your [bank accounts](/en/commerce/store-settings).
@@ -54,4 +68,8 @@ Three decisions explain the behaviour:
 
 ## Language
 
-This page follows the website's [public site language](/en/website/settings) — not your dashboard language.
+The text on this page (headings, labels, buttons, messages) follows the **website's public site language**, not your dashboard or account language. The same goes for that website's shop pages, cart, checkout and 404 page.
+
+To change it: **Websites** → choose the website → **Settings** tab → **Public site language**. See [Website settings](/en/website/settings).
+
+For orders from a landing page, the text follows the language of the **oldest** website in the same workspace. If that workspace has no website yet, the owner's account language is used.

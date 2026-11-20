@@ -15,8 +15,8 @@ Panel "SEO & Tampilan": pengunggah Thumbnail di atas, kolom Focus keyphrase, Pra
 | Kolom | Muncul di mana | Panduan singkat |
 | --- | --- | --- |
 | **Thumbnail** | Kartu halaman di dashboard PageHub | Cuma buat kamu; pengunjung nggak melihatnya |
-| **Title** | Tab browser dan judul hasil pencarian | Sekitar 50–60 karakter. Sebut halamannya, lalu nama bisnis |
-| **Description** | Ringkasan di bawah judul di hasil pencarian | Sekitar 140–160 karakter. Kalimat lengkap, bukan tumpukan kata kunci |
+| **Title** | Tab browser dan judul hasil pencarian | 30–60 karakter (meter di panel hijau di rentang ini). Sebut halamannya, lalu nama bisnis |
+| **Description** | Ringkasan di bawah judul di hasil pencarian | 120–160 karakter. Kalimat lengkap, bukan tumpukan kata kunci |
 | **Keywords** | Meta keywords | Ketik lalu Enter atau koma. Pengaruhnya kecil di mesin pencari modern |
 | **OG Image** | Gambar preview saat tautan dibagikan di WhatsApp / Facebook / X | Rasio 1200×630 px paling aman |
 | **Favicon URL** | Ikon kecil di tab browser | Biasanya diatur sekali di level website |
@@ -51,3 +51,5 @@ Detail: [Search & AI discovery](/seo/search-and-ai-discovery).
 ## Artikel blog
 
 Artikel punya kolom SEO-nya sendiri di editor artikel, bukan di sini. Lihat [Menulis artikel](/blog/write-articles).
+
+Urutan kerja lengkap, dengan contoh: [Cara optimasi SEO](/seo/optimise-seo).
