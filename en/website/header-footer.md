@@ -21,7 +21,7 @@ The effect: changing a phone number in the footer is done for 30 pages at once.
 The **Pages** tab has a **Header & Footer** card.
 
 <Shot src="/img/website/shell-card.webp">
-The "Header & Footer" card above the page list, with an "active" or "not built yet" status marker, a one-line explanation, and the buttons "Create header & footer" and "Extract from an existing page".
+The "Header & Footer" card in the right column of the Pages tab: an "active" (or "not built yet") status marker, a one-line explanation, and an "Edit header & footer" button — or "Create header & footer" and "Extract from an existing page" when there is none yet.
 </Shot>
 
 Two routes:

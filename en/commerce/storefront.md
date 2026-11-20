@@ -15,7 +15,7 @@ The built-in design is used for as long as a template has no version of its own.
 **Websites → (pick a website) → Commerce tab → Storefront** → **Build storefront**.
 
 <Shot src="/img/commerce/storefront.webp">
-The Storefront page: a list of templates (Shop page, Product page, Cart, Checkout, Product strip) each with a status, a "Rebuild storefront" button, a "Shop open" switch, and a "Show the cart in the site menu" checkbox.
+The Commerce tab of a website, "Shop on this site": the Storefront card with a "Shop open" switch, the link to the live shop, the list of templates built (Shop page, Product page, Cart, Checkout, Product strip), a "Show the cart in the site menu" switch, and the "Regenerate shop pages" and "Customise pages" buttons. Below it, the "Products on this site" card.
 </Shot>
 
 AI reads this website's design and builds:

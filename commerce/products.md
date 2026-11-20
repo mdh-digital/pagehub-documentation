@@ -53,7 +53,7 @@ Pertama, pilih modenya:
 ### Pilihan & varian
 
 <Shot src="/img/commerce/product-variants.webp">
-Bagian Pilihan pada form produk: dua baris pilihan (Warna dengan chip Merah/Biru, Ukuran dengan chip S/M/L), tombol "Generate kombinasi" bertuliskan "6 baris", lalu tabel Varian berisi enam baris dengan kolom harga, modal, stok, gambar, dan penanda Default.
+Bagian "Harga & stok" pada form produk: menu bagian di kiri (Dasar, Harga & stok, Gambar, Pencarian), sakelar Tunggal / Punya varian dan centang Lacak stok, lalu kotak Pilihan berisi satu baris pilihan (Ukuran dengan chip 16 cm, 20 cm, 24 cm), pemilih "Dari master variant", dan tombol "Generate kombinasi" bertuliskan "3 baris". Di bawahnya daftar Varian (3), tiap baris dengan Harga jual, Harga modal, SKU, Stok, Berat, Dimensi paket, Gambar, centang Aktif, dan tautan Grosir.
 </Shot>
 
 1. **Dari master variant** untuk menarik set siap pakai, atau **Tambah pilihan** untuk mengetik sendiri.

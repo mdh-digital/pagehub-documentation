@@ -21,7 +21,7 @@ Efeknya: ganti nomor telepon di footer = selesai untuk 30 halaman sekaligus.
 Di tab **Halaman** ada kartu **Header & Footer**.
 
 <Shot src="/img/website/shell-card.webp">
-Kartu "Header & Footer" di atas daftar halaman, dengan penanda status "aktif" atau "belum dibuat", satu kalimat penjelasan, dan tombol "Buat header & footer" plus "Pisahkan dari halaman yang ada".
+Kartu "Header & Footer" di kolom kanan tab Halaman: penanda status "aktif" (atau "belum dibuat"), satu kalimat penjelasan, dan tombol "Edit header & footer" — atau "Buat header & footer" dan "Pisahkan dari halaman yang ada" kalau belum ada.
 </Shot>
 
 Ada dua jalan:

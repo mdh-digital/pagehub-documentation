@@ -3,7 +3,7 @@
 Once you know where things live, the rest is easy. Every PageHub screen has three parts: the **sidebar** on the left, the **page content** in the middle, and **helper panels** that appear in context.
 
 <Shot src="/img/getting-started/layout-overview.webp" wide>
-The full application: logo and workspace picker at the top of the sidebar, the Workspace then Business menu groups below them, the account menu at the foot of the sidebar, and the page content in the middle.
+The full application: logo and workspace picker at the top of the sidebar, the Workspace, Store and Business menu groups below them, the account menu at the foot of the sidebar, a top bar with the AI credit balance, currency and language pickers, dark mode and the Tweaks button, and the page content in the middle.
 </Shot>
 
 ## The sidebar
@@ -56,7 +56,7 @@ Five things you can set:
 | **Radius** | How rounded cards and buttons are |
 
 <Shot src="/img/getting-started/tweaks-panel.webp">
-The Tweaks panel open on the right: accent colour swatches, light/dark toggle, tone options, menu style, and a radius slider.
+The Tweaks panel open on the right: accent colour swatches, light/dark toggle, tone options, menu style, a radius slider, and a "Show offers" switch.
 </Shot>
 
 The important bit: these are **saved to your account, not just your browser**. Open PageHub on another laptop and your appearance comes with you.

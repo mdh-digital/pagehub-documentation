@@ -3,7 +3,7 @@
 The editor is where you'll spend most of your time in PageHub. One page, three ways to edit it, all writing to the same HTML.
 
 <Shot src="/img/editor/overview.webp" wide>
-The page editor at full width: top toolbar with a back button, page title and slug, three mode buttons (Visual, Code, AI), a viewport picker, a "Saved" indicator, plus Save and Publish. Outline panel on the left, page canvas in the middle, properties panel on the right.
+The page editor at full width: top toolbar with a back button, page title and slug, a page picker, three mode buttons (Code, Visual, AI), undo/redo, a Published badge, a viewport picker, plus Save and Unpublish. Below it the page address and an "Edit shell" link. Outline folded into a rail on the left, page canvas in the middle, the Blocks · Attributes panel on the right.
 </Shot>
 
 ## Three modes

@@ -7,7 +7,7 @@ description: 'Mengelola pesanan toko: enam status dan kapan stok dipotong, membu
 **Toko → Transaksi**. Semua pesanan toko ini — pembayaran, stok, dan pengiriman di satu tempat.
 
 <Shot src="/img/commerce/orders-list.webp" wide>
-Halaman Transaksi: lima kartu statistik di atas (Pesanan, Baru, Belum bayar, selesai, Omzet selesai), lalu tabel pesanan dengan kolom No. pesanan, Pelanggan, Item, Total, status, Bayar, dan PJ; filter rentang tanggal, status, pembayaran, dan kotak pencarian di atas tabel.
+Halaman Transaksi: lima kartu statistik di atas (Pesanan, Baru, Belum bayar, Selesai, Omzet selesai), lalu kotak pencarian, tombol Filter, dan tombol "Pesanan baru", disusul tabel pesanan dengan kolom No. pesanan, Pelanggan, Asal (situs asal atau "Diinput staf"), Penanggung jawab, Item, Total beserta status bayarnya, dan Status.
 </Shot>
 
 ## Ringkasan di atas

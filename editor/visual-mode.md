@@ -3,7 +3,7 @@
 Mode visual bekerja seperti editor halaman pada umumnya: klik sesuatu, ubah, selesai. Bedanya, yang dia tulis tetap HTML biasa — jadi apa pun yang kamu lakukan di sini tetap bisa kamu baca dan koreksi di [mode kode](/editor/code-mode).
 
 <Shot src="/img/editor/visual-mode.webp" wide>
-Mode visual dengan satu elemen terpilih: kotak biru mengelilingi elemen, toolbar mengambang di atasnya (pegangan seret, tombol pilih induk, duplikat, hapus), panel Outline di kiri menyorot elemen yang sama, panel properti di kanan menampilkan tab isi dan gaya.
+Mode visual dengan satu elemen terpilih: kotak hijau mengelilingi elemen, toolbar mengambang di atasnya (pegangan seret, pilih induk, naik/turun, duplikat, hapus), dan panel kanan pindah sendiri ke tab Atribut berisi isi teks, atribut, serta grup-grup gaya.
 </Shot>
 
 ## Memilih elemen
@@ -45,7 +45,7 @@ Dua kontrol yang gampang terlewat tapi penting:
 **State.** Normal / Hover / Fokus / Ditekan. Isi gaya hover di sini, bukan dengan menulis CSS terpisah. Kolom kosong ikut state Normal.
 
 <Shot src="/img/editor/style-panel.webp">
-Panel gaya: pemilih breakpoint Desktop/Tablet/Ponsel dan pemilih state Normal/Hover/Fokus/Ditekan di bagian atas, lalu grup Tata letak, Jarak, Tipografi yang bisa dibuka-tutup, dan kotak "CSS kustom" di bawah.
+Tab Atribut untuk elemen h1: kolom Teks, bagian Atribut, lalu STYLE dengan pemilih breakpoint (desktop/tablet/ponsel) dan pemilih state Normal/Hover/Fokus/Ditekan, disusul grup Tata letak, Jarak, Tipografi, Latar, Garis tepi & sudut, Lanjutan, dan Efek yang bisa dibuka-tutup.
 </Shot>
 
 ### CSS kustom

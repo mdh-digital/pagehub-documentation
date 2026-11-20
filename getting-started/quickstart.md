@@ -17,7 +17,7 @@ Buka **Websites** → **Website baru**. Ada tiga jalan:
 | **Buat Kosong** | Kamu susun sendiri dari nol |
 
 <Shot src="/img/getting-started/new-website-options.webp">
-Layar "Website baru" dengan tiga kartu pilihan berdampingan: Pakai Template (bertanda "Paling cepat"), Buat via AI, dan Buat Kosong.
+Jendela "Website baru" dengan tiga kartu berdampingan: Pakai Template, Buat via AI (bertanda "Paling cepat"), dan Buat Kosong.
 </Shot>
 
 Buat panduan ini kita pakai **Buat via AI**.
@@ -36,7 +36,7 @@ Buat panduan ini kita pakai **Buat via AI**.
 AI nggak langsung nyusun. Dia nanya dulu beberapa hal — target pembeli, gaya visual, apa yang paling mau ditonjolkan — lalu bikin rencana halaman, baru menyusun per bagian.
 
 <Shot src="/img/getting-started/ai-build-questions.webp">
-Layar pembangunan AI: penghitung langkah di atas, satu pertanyaan pilihan ("Tema visual apa yang kamu inginkan?"), dan kartu-kartu jawaban bergambar pratinjau.
+Layar pembangunan AI: penghitung langkah di atas, satu pertanyaan pilihan (di sini soal tema warna), dan kartu-kartu jawaban bergambar pratinjau.
 </Shot>
 
 Selama proses jalan, tiap bagian muncul satu per satu di preview. Detailnya di [Cara AI menyusun halaman](/ai/how-generation-works).
@@ -50,7 +50,7 @@ Begitu selesai, kamu mendarat di **editor halaman**. Editornya punya tiga mode d
 - **AI** — chat. Tulis "ganti warna jadi hijau" atau "buang bagian testimoni", AI yang benerin.
 
 <Shot src="/img/getting-started/editor-first-look.webp" wide>
-Editor halaman: toolbar atas berisi judul halaman, pemilih mode Visual/Code/AI, pemilih ukuran layar desktop/tablet/mobile, indikator "Tersimpan", tombol Simpan dan Publish. Panel Outline di kiri, preview halaman di tengah.
+Editor halaman: toolbar atas berisi judul halaman, pemilih mode Code/Visual/AI, pemilih ukuran layar desktop/tablet/mobile, tombol Simpan dan Publish. Kanvas halaman di tengah, panel Blok · Atribut di kanan.
 </Shot>
 
 Simpan pakai <kbd>Ctrl</kbd>+<kbd>S</kbd> atau tombol **Simpan**. Ada penanda status di toolbar: *Belum disimpan* → *Menyimpan…* → *Tersimpan*.

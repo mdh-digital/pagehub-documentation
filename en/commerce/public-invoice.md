@@ -13,7 +13,7 @@ The buyer opens it and **types their invoice number**. There's no order list, an
 The `invoices` slug is reserved, so it can't be used by an ordinary page.
 
 <Shot src="/img/commerce/public-invoice.webp">
-The public invoice page from the buyer's side: an invoice number field at the top, then the order details with items, total, and payment status, plus two buttons — "Submit proof of payment" and "Cancel order".
+The public invoice page from the buyer's side: a green header with the shop name, invoice number, order status and payment status, then shipping, sender and recipient blocks, the item table, subtotal, shipping and total due, plus two buttons — "Cancel this order" and "Pay now".
 </Shot>
 
 ## What buyers can do

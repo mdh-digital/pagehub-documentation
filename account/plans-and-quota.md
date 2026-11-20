@@ -7,7 +7,7 @@ description: 'Kuota website, landing page, workspace, tim, dan penyimpanan; beda
 Buka **Billing** di sidebar (grup Bisnis).
 
 <Shot src="/img/account/billing-hub.webp" wide>
-Hub Billing: kartu status paket aktif di atas dengan bilah kuota (Website, Landing, Tim, Penyimpanan, Kredit AI), lalu kartu-kartu menu: Upgrade Paket, AI Credit, Storage Add-On, Add-on, dan AppSumo.
+Hub Billing: kartu-kartu menu — Upgrade Paket, Partner Store, AI Credit, Storage Add-On, Add-on, dan AppSumo (hanya muncul kalau penukaran kode AppSumo dibuka). Kuota paketmu sendiri tampil di kartu paket di Dashboard.
 </Shot>
 
 ## Yang dibatasi paket

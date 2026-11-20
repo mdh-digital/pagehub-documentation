@@ -13,7 +13,7 @@ PageHub's AI doesn't fire off a whole finished page from one sentence. It works 
 AI reads your idea, then walks you through a handful of multiple-choice questions — one question per screen, with a step counter above it: the visual mood, the accent colour, the typeface, and which sections you need.
 
 <Shot src="/img/ai/build-questions.webp">
-One question from the wizard: a "Step 2 of 7" counter above, the question "What visual theme do you want?", then option cards with small previews — with "Decide for me" as the first card.
+One question from the wizard: a "Step 2 of 7" counter above, a question the AI wrote for your idea (here, about the colour theme), then option cards with small previews — with "Decide for me" as the first card.
 </Shot>
 
 Don't want to think about it? Every question has **Decide for me** — AI chooses, and the choice is marked so you know which answers weren't yours.
@@ -23,7 +23,7 @@ Don't want to think about it? Every question has **Decide for me** — AI choose
 From your answers, AI drafts the list of sections it will build, each with a name and a summary.
 
 <Shot src="/img/ai/build-plan.webp">
-The "Plan — here's what will be built" screen: a list of section cards (Header & Footer, Hero, Features, Testimonials, Pricing, Contact) that can be renamed or removed, with a credit estimate underneath.
+The "Plan — here's what will be built" screen: the website name under the title, chips with your answers (click one to change it), then a numbered list of sections — each with a title, a one-line summary and a remove button — the estimated credit use with your remaining balance, and the "Start building" button.
 </Shot>
 
 You can still intervene here: rename sections, or drop the ones you don't need. Below sits a **credit estimate** and your remaining balance — if it's short, you're warned before anything starts.
@@ -39,7 +39,7 @@ Those design decisions are reused for every section that follows. That's why the
 Each section is written separately. The screen shows the running stage and which section it is on out of how many, so you always know how far along it is.
 
 <Shot src="/img/ai/build-progress.webp" wide>
-The progress screen: the name of the running stage ("Building the structure"), a progress bar, a "1 of 8" counter, a note that you can walk away, and links to "Go to Websites" and "Cancel".
+The progress screen: the name of the running stage ("Building the structure"), a progress bar, the website name and a step counter ("1 of 9"), a note that you can walk away, and links to "Go to Websites" and "Cancel".
 </Shot>
 
 The stages are labelled: *Getting started* → *Choosing a look* → *Building the structure* → *Writing the content* → *Polishing*.

@@ -9,7 +9,7 @@ description: 'How to pick a plan, pay by card, PayPal or manual bank transfer, r
 **Billing → Upgrade plan**.
 
 <Shot src="/img/account/upgrade-plans.webp" wide>
-The Upgrade plan screen: a Monthly / Lifetime switch above the grid, plan cards with prices and quota lists (websites, landing, storage, AI credits/month), a "YOUR PLAN" marker on the active one, and a Summary panel on the right with plan, duration, subtotal, tax and total due.
+The Upgrade plan screen: a plan-family switch above the grid (Monthly, plus White label or Lifetime when offered), plan cards with prices and quota lists (websites, pages, landing pages, team members, workspaces, products, orders, storage, AI credits/month), a "YOUR PLAN" marker on the active one, and a Summary panel on the right with plan, duration, subtotal, tax, a voucher code field and the total due.
 </Shot>
 
 1. Pick a family: **Monthly** or **Lifetime**.

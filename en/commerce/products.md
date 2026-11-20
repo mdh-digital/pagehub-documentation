@@ -53,7 +53,7 @@ First, pick the mode:
 ### Options & variants
 
 <Shot src="/img/commerce/product-variants.webp">
-The Options section on the product form: two option rows (Colour with Red/Blue chips, Size with S/M/L chips), a "Generate combinations" button reading "6 rows", then a Variants table with six rows showing price, cost, stock, image and a Default marker.
+The "Price & stock" section of the product form: section menu on the left (Basics, Price & stock, Images, Search), a Single / Has variants switch and a Track stock checkbox, then the Options box with one option row (Size with chips 16 cm, 20 cm, 24 cm), a "From master variant" picker, and a "Generate combinations" button reading "3 rows". Below it the Variants (3) list, each with Selling price, Cost price, SKU, Stock, Weight, Package dimensions, Image, an Active checkbox and a Wholesale link.
 </Shot>
 
 1. **From a master variant** to pull in a ready-made set, or **Add option** to type your own.

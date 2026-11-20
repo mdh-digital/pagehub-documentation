@@ -3,7 +3,7 @@
 Tab **Halaman** adalah beranda sebuah website: dari sini kamu bikin halaman, mengatur urutannya, menerbitkan, dan masuk ke editor.
 
 <Shot src="/img/website/pages-tab.webp" wide>
-Tab Halaman sebuah website: kartu "Header & Footer" di atas, lalu daftar halaman dengan pegangan seret, judul, badge "homepage" pada yang teratas, status terbit/draf, jumlah views, dan tombol Edit. Panel "Sekilas" di kanan menampilkan URL publik, jumlah halaman, total views, dan status domain kustom.
+Tab Halaman sebuah website: daftar halaman dengan pegangan seret, judul, badge "homepage" pada yang teratas, jumlah views, status terbit/draf, dan tombol buka, edit, serta menu. Di kolom kanan, kartu "Header & Footer" lalu panel "Sekilas" berisi URL publik, jumlah halaman, total views, domain kustom, dan status blog.
 </Shot>
 
 ## Halaman baru

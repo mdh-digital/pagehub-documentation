@@ -7,7 +7,7 @@ description: 'Menulis artikel: judul, deskripsi, slug, kategori, dan thumbnail; 
 Buka website → tab **Blog** → **Artikel** → **Tulis artikel**.
 
 <Shot src="/img/blog/article-editor.webp" wide>
-Editor artikel: kolom Judul di atas, kolom Description, editor teks kaya untuk isi artikel di tengah; panel kanan berisi Publikasi (status, terbit pada), Slug, Kategori, Thumbnail, dan bagian SEO.
+Editor artikel: kolom Judul di atas, editor teks kaya untuk isi artikel di tengah (toolbar dengan heading, tebal/miring, daftar, kutipan, kode, tautan, gambar); panel kanan berisi Publikasi (Terbit / Draf / Terjadwal) dan Kategori. Tombol "Tulis dengan AI", Batal, dan Simpan di kanan atas; kartu SEO ada di bawah isi artikel.
 </Shot>
 
 ## Kolom-kolomnya

@@ -3,7 +3,7 @@
 Tempat semua gambar dan berkas media organisasimu. Buka lewat **File Manager** di sidebar.
 
 <Shot src="/img/media/file-manager.webp" wide>
-File Manager dalam tampilan grid: baris jejak folder di atas (Beranda › Produk), kartu-kartu folder dan gambar dengan thumbnail, kotak pencarian, pemilih urutan dan tampilan grid/baris di kanan atas, serta bilah "Pemakaian Storage" di bawah.
+File Manager dalam tampilan grid: bilah "Pemakaian Storage" dengan tautan Tambah storage di atas, kotak pencarian, pemilih urutan, tampilan daftar/grid, tombol Buat Folder dan Unggah, jejak folder (Beranda), lalu kartu-kartu folder dan gambar dengan thumbnail.
 </Shot>
 
 ## Mengunggah

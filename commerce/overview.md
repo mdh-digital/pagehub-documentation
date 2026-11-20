@@ -29,7 +29,7 @@ Toko sudah termasuk di setiap paket. Yang dibedakan paket hanya dua batas, dihit
 - **Pesanan per bulan** — batas lunak. Checkout tidak pernah ditolak; pesanan yang lewat jatah tetap masuk dan ditandai **Melebihi kuota**.
 
 <Shot src="/img/commerce/usage.webp">
-Kartu pemakaian toko: nama workspace, bilah "produk" dan bilah "pesanan bulan ini" dengan angka terpakai dan batasnya, serta tautan untuk menambah kapasitas.
+Kartu pemakaian toko di halaman Toko: "Pemakaian toko · [nama workspace]", bilah Produk dan bilah Pesanan bulan ini dengan angka terpakai dan batasnya, serta tanggal jatah pesanan direset.
 </Shot>
 
 Butuh ruang lebih? Beli kapasitas tambahan di [Add-on](/account/add-ons). Toko yang dijadikan [Partner Store](/commerce/partner-store) tidak dibatasi produk maupun pesanan.

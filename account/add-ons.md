@@ -5,7 +5,7 @@ Add-on adalah kapasitas atau kemampuan yang dijual **di samping** paket: beli sa
 **Billing → Add-on**.
 
 <Shot src="/img/account/addons.webp" wide>
-Halaman Add-on: bagian "Pemakaian toko per workspace" dengan bilah produk dan pesanan bulan ini, kartu-kartu "Kapasitas toko tambahan" (tambahan produk dan tambahan pesanan per bulan) dengan harga per paket, kartu "White label", panel ringkasan harga di kanan, dan bagian "Yang kamu punya" di bawah.
+Halaman Add-on: bagian "Pemakaian toko per workspace" berisi bilah produk dan pesanan bulan ini untuk tiap workspace, bagian "Yang kamu punya", kartu-kartu "Kapasitas toko tambahan" (+100 produk dan +500 pesanan per bulan) dengan harga per paket dan tombol Pilih, catatan bahwa paket yang sudah termasuk white label lebih murah daripada membelinya terpisah, lalu "Riwayat pembelian".
 </Shot>
 
 ## Toko sudah termasuk di semua paket

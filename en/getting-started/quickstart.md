@@ -17,7 +17,7 @@ Open **Websites** → **New website**. Three routes:
 | **Start blank** | You build everything yourself |
 
 <Shot src="/img/getting-started/new-website-options.webp">
-The "New website" screen with three cards side by side: Use a template (marked "Fastest"), Build with AI, and Start blank.
+The "New website" window with three cards side by side: Use a template, Build with AI (marked "Fastest"), and Start blank.
 </Shot>
 
 For this guide we'll use **Build with AI**.
@@ -36,7 +36,7 @@ For this guide we'll use **Build with AI**.
 AI doesn't start writing straight away. It asks a few things first — who the buyers are, what visual style you want, what matters most — then drafts a page plan, and only then assembles each section.
 
 <Shot src="/img/getting-started/ai-build-questions.webp">
-The AI build screen: a step counter at the top, one multiple-choice question ("What visual theme do you want?"), and answer cards with small previews.
+The AI build screen: a step counter at the top, one multiple-choice question (here, about the colour theme), and answer cards with small previews.
 </Shot>
 
 As it runs, each section appears one at a time in the preview. Details in [How AI builds a page](/en/ai/how-generation-works).
@@ -50,7 +50,7 @@ When it finishes, you land in the **page editor**. Three modes sit in the top to
 - **AI** — chat. Type "make it green" or "drop the testimonials section" and AI does it.
 
 <Shot src="/img/getting-started/editor-first-look.webp" wide>
-The page editor: top toolbar with the page title, Visual/Code/AI mode switch, desktop/tablet/mobile viewport picker, a "Saved" indicator, plus Save and Publish buttons. Outline panel on the left, page preview in the middle.
+The page editor: top toolbar with the page title, Code/Visual/AI mode switch, desktop/tablet/mobile viewport picker, plus Save and Publish buttons. Page canvas in the middle, the Blocks · Attributes panel on the right.
 </Shot>
 
 Save with <kbd>Ctrl</kbd>+<kbd>S</kbd> or the **Save** button. The toolbar shows the state: *Unsaved* → *Saving…* → *Saved*.

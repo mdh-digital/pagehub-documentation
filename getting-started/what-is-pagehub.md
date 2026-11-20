@@ -5,7 +5,7 @@ PageHub adalah tempat bikin dan mengelola kehadiran online bisnis kamu: **websit
 Bedanya dengan page builder biasa: halaman di PageHub disusun **oleh AI dari deskripsi yang kamu tulis**, lalu kamu rapikan sendiri lewat editor visual atau langsung di HTML-nya. Jadi kamu nggak mulai dari kanvas kosong, tapi dari halaman yang sudah jadi.
 
 <Shot src="/img/getting-started/dashboard.webp">
-Dashboard PageHub setelah login: sidebar kiri berisi grup Ruang kerja dan Bisnis, kartu statistik Website / Halaman / Total views di tengah, dan panel "Perlu perhatian" di kanan.
+Dashboard PageHub setelah login: sidebar kiri berisi grup Ruang kerja, Toko, dan Bisnis; sapaan dengan tombol "Buat website baru" dan "Buat landing page", kartu statistik Website / Halaman / Total views di kanan atas, kartu paket dengan bilah kuota, lalu bagian "Lanjutkan" dan "Perlu perhatian" di bawahnya.
 </Shot>
 
 ## Yang bisa kamu bikin

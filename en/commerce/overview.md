@@ -29,7 +29,7 @@ The store comes with every plan. Plans differ only in two limits, counted **per 
 - **Orders per month** — a soft limit. Checkout is never refused; orders past the allowance still come in and are marked **Over quota**.
 
 <Shot src="/img/commerce/usage.webp">
-The store usage card: the workspace name, a "products" bar and an "orders this month" bar with used and limit figures, and a link to add capacity.
+The store usage card on the Store page: "Store usage · [workspace name]", a Products bar and an Orders this month bar with used and limit figures, and the date the order allowance resets.
 </Shot>
 
 Need more room? Buy extra capacity under [Add-ons](/en/account/add-ons). A store made a [Partner Store](/en/commerce/partner-store) has no product or order limit.

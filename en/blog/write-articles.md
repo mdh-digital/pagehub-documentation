@@ -7,7 +7,7 @@ description: 'Write articles: title, description, slug, category and thumbnail f
 Open a website → the **Blog** tab → **Articles** → **Write article**.
 
 <Shot src="/img/blog/article-editor.webp" wide>
-The article editor: a Title field at the top, a Description field, a rich text editor for the body in the middle; the right panel holds Publication (status, publish at), Slug, Category, Thumbnail and an SEO section.
+The article editor: a Title field at the top, a rich text editor for the body in the middle (toolbar with headings, bold/italic, lists, quote, code, link, image); the right panel holds Publication (Published / Draft / Scheduled) and Category. "Write with AI", Cancel and Save sit in the top right; the SEO card is below the body.
 </Shot>
 
 ## The fields

@@ -7,7 +7,7 @@ Semua yang bukan katalog dan bukan pesanan: identitas di dokumen, mata uang, ala
 **Toko → Kelola toko → Pengaturan toko**.
 
 <Shot src="/img/commerce/store-settings.webp">
-Halaman Pengaturan toko: bagian Identitas (nama outlet, telepon, email, logo, logo invoice), bagian Mata uang, bagian Dokumen (tempo pembayaran, catatan invoice, peringatan surat jalan, footer dokumen), dan bagian Pembayaran dengan sakelar transfer bank manual.
+Halaman Pengaturan toko: menu bagian di kiri (Identitas, Mata uang, Pembayaran, Bayar online, Payment gateway, Notifikasi email, Dokumen), lalu bagian Identitas (nama outlet, telepon, email, logo, logo invoice), bagian Mata uang, dan bagian Transfer bank manual; tombol Simpan di kanan atas.
 </Shot>
 
 ### Identitas

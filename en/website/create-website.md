@@ -7,7 +7,7 @@ A website is a set of pages under one address, one theme and one menu. If you ne
 Open **Websites** → **New website**.
 
 <Shot src="/img/website/new-website-options.webp">
-The "New website" screen with three cards: Use a template (labelled "Fastest"), Build with AI, Start blank. Each has an icon and a one-line explanation.
+The "New website" window over the website list, with three cards: Use a template, Build with AI (labelled "Fastest"), and Start blank. Each has an icon and a one-line explanation.
 </Shot>
 
 | | What you get | AI credits |

@@ -5,7 +5,7 @@ With the reseller feature you sell this builder to your own clients: each client
 **Reseller** in the sidebar. The menu appears when your plan includes reselling.
 
 <Shot src="/img/team/reseller-clients.webp" wide>
-The Reseller page, Clients tab: three figures (client slots used, platform fee, new client trial), then the client table with name, owner, plan, status, paid-until date, number of sites and an Open button.
+The Reseller page: four resource-pool cards (Websites, Landing pages, Storage, AI credits to share — each showing what is left and what is already given to clients), a note that you bill clients outside the app, then the Clients and Domain tabs. The Clients tab lists your clients, or an empty state with a "New client" button.
 </Shot>
 
 ## What you manage
@@ -57,10 +57,6 @@ Every client payment is listed on the **Balance** tab with three numbers: what t
 - The **platform fee** is a percentage of each payment, with a minimum amount per client per month. Both are shown at the top of the Reseller page.
 - Your share is **held** for the refund period before it can be withdrawn. The length of the hold is shown on the balance card.
 - **Request payout** requests everything that is available. Enter where to send it; the PageHub team transfers it and marks it paid.
-
-<Shot src="/img/team/reseller-balance.webp" wide>
-The Balance tab: four figures (available, on hold, being paid out, paid out), the client payments table with paid, fee and your-share columns, and the payouts list with their status.
-</Shot>
 
 ## Your own domain
 

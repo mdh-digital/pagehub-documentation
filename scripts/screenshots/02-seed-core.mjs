@@ -85,7 +85,7 @@ await put(`/websites/${shop.id}`, {
     keywords: 'kue ulang tahun bandung, kue custom, hampers',
   },
 })
-await tryPost(`/websites/${shop.id}/language`, { language: 'id' }, 'bahasa situs')
+await put(`/websites/${shop.id}/language`, { language: "id" }).catch((e) => console.log("  (lewat) bahasa situs:", e.message.slice(0, 80)))
 
 // --- website agensi (biar daftarnya tidak cuma satu) -----------------------
 const agency = await post('/websites', {

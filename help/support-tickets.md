@@ -3,7 +3,7 @@
 **Bantuan** di sidebar (grup Ruang kerja). Laporkan masalah atau minta fitur; balasannya masuk ke thread yang sama.
 
 <Shot src="/img/help/tickets.webp">
-Halaman Bantuan: daftar tiket dengan judul, jenis, prioritas, dan jumlah pesan; tombol "Tiket baru" di kanan atas. Di sebelah kanan, thread satu tiket dengan pesan dari kamu dan balasan bertanda "Staf".
+Halaman Bantuan: tab Semua / Bantuan / Permintaan fitur, daftar tiket dengan jenis, judul, status, dan jumlah pesan; tombol "Tiket baru" di kanan atas. Satu tiket terbuka menampilkan thread berisi pesanmu dan balasan bertanda "Staf".
 </Shot>
 
 ## Membuka tiket

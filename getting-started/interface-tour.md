@@ -3,7 +3,7 @@
 Sekali paham letak barangnya, sisanya gampang. Layar PageHub selalu punya tiga bagian: **sidebar** di kiri, **isi halaman** di tengah, dan **panel bantu** yang muncul sesuai konteks.
 
 <Shot src="/img/getting-started/layout-overview.webp" wide>
-Tampilan penuh aplikasi: logo dan pemilih workspace di atas sidebar, grup menu Ruang kerja lalu Bisnis di bawahnya, menu akun di kaki sidebar, dan isi halaman di tengah.
+Tampilan penuh aplikasi: logo dan pemilih workspace di atas sidebar, grup menu Ruang kerja, Toko, lalu Bisnis di bawahnya, menu akun di kaki sidebar, bilah atas berisi saldo Kredit AI, pemilih mata uang dan bahasa, mode gelap, serta tombol Tweaks, dan isi halaman di tengah.
 </Shot>
 
 ## Sidebar
@@ -56,7 +56,7 @@ Lima hal yang bisa diatur:
 | **Radius** | Seberapa membulat sudut kartu dan tombol |
 
 <Shot src="/img/getting-started/tweaks-panel.webp">
-Panel Tweaks terbuka di sisi kanan: pilihan warna aksen berbentuk lingkaran, tombol terang/gelap, pilihan tone, gaya menu, dan slider radius.
+Panel Tweaks terbuka di sisi kanan: pilihan warna aksen berbentuk lingkaran, tombol terang/gelap, pilihan tone, gaya menu, slider radius, dan sakelar "Tampilkan penawaran".
 </Shot>
 
 Yang penting dipahami: pilihan ini **tersimpan di akunmu, bukan cuma di browser**. Jadi kamu buka PageHub dari laptop lain, tampilannya ikut.

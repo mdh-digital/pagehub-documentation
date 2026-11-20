@@ -7,7 +7,6 @@
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { account, del, get, login, post, put, tryPost } from './api.mjs'
-import { sql } from './lib.mjs'
 
 const acc = account()
 await login(acc.email, acc.password)
@@ -23,14 +22,8 @@ console.log('domain: kuelezat.id (menunggu DNS)')
 
 // --- blog ------------------------------------------------------------------
 await tryPost(`/websites/${W}/blog`, { enabled: true }, 'aktifkan blog')
-for (const name of ['Tips Pesta', 'Di Balik Dapur', 'Resep']) {
-  await tryPost(q('/commerce/x'), null, null) // no-op guard
-}
+// Kategori artikel dibuat di 04-seed-data.mjs (endpoint /websites/:id/categories).
 const cats = []
-for (const name of ['Tips Pesta', 'Di Balik Dapur', 'Resep']) {
-  const c = await tryPost(`/websites/${W}/article-categories`, { name }, `kategori ${name}`)
-  if (c) cats.push(c)
-}
 const articles = [
   {
     title: 'Berapa porsi kue untuk 40 tamu?',
@@ -67,13 +60,6 @@ for (const [i, a] of articles.entries()) {
   if (art) madeArticles.push(art)
 }
 console.log(`blog: ${cats.length} kategori, ${madeArticles.length} artikel`)
-
-// --- add-on toko untuk website ini ------------------------------------------
-sql(`insert into org_addons (org_id, website_id, package_id, kind, name, max_products, features, expires_at)
-     select '${org}', '${W}', id, 'commerce', name, max_products, features, now() + interval '30 days'
-     from addon_packages where kind='commerce' and name='Toko Pro'
-     on conflict do nothing`)
-console.log('add-on toko: aktif untuk website ini')
 
 // --- pengaturan toko --------------------------------------------------------
 await put(q('/commerce/settings'), {

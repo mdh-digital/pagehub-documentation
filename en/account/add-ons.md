@@ -5,7 +5,7 @@ An add-on is extra room or an extra capability sold **beside** your plan: buy it
 **Billing → Add-ons**.
 
 <Shot src="/img/account/addons.webp" wide>
-The Add-ons page: a "Store usage per workspace" section with bars for products and orders this month, "Extra store room" cards (extra products and extra orders per month) priced per pack, the "White label" card, a price summary panel on the right, and the "What you hold" section below.
+The Add-ons page: a "Store usage per workspace" section with product and orders-this-month bars for each workspace, a "What you hold" section, "Extra store room" cards (+100 products and +500 orders per month) with a price per pack and a Choose button, a note that a plan which includes white label costs less than buying it separately, then the "Purchase history".
 </Shot>
 
 ## The store is part of every plan

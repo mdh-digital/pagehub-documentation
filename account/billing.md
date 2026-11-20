@@ -9,7 +9,7 @@ description: 'Cara memilih paket, membayar lewat kartu/PayPal atau transfer bank
 **Billing → Upgrade Paket**.
 
 <Shot src="/img/account/upgrade-plans.webp" wide>
-Layar Upgrade Paket: sakelar Bulanan / Lifetime di atas grid, kartu-kartu paket dengan harga, daftar kuota (website, landing, storage, kredit AI/bln), penanda "PAKET KAMU" pada yang aktif, dan panel Ringkasan di kanan berisi paket, durasi, subtotal, pajak, dan total tagihan.
+Layar Upgrade Paket: sakelar keluarga paket di atas grid (Bulanan, dan White label atau Lifetime kalau tersedia), kartu-kartu paket dengan harga dan daftar kuota (website, halaman, landing, anggota tim, workspace, produk, pesanan, storage, kredit AI/bln), penanda "PAKET KAMU" pada yang aktif, dan panel Ringkasan di kanan berisi paket, durasi, subtotal, pajak, kode voucher, dan total tagihan.
 </Shot>
 
 1. Pilih keluarga: **Bulanan** atau **Lifetime**.

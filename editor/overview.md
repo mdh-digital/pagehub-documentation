@@ -3,7 +3,7 @@
 Editor adalah tempat kamu menghabiskan sebagian besar waktu di PageHub. Satu halaman, tiga cara mengeditnya, semuanya menulis ke HTML yang sama.
 
 <Shot src="/img/editor/overview.webp" wide>
-Editor halaman terbuka penuh: toolbar atas berisi tombol kembali, judul & slug halaman, tiga tombol mode (Visual, Code, AI), pemilih ukuran layar, indikator "Tersimpan", tombol Simpan dan Publish. Panel Outline di kiri, kanvas halaman di tengah, panel properti di kanan.
+Editor halaman terbuka penuh: toolbar atas berisi tombol kembali, judul & slug halaman, pemilih halaman, tiga tombol mode (Code, Visual, AI), undo/redo, badge Terbit, pemilih ukuran layar, tombol Simpan dan Unpublish. Di bawahnya alamat halaman dan tautan "Edit shell". Outline terlipat jadi rail di kiri, kanvas halaman di tengah, panel Blok · Atribut di kanan.
 </Shot>
 
 ## Tiga mode

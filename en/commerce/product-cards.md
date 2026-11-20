@@ -7,7 +7,7 @@ Store blocks show products on any page: the homepage, a landing page or an artic
 As soon as the store is on, a **Store** group appears in the [block palette](/en/editor/blocks). Nothing has to be generated first.
 
 <Shot src="/img/commerce/shop-blocks.webp">
-The Store group in the editor's block palette: Featured products, Best sellers, Newest products, Chosen products, Products by category, Single product and Buy button.
+The Store group in the editor's block palette: Featured products, Best sellers, Newest products, Chosen products, Products by category, Single product and Buy button — named in the website's language (Indonesian in this example store).
 </Shot>
 
 | Block | What it shows |

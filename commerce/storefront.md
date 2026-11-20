@@ -15,7 +15,7 @@ Tampilan bawaan itu dipakai selama sebuah template belum punya versi sendiri. Be
 **Websites → (pilih website) → tab Commerce → Halaman toko** → **Buat halaman toko**.
 
 <Shot src="/img/commerce/storefront.webp">
-Halaman "Halaman toko": daftar template (Halaman toko, Halaman produk, Keranjang, Checkout, Strip produk) masing-masing dengan status, tombol "Susun ulang halaman toko", sakelar "Toko aktif", dan centang "Tampilkan keranjang di menu situs".
+Tab Commerce di halaman website, "Toko di situs ini": kartu Halaman toko dengan sakelar "Toko aktif", tautan toko yang sudah tayang, daftar template (Halaman toko, Halaman produk, Keranjang, Checkout, Strip produk) yang sudah dibuat, sakelar "Tampilkan keranjang di menu situs", serta tombol "Susun ulang halaman toko" dan "Custom halaman". Di bawahnya kartu "Produk di situs ini".
 </Shot>
 
 AI membaca desain website ini lalu menyusun:

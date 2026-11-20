@@ -5,7 +5,7 @@ Dengan fitur reseller, kamu menjual builder ini ke klienmu sendiri: tiap klien p
 **Menu Reseller** di sidebar. Menu ini muncul kalau paketmu menyertakan fitur reseller.
 
 <Shot src="/img/team/reseller-clients.webp" wide>
-Halaman Reseller, tab Klien: tiga kartu angka (slot klien terpakai, fee platform, masa coba klien baru), lalu tabel klien berisi nama, pemilik, paket, status, tanggal lunas, jumlah situs, dan tombol Buka.
+Halaman Reseller: empat kartu kolam sumber daya (Website, Landing page, Storage, Kredit AI untuk dibagi — masing-masing berapa yang tersisa dan berapa yang sudah dibagi ke klien), catatan bahwa penagihan ke klien dilakukan di luar aplikasi, lalu tab Klien dan Domain. Tab Klien menampilkan daftar klien, atau keadaan kosong dengan tombol "Klien baru".
 </Shot>
 
 ## Yang kamu atur
@@ -57,10 +57,6 @@ Setiap pembayaran klien tercatat di tab **Saldo** dengan tiga angka: yang dibaya
 - **Fee platform** adalah persentase dari tiap pembayaran, dengan jumlah minimum per klien per bulan. Besarnya tertulis di kartu atas halaman Reseller.
 - Bagianmu **ditahan dulu** selama masa refund sebelum bisa dicairkan. Lama penahanannya tertulis di kartu saldo.
 - **Cairkan saldo** mengajukan seluruh saldo yang sudah bisa dicairkan. Isi rekening tujuan; tim PageHub mentransfernya lalu menandainya dibayar.
-
-<Shot src="/img/team/reseller-balance.webp" wide>
-Tab Saldo: empat kartu (bisa dicairkan, ditahan, sedang dicairkan, sudah dicairkan), tabel pembayaran klien dengan kolom dibayar, fee, dan bagianmu, serta daftar pencairan dengan statusnya.
-</Shot>
 
 ## Domain sendiri
 

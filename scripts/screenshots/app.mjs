@@ -24,6 +24,8 @@ export async function openApp({ lang = 'id', workspace = null } = {}) {
       localStorage.setItem('lpb_token', t)
       localStorage.setItem('pagehub.locale', l)
       if (w) localStorage.setItem('pagehub.workspace', w)
+      // Iklan silang di dashboard bukan bagian dari panduan.
+      localStorage.setItem('pagehub.promo.dashboard', 'off')
     },
     [token, lang, workspace],
   )

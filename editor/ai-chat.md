@@ -3,7 +3,7 @@
 Mode **AI** di editor adalah percakapan tentang halaman yang sedang kamu buka. Kamu minta, AI mengubah, hasilnya masuk ke halaman.
 
 <Shot src="/img/editor/ai-chat.webp" wide>
-Mode AI: panel chat di sisi kiri berisi riwayat percakapan (permintaan pengguna dan balasan AI dengan jumlah token), kotak tulis di bawah dengan tombol lampirkan gambar dan Kirim; preview halaman di sisi kanan.
+Mode AI: panel "Asisten AI" di sisi kiri dengan contoh permintaan dan kotak tulis di bawah (lampirkan gambar, Kirim); preview halaman di sisi kanan, dengan elemen yang sedang ditarget diberi kotak. Riwayat percakapan muncul di panel yang sama setelah kamu mengirim permintaan.
 </Shot>
 
 ## Cara memakai

@@ -7,7 +7,7 @@ Website adalah kumpulan halaman di bawah satu alamat, satu tema, dan satu menu. 
 Buka **Websites** → **Website baru**.
 
 <Shot src="/img/website/new-website-options.webp">
-Layar "Website baru" dengan tiga kartu: Pakai Template (berlabel "Paling cepat"), Buat via AI, Buat Kosong. Masing-masing punya ikon dan satu kalimat penjelasan.
+Jendela "Website baru" di atas daftar website, dengan tiga kartu pilihan: Pakai Template, Buat via AI (berlabel "Paling cepat"), dan Buat Kosong. Masing-masing punya ikon dan satu kalimat penjelasan.
 </Shot>
 
 | | Hasilnya | Kredit AI |

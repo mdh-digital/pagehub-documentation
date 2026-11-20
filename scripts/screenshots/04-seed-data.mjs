@@ -154,18 +154,6 @@ for (const o of orders) {
       )
     }
   }
-  if (then.paid) {
-    await soft(
-      () =>
-        post(`/commerce/orders/${created.id}/payment`, {
-          method: 'bank',
-          amount: created.total,
-          paidAt: new Date().toISOString(),
-          note: '',
-        }),
-      `pembayaran ${input.customerName}`,
-    )
-  }
 }
 console.log(`toko: ${madeOrders.length} pesanan`)
 
@@ -231,7 +219,7 @@ if (board && madeStages.length) {
 console.log(`leads: ${madeStages.length} stage`)
 
 // --- media ------------------------------------------------------------------
-const browser = await chromium.launch()
+const browser = await chromium.launch(process.env.SHOT_CHROME ? { executablePath: process.env.SHOT_CHROME } : {})
 const tile = await browser.newContext({ viewport: { width: 900, height: 700 }, deviceScaleFactor: 1 })
 const tp = await tile.newPage()
 const media = [
@@ -259,18 +247,7 @@ for (const [name, buf] of files) {
 }
 console.log(`media: ${files.length} berkas`)
 
-// --- rekan tim --------------------------------------------------------------
-const mate = await soft(
-  () =>
-    post('/members', {
-      name: 'Bagas Nugroho',
-      email: `bagas.${Date.now().toString(36)}@example.com`,
-      role: 'member',
-      websiteIds: [W],
-    }),
-  'undang anggota',
-)
-console.log(mate ? `tim: ${mate.name || 'anggota'} diundang` : 'tim: dilewati')
+// Rekan tim diundang di 05-fix.mjs (butuh password awal).
 
 writeFileSync(
   new URL('./ids.json', import.meta.url),

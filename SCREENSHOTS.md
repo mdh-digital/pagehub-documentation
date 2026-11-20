@@ -5,7 +5,7 @@ Dibuat otomatis oleh `npm run shots` — jangan diedit tangan.
 Tiap tangkapan diambil per bahasa antarmuka, jadi satu baris di bawah bisa
 sudah lengkap di satu bahasa dan belum di bahasa lain.
 
-**Progres per bahasa antarmuka:** id 84/84 · en 82/84 · ar 79/84
+**Progres per bahasa antarmuka:** id 83/83 · en 83/83 · ar 83/83
 
 Cara mengisi: ambil screenshot sesuai deskripsi dengan antarmuka aplikasi dalam
 bahasa yang bersangkutan, simpan ke `public/img/<bahasa>/…`, lalu restart
@@ -20,40 +20,40 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 
 - `/img/account/addons.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `account/add-ons.md`
-  - isi: Halaman Add-on: bagian "Pemakaian toko per workspace" dengan bilah produk dan pesanan bulan ini, kartu-kartu "Kapasitas toko tambahan" (tambahan produk dan tambahan pesanan per bulan) dengan harga per paket, kartu "White label", panel ringkasan harga di kanan, dan bagian "Yang kamu punya" di bawah.
+  - isi: Halaman Add-on: bagian "Pemakaian toko per workspace" berisi bilah produk dan pesanan bulan ini untuk tiap workspace, bagian "Yang kamu punya", kartu-kartu "Kapasitas toko tambahan" (+100 produk dan +500 pesanan per bulan) dengan harga per paket dan tombol Pilih, catatan bahwa paket yang sudah termasuk white label lebih murah daripada membelinya terpisah, lalu "Riwayat pembelian".
 - `/img/account/appsumo.webp` ✓id ✓en ✓ar
   - halaman: `account/appsumo.md`
   - isi: Halaman "Lisensi AppSumo": kolom tempel kode dengan tombol Tukar, panduan tiga langkah di bawahnya, dan tabel "Lisensimu" berisi kode, tanggal ditukar, tier, dan status.
 - `/img/account/upgrade-plans.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `account/billing.md`
-  - isi: Layar Upgrade Paket: sakelar Bulanan / Lifetime di atas grid, kartu-kartu paket dengan harga, daftar kuota (website, landing, storage, kredit AI/bln), penanda "PAKET KAMU" pada yang aktif, dan panel Ringkasan di kanan berisi paket, durasi, subtotal, pajak, dan total tagihan.
+  - isi: Layar Upgrade Paket: sakelar keluarga paket di atas grid (Bulanan, dan White label atau Lifetime kalau tersedia), kartu-kartu paket dengan harga dan daftar kuota (website, halaman, landing, anggota tim, workspace, produk, pesanan, storage, kredit AI/bln), penanda "PAKET KAMU" pada yang aktif, dan panel Ringkasan di kanan berisi paket, durasi, subtotal, pajak, kode voucher, dan total tagihan.
 - `/img/account/payment-manual.webp` ✓id ✓en ✓ar
   - halaman: `account/billing.md`
   - isi: Halaman pembayaran transfer manual: pemilih bank tujuan, kolom nama bank pengirim, nomor rekening pengirim, nominal transfer, pengunggah bukti transfer, dan tombol "Kirim bukti transfer".
 - `/img/account/billing-hub.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `account/plans-and-quota.md`
-  - isi: Hub Billing: kartu status paket aktif di atas dengan bilah kuota (Website, Landing, Tim, Penyimpanan, Kredit AI), lalu kartu-kartu menu: Upgrade Paket, AI Credit, Storage Add-On, Add-on, dan AppSumo.
+  - isi: Hub Billing: kartu-kartu menu — Upgrade Paket, Partner Store, AI Credit, Storage Add-On, Add-on, dan AppSumo (hanya muncul kalau penukaran kode AppSumo dibuka). Kuota paketmu sendiri tampil di kartu paket di Dashboard.
 - `/img/account/profile.webp` ✓id ✓en ✓ar
   - halaman: `account/profile.md`
   - isi: Halaman "Profil saya": foto profil dengan tombol Ubah foto dan Hapus foto, kolom Nama dan Email dengan lencana Terverifikasi, kartu Ganti password, dan bagian Akses berisi daftar organisasi beserta peranmu di masing-masing.
 - `/img/account/grace-banner.webp` ✓id ✓en ✓ar
   - halaman: `account/subscription-lapse.md`
-  - isi: Spanduk peringatan di atas dashboard: "Langganan berakhir — akun turun ke paket Free, fitur edit dinonaktifkan", dengan hitungan hari tersisa, jumlah kelebihan website dan landing page, serta tombol Perpanjang, Kelola Website, dan Kelola Landing.
+  - isi: Spanduk merah di atas aplikasi: "Situs kamu tidak tayang dan fitur edit dimatikan", tanggal konten akan dihapus beserta sisa harinya, dan tombol Perpanjang.
 
 ## ai
 
 - `/img/ai/credit-balance.webp` ✓id ✓en ✓ar
   - halaman: `ai/credits.md`
   - isi: Halaman AI Credit: tiga kartu angka berisi Kredit dari paket, Kredit top-up, dan Kredit terpakai periode ini; di bawahnya tombol "Beli Kredit" dan tabel riwayat transaksi.
-- `/img/ai/build-questions.webp` ✓id ✓en ·ar
+- `/img/ai/build-questions.webp` ✓id ✓en ✓ar
   - halaman: `ai/how-generation-works.md`
-  - isi: Satu pertanyaan dari wizard: penghitung "Langkah 2 dari 7" di atas, pertanyaan "Tema visual apa yang kamu inginkan?", lalu kartu-kartu pilihan bergambar pratinjau — dengan "Pilihkan saja" sebagai kartu pertama.
-- `/img/ai/build-plan.webp` ✓id ·en ·ar
+  - isi: Satu pertanyaan dari wizard: penghitung "Langkah 2 dari 7" di atas, pertanyaan yang disusun AI untuk idemu (di sini soal tema warna), lalu kartu-kartu pilihan bergambar pratinjau — dengan "Pilihkan saja" sebagai kartu pertama.
+- `/img/ai/build-plan.webp` ✓id ✓en ✓ar
   - halaman: `ai/how-generation-works.md`
-  - isi: Layar "Rencana — ini yang bakal dibuat": daftar kartu section (Header & Footer, Hero, Fitur, Testimoni, Harga, Kontak) yang bisa diubah namanya atau dibuang, dengan perkiraan kredit di bawah.
-- `/img/ai/build-progress.webp` ✓id ·en ·ar — **lebar**
+  - isi: Layar "Rencana — ini yang bakal dibuat": nama website di bawah judul, chip-chip jawabanmu (bisa diklik untuk mengubah), lalu daftar section bernomor — masing-masing dengan judul, satu kalimat isi, dan tombol buang — perkiraan pemakaian kredit beserta sisa kreditmu, dan tombol "Mulai bikin".
+- `/img/ai/build-progress.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `ai/how-generation-works.md`
-  - isi: Layar progres: nama tahap yang sedang berjalan ("Menyusun struktur"), bilah kemajuan, penghitung "1 dari 8", catatan bahwa prosesnya boleh ditinggal, serta tautan "Ke halaman Websites" dan "Batal".
+  - isi: Layar progres: nama tahap yang sedang berjalan ("Menyusun struktur"), bilah kemajuan, nama website dan penghitung langkah ("1 dari 9"), catatan bahwa prosesnya boleh ditinggal, serta tautan "Ke halaman Websites" dan "Batal".
 
 ## blog
 
@@ -65,7 +65,7 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Tab Kategori: tabel berisi nama kategori, URL slug-nya, dan jumlah artikel; kolom "Nama kategori baru" dengan tombol Tambah di atas tabel.
 - `/img/blog/article-editor.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `blog/write-articles.md`
-  - isi: Editor artikel: kolom Judul di atas, kolom Description, editor teks kaya untuk isi artikel di tengah; panel kanan berisi Publikasi (status, terbit pada), Slug, Kategori, Thumbnail, dan bagian SEO.
+  - isi: Editor artikel: kolom Judul di atas, editor teks kaya untuk isi artikel di tengah (toolbar dengan heading, tebal/miring, daftar, kutipan, kode, tautan, gambar); panel kanan berisi Publikasi (Terbit / Draf / Terjadwal) dan Kategori. Tombol "Tulis dengan AI", Batal, dan Simpan di kanan atas; kartu SEO ada di bawah isi artikel.
 - `/img/blog/blog-schedule.webp` ✓id ✓en ✓ar
   - halaman: `blog/write-articles.md`
   - isi: Tab Jadwal AI: tabel jadwal dengan kolom Jadwal, Progres, Hasil, dan Run berikutnya; tombol "Jadwal baru" di kanan atas. Satu baris menunjukkan status Aktif dengan keterangan "2 artikel setiap 1 minggu".
@@ -83,13 +83,13 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Halaman Master variants: daftar varian dengan nama (Warna, Ukuran) dan chip-chip pilihan di bawahnya (Merah, Biru, Hitam), plus jumlahnya.
 - `/img/commerce/orders-list.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `commerce/orders.md`
-  - isi: Halaman Transaksi: lima kartu statistik di atas (Pesanan, Baru, Belum bayar, selesai, Omzet selesai), lalu tabel pesanan dengan kolom No. pesanan, Pelanggan, Item, Total, status, Bayar, dan PJ; filter rentang tanggal, status, pembayaran, dan kotak pencarian di atas tabel.
+  - isi: Halaman Transaksi: lima kartu statistik di atas (Pesanan, Baru, Belum bayar, Selesai, Omzet selesai), lalu kotak pencarian, tombol Filter, dan tombol "Pesanan baru", disusul tabel pesanan dengan kolom No. pesanan, Pelanggan, Asal (situs asal atau "Diinput staf"), Penanggung jawab, Item, Total beserta status bayarnya, dan Status.
 - `/img/commerce/order-form.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `commerce/orders.md`
   - isi: Form pesanan baru: bagian Item dengan pencarian produk dan tabel item, bagian Pelanggan (nama, HP, email, alamat), bagian Pengiriman (kurir, layanan, resi), dan panel Total di kanan berisi Subtotal, Diskon, Ongkir, Biaya tambahan, dan Total.
 - `/img/commerce/usage.webp` ✓id ✓en ✓ar
   - halaman: `commerce/overview.md`
-  - isi: Kartu pemakaian toko di hub Commerce: nama workspace, bilah "produk" dan bilah "pesanan bulan ini" dengan angka terpakai dan batasnya, serta tautan untuk menambah kapasitas.
+  - isi: Kartu pemakaian toko di halaman Toko: "Pemakaian toko · [nama workspace]", bilah Produk dan bilah Pesanan bulan ini dengan angka terpakai dan batasnya, serta tanggal jatah pesanan direset.
 - `/img/commerce/payment-dialog.webp` ✓id ✓en ✓ar
   - halaman: `commerce/payments-and-invoices.md`
   - isi: Dialog Pembayaran: pilihan metode (Transfer bank, E-wallet, Tunai, COD), pemilih rekening tujuan berbentuk chip, kolom Nominal, tanggal Diterima, dan pengunggah Bukti transfer.
@@ -110,28 +110,28 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Halaman Master produk: tabel dengan kolom Produk (nama + thumbnail), Kategori, Harga, Stok, dan sakelar aktif/nonaktif; filter kategori dan status di atas, kotak "Cari nama atau SKU", tombol "Tambah produk".
 - `/img/commerce/product-variants.webp` ✓id ✓en ✓ar
   - halaman: `commerce/products.md`
-  - isi: Bagian Pilihan pada form produk: dua baris pilihan (Warna dengan chip Merah/Biru, Ukuran dengan chip S/M/L), tombol "Generate kombinasi" bertuliskan "6 baris", lalu tabel Varian berisi enam baris dengan kolom harga, modal, stok, gambar, dan penanda Default.
+  - isi: Bagian "Harga & stok" pada form produk: menu bagian di kiri (Dasar, Harga & stok, Gambar, Pencarian), sakelar Tunggal / Punya varian dan centang Lacak stok, lalu kotak Pilihan berisi satu baris pilihan (Ukuran dengan chip 16 cm, 20 cm, 24 cm), pemilih "Dari master variant", dan tombol "Generate kombinasi" bertuliskan "3 baris". Di bawahnya daftar Varian (3), tiap baris dengan Harga jual, Harga modal, SKU, Stok, Berat, Dimensi paket, Gambar, centang Aktif, dan tautan Grosir.
 - `/img/commerce/public-invoice.webp` ✓id ✓en ✓ar
   - halaman: `commerce/public-invoice.md`
-  - isi: Halaman invoice publik dari sisi pembeli: kotak isian nomor invoice di atas, lalu rincian pesanan berisi item, total, status pembayaran, dan dua tombol — "Kirim bukti pembayaran" dan "Batalkan pesanan".
+  - isi: Halaman invoice publik dari sisi pembeli: kepala hijau berisi nama toko, nomor invoice, status pesanan dan status bayar, lalu blok pengiriman, pengirim dan penerima, tabel item, subtotal, ongkir, dan total tagihan, plus dua tombol — "Batalkan pesanan ini" dan "Bayar sekarang".
 - `/img/commerce/store-settings.webp` ✓id ✓en ✓ar
   - halaman: `commerce/store-settings.md`
-  - isi: Halaman Pengaturan toko: bagian Identitas (nama outlet, telepon, email, logo, logo invoice), bagian Mata uang, bagian Dokumen (tempo pembayaran, catatan invoice, peringatan surat jalan, footer dokumen), dan bagian Pembayaran dengan sakelar transfer bank manual.
+  - isi: Halaman Pengaturan toko: menu bagian di kiri (Identitas, Mata uang, Pembayaran, Bayar online, Payment gateway, Notifikasi email, Dokumen), lalu bagian Identitas (nama outlet, telepon, email, logo, logo invoice), bagian Mata uang, dan bagian Transfer bank manual; tombol Simpan di kanan atas.
 - `/img/commerce/bank-accounts.webp` ✓id ✓en ✓ar
   - halaman: `commerce/store-settings.md`
   - isi: Halaman Rekening bank: daftar kartu rekening berisi nama bank, atas nama, nomor rekening dengan tombol salin, dan penanda "Utama" pada salah satunya.
 - `/img/commerce/storefront.webp` ✓id ✓en ✓ar
   - halaman: `commerce/storefront.md`
-  - isi: Halaman "Halaman toko": daftar template (Halaman toko, Halaman produk, Keranjang, Checkout, Strip produk) masing-masing dengan status, tombol "Susun ulang halaman toko", sakelar "Toko aktif", dan centang "Tampilkan keranjang di menu situs".
+  - isi: Tab Commerce di halaman website, "Toko di situs ini": kartu Halaman toko dengan sakelar "Toko aktif", tautan toko yang sudah tayang, daftar template (Halaman toko, Halaman produk, Keranjang, Checkout, Strip produk) yang sudah dibuat, sakelar "Tampilkan keranjang di menu situs", serta tombol "Susun ulang halaman toko" dan "Custom halaman". Di bawahnya kartu "Produk di situs ini".
 
 ## editor
 
 - `/img/editor/ai-chat.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `editor/ai-chat.md`
-  - isi: Mode AI: panel chat di sisi kiri berisi riwayat percakapan (permintaan pengguna dan balasan AI dengan jumlah token), kotak tulis di bawah dengan tombol lampirkan gambar dan Kirim; preview halaman di sisi kanan.
+  - isi: Mode AI: panel "Asisten AI" di sisi kiri dengan contoh permintaan dan kotak tulis di bawah (lampirkan gambar, Kirim); preview halaman di sisi kanan, dengan elemen yang sedang ditarget diberi kotak. Riwayat percakapan muncul di panel yang sama setelah kamu mengirim permintaan.
 - `/img/editor/blocks-panel.webp` ✓id ✓en ✓ar
   - halaman: `editor/blocks.md`
-  - isi: Panel Blok di sisi kiri editor: bagian atas "Blok desain ini" dengan tombol "Sesuaikan desainku", lalu kelompok Dasar, Tata letak, dan Bagian siap pakai berisi kartu-kartu blok bergambar.
+  - isi: Tab Blok di panel kanan editor (di sebelah tab Atribut): bagian "Blok simpananmu" berisi form dan blok toko (Produk unggulan, Produk terlaris, Satu produk, Tombol beli, dll.) dengan tombol "Susun ulang blok", lalu lipatan "Blok bawaan" berisi kelompok Tata letak dan seterusnya.
 - `/img/editor/code-mode.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `editor/code-mode.md`
   - isi: Mode Code: panel editor HTML dengan penomoran baris dan pewarnaan sintaks di sisi kiri, preview langsung di sisi kanan yang ikut berubah saat kode diketik.
@@ -140,10 +140,10 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Panel Riwayat versi: daftar snapshot dengan tanggal dan jam, tombol Restore di tiap baris, dan tombol "Simpan versi" di bagian atas.
 - `/img/editor/overview.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `editor/overview.md`
-  - isi: Editor halaman terbuka penuh: toolbar atas berisi tombol kembali, judul & slug halaman, tiga tombol mode (Visual, Code, AI), pemilih ukuran layar, indikator "Tersimpan", tombol Simpan dan Publish. Panel Outline di kiri, kanvas halaman di tengah, panel properti di kanan.
+  - isi: Editor halaman terbuka penuh: toolbar atas berisi tombol kembali, judul & slug halaman, pemilih halaman, tiga tombol mode (Code, Visual, AI), undo/redo, badge Terbit, pemilih ukuran layar, tombol Simpan dan Unpublish. Di bawahnya alamat halaman dan tautan "Edit shell". Outline terlipat jadi rail di kiri, kanvas halaman di tengah, panel Blok · Atribut di kanan.
 - `/img/editor/page-seo.webp` ✓id ✓en ✓ar
   - halaman: `editor/page-seo.md`
-  - isi: Panel "SEO & Tampilan": pengunggah Thumbnail di atas, lalu kolom Title, Description, Keywords berbentuk chip, OG Image, dan Favicon URL — dua yang terakhir punya tombol "Pilih dari File Manager".
+  - isi: Panel "SEO & Tampilan": pengunggah Thumbnail di atas, kolom Focus keyphrase, Pratinjau Google (Mobile/Desktop) yang menampilkan hasil pencarian halaman ini, lalu kolom Title dengan meter panjang dan kolom Slug berisi alamat lengkap beserta tombol salin dan buka. Di bawahnya (digulir) ada Description, gambar share, dan daftar periksa.
 - `/img/editor/publish-toolbar.webp` ✓id ✓en ✓ar
   - halaman: `editor/publishing.md`
   - isi: Toolbar editor pada halaman yang sudah terbit: badge Terbit di sebelah judul, tombol Salin URL, Buka situs, dan Unpublish menggantikan tombol Publish.
@@ -152,10 +152,10 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Tab Berbagi: kartu "Link preview publik" dengan sakelar aktif, alamat link beserta tombol salin, dan tombol "Ganti link (putus link lama)". Di bawahnya kartu "Undang kolaborator" dengan kolom email dan tombol Bagikan.
 - `/img/editor/visual-mode.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `editor/visual-mode.md`
-  - isi: Mode visual dengan satu elemen terpilih: kotak biru mengelilingi elemen, toolbar mengambang di atasnya (pegangan seret, tombol pilih induk, duplikat, hapus), panel Outline di kiri menyorot elemen yang sama, panel properti di kanan menampilkan tab isi dan gaya.
+  - isi: Mode visual dengan satu elemen terpilih: kotak hijau mengelilingi elemen, toolbar mengambang di atasnya (pegangan seret, pilih induk, naik/turun, duplikat, hapus), dan panel kanan pindah sendiri ke tab Atribut berisi isi teks, atribut, serta grup-grup gaya.
 - `/img/editor/style-panel.webp` ✓id ✓en ✓ar
   - halaman: `editor/visual-mode.md`
-  - isi: Panel gaya: pemilih breakpoint Desktop/Tablet/Ponsel dan pemilih state Normal/Hover/Fokus/Ditekan di bagian atas, lalu grup Tata letak, Jarak, Tipografi yang bisa dibuka-tutup, dan kotak "CSS kustom" di bawah.
+  - isi: Tab Atribut untuk elemen h1: kolom Teks, bagian Atribut, lalu STYLE dengan pemilih breakpoint (desktop/tablet/ponsel) dan pemilih state Normal/Hover/Fokus/Ditekan, disusul grup Tata letak, Jarak, Tipografi, Latar, Garis tepi & sudut, Lanjutan, dan Efek yang bisa dibuka-tutup.
 
 ## getting-started
 
@@ -167,31 +167,31 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Halaman verifikasi email: kolom email yang sudah terisi, satu kolom untuk kode enam digit, tombol Verifikasi, dan tautan "Kirim ulang" beserta hitungan mundur.
 - `/img/getting-started/layout-overview.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `getting-started/interface-tour.md`
-  - isi: Tampilan penuh aplikasi: logo dan pemilih workspace di atas sidebar, grup menu Ruang kerja lalu Bisnis di bawahnya, menu akun di kaki sidebar, dan isi halaman di tengah.
+  - isi: Tampilan penuh aplikasi: logo dan pemilih workspace di atas sidebar, grup menu Ruang kerja, Toko, lalu Bisnis di bawahnya, menu akun di kaki sidebar, bilah atas berisi saldo Kredit AI, pemilih mata uang dan bahasa, mode gelap, serta tombol Tweaks, dan isi halaman di tengah.
 - `/img/getting-started/tweaks-panel.webp` ✓id ✓en ✓ar
   - halaman: `getting-started/interface-tour.md`
-  - isi: Panel Tweaks terbuka di sisi kanan: pilihan warna aksen berbentuk lingkaran, tombol terang/gelap, pilihan tone, gaya menu, dan slider radius.
+  - isi: Panel Tweaks terbuka di sisi kanan: pilihan warna aksen berbentuk lingkaran, tombol terang/gelap, pilihan tone, gaya menu, slider radius, dan sakelar "Tampilkan penawaran".
 - `/img/getting-started/new-website-options.webp` ✓id ✓en ✓ar
   - halaman: `getting-started/quickstart.md`
-  - isi: Layar "Website baru" dengan tiga kartu pilihan berdampingan: Pakai Template (bertanda "Paling cepat"), Buat via AI, dan Buat Kosong.
-- `/img/getting-started/ai-build-questions.webp` ✓id ✓en ·ar
+  - isi: Jendela "Website baru" dengan tiga kartu berdampingan: Pakai Template, Buat via AI (bertanda "Paling cepat"), dan Buat Kosong.
+- `/img/getting-started/ai-build-questions.webp` ✓id ✓en ✓ar
   - halaman: `getting-started/quickstart.md`
-  - isi: Layar pembangunan AI: penghitung langkah di atas, satu pertanyaan pilihan ("Tema visual apa yang kamu inginkan?"), dan kartu-kartu jawaban bergambar pratinjau.
+  - isi: Layar pembangunan AI: penghitung langkah di atas, satu pertanyaan pilihan (di sini soal tema warna), dan kartu-kartu jawaban bergambar pratinjau.
 - `/img/getting-started/editor-first-look.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `getting-started/quickstart.md`
-  - isi: Editor halaman: toolbar atas berisi judul halaman, pemilih mode Visual/Code/AI, pemilih ukuran layar desktop/tablet/mobile, indikator "Tersimpan", tombol Simpan dan Publish. Panel Outline di kiri, preview halaman di tengah.
+  - isi: Editor halaman: toolbar atas berisi judul halaman, pemilih mode Code/Visual/AI, pemilih ukuran layar desktop/tablet/mobile, tombol Simpan dan Publish. Kanvas halaman di tengah, panel Blok · Atribut di kanan.
 - `/img/getting-started/publish-confirm.webp` ✓id ✓en ✓ar
   - halaman: `getting-started/quickstart.md`
   - isi: Toolbar editor setelah publish: tombol berubah jadi Unpublish, muncul tombol Salin URL dan Buka situs, plus badge "Terbit" di sebelah judul halaman.
 - `/img/getting-started/dashboard.webp` ✓id ✓en ✓ar
   - halaman: `getting-started/what-is-pagehub.md`
-  - isi: Dashboard PageHub setelah login: sidebar kiri berisi grup Ruang kerja dan Bisnis, kartu statistik Website / Halaman / Total views di tengah, dan panel "Perlu perhatian" di kanan.
+  - isi: Dashboard PageHub setelah login: sidebar kiri berisi grup Ruang kerja, Toko, dan Bisnis; sapaan dengan tombol "Buat website baru" dan "Buat landing page", kartu statistik Website / Halaman / Total views di kanan atas, kartu paket dengan bilah kuota, lalu bagian "Lanjutkan" dan "Perlu perhatian" di bawahnya.
 
 ## help
 
 - `/img/help/tickets.webp` ✓id ✓en ✓ar
   - halaman: `help/support-tickets.md`
-  - isi: Halaman Bantuan: daftar tiket dengan judul, jenis, prioritas, dan jumlah pesan; tombol "Tiket baru" di kanan atas. Di sebelah kanan, thread satu tiket dengan pesan dari kamu dan balasan bertanda "Staf".
+  - isi: Halaman Bantuan: tab Semua / Bantuan / Permintaan fitur, daftar tiket dengan jenis, judul, status, dan jumlah pesan; tombol "Tiket baru" di kanan atas. Satu tiket terbuka menampilkan thread berisi pesanmu dan balasan bertanda "Staf".
 
 ## landing-pages
 
@@ -230,7 +230,7 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 
 - `/img/media/file-manager.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `media/file-manager.md`
-  - isi: File Manager dalam tampilan grid: baris jejak folder di atas (Beranda › Produk), kartu-kartu folder dan gambar dengan thumbnail, kotak pencarian, pemilih urutan dan tampilan grid/baris di kanan atas, serta bilah "Pemakaian Storage" di bawah.
+  - isi: File Manager dalam tampilan grid: bilah "Pemakaian Storage" dengan tautan Tambah storage di atas, kotak pencarian, pemilih urutan, tampilan daftar/grid, tombol Buat Folder dan Unggah, jejak folder (Beranda), lalu kartu-kartu folder dan gambar dengan thumbnail.
 
 ## reports
 
@@ -255,15 +255,12 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 - `/img/team/team-list.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `team/members-and-access.md`
   - isi: Halaman Tim & Akses: tabel anggota dengan kolom Anggota (nama + email), Peran, Akses (jumlah website), Bergabung, dan menu aksi; tombol "Undang anggota" di kanan atas.
-- `/img/team/access-dialog.webp` ✓id ✓en ·ar
+- `/img/team/access-dialog.webp` ✓id ✓en ✓ar
   - halaman: `team/members-and-access.md`
   - isi: Dialog Akses untuk satu anggota: dua bagian (Website dan Landing Page), tiap baris punya pilihan Tidak ada akses / Viewer / Editor.
 - `/img/team/reseller-clients.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `team/reseller.md`
-  - isi: Halaman Reseller, tab Klien: tiga kartu angka (slot klien terpakai, fee platform, masa coba klien baru), lalu tabel klien berisi nama, pemilik, paket, status, tanggal lunas, jumlah situs, dan tombol Buka.
-- `/img/team/reseller-balance.webp` ✓id ✓en ✓ar — **lebar**
-  - halaman: `team/reseller.md`
-  - isi: Tab Saldo: empat kartu (bisa dicairkan, ditahan, sedang dicairkan, sudah dicairkan), tabel pembayaran klien dengan kolom dibayar, fee, dan bagianmu, serta daftar pencairan dengan statusnya.
+  - isi: Halaman Reseller: empat kartu kolam sumber daya (Website, Landing page, Storage, Kredit AI untuk dibagi — masing-masing berapa yang tersisa dan berapa yang sudah dibagi ke klien), catatan bahwa penagihan ke klien dilakukan di luar aplikasi, lalu tab Klien dan Domain. Tab Klien menampilkan daftar klien, atau keadaan kosong dengan tombol "Klien baru".
 - `/img/team/workspaces.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `team/workspaces.md`
   - isi: Halaman Workspace: kartu-kartu workspace berwarna dengan nama, catatan, alamat publik, dan hitungan isi (website, landing page, media, anggota); tombol "Workspace baru" di kanan atas.
@@ -275,7 +272,7 @@ melebar melewati kolom teks, jadi ambil layar penuh.
 
 - `/img/website/new-website-options.webp` ✓id ✓en ✓ar
   - halaman: `website/create-website.md`
-  - isi: Layar "Website baru" dengan tiga kartu: Pakai Template (berlabel "Paling cepat"), Buat via AI, Buat Kosong. Masing-masing punya ikon dan satu kalimat penjelasan.
+  - isi: Jendela "Website baru" di atas daftar website, dengan tiga kartu pilihan: Pakai Template, Buat via AI (berlabel "Paling cepat"), dan Buat Kosong. Masing-masing punya ikon dan satu kalimat penjelasan.
 - `/img/website/website-list.webp` ✓id ✓en ✓ar
   - halaman: `website/create-website.md`
   - isi: Halaman Websites: kartu-kartu website dengan thumbnail, nama, jumlah halaman, penanda "belum terbit", dan menu tiga titik. Di kanan atas ada kotak pencarian, pemilih urutan, dan tombol "Website baru".
@@ -284,7 +281,7 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Bagian Custom domain pada tahap DNS: tabel berisi tiga baris record (Verifikasi kepemilikan TXT, Arahkan trafik A/CNAME, Arahkan www opsional), masing-masing dengan tipe, host, nilai, tombol salin, dan lencana status "Menunggu".
 - `/img/website/shell-card.webp` ✓id ✓en ✓ar
   - halaman: `website/header-footer.md`
-  - isi: Kartu "Header & Footer" di atas daftar halaman, dengan penanda status "aktif" atau "belum dibuat", satu kalimat penjelasan, dan tombol "Buat header & footer" plus "Pisahkan dari halaman yang ada".
+  - isi: Kartu "Header & Footer" di kolom kanan tab Halaman: penanda status "aktif" (atau "belum dibuat"), satu kalimat penjelasan, dan tombol "Edit header & footer" — atau "Buat header & footer" dan "Pisahkan dari halaman yang ada" kalau belum ada.
 - `/img/website/shell-editor.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `website/header-footer.md`
   - isi: Editor shell: panel file di kiri menampilkan bagian Header dan Footer beserta catatan "dipakai semua halaman", preview di tengah menampilkan header di atas dan footer di bawah dengan area konten kosong di antaranya.
@@ -293,7 +290,7 @@ melebar melewati kolom teks, jadi ambil layar penuh.
   - isi: Bagian Menu navigasi: daftar item dengan pegangan seret, kolom Label, dropdown pemilih halaman, dan tombol hapus per baris. Di bawahnya tombol Tambah.
 - `/img/website/pages-tab.webp` ✓id ✓en ✓ar — **lebar**
   - halaman: `website/pages.md`
-  - isi: Tab Halaman sebuah website: kartu "Header & Footer" di atas, lalu daftar halaman dengan pegangan seret, judul, badge "homepage" pada yang teratas, status terbit/draf, jumlah views, dan tombol Edit. Panel "Sekilas" di kanan menampilkan URL publik, jumlah halaman, total views, dan status domain kustom.
+  - isi: Tab Halaman sebuah website: daftar halaman dengan pegangan seret, judul, badge "homepage" pada yang teratas, jumlah views, status terbit/draf, dan tombol buka, edit, serta menu. Di kolom kanan, kartu "Header & Footer" lalu panel "Sekilas" berisi URL publik, jumlah halaman, total views, domain kustom, dan status blog.
 - `/img/website/settings-general.webp` ✓id ✓en ✓ar
   - halaman: `website/settings.md`
   - isi: Tab Pengaturan: kartu "Pengaturan umum" dengan kolom Nama, Alamat, Thumbnail, dan pemilih Bahasa situs publik.

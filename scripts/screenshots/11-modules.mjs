@@ -35,7 +35,9 @@ async function section(anchor) {
 
 // --- media ------------------------------------------------------------------
 await soft('media/file-manager', async () => {
-  await go(page, '/files')
+  await go(page, '/files', { wait: 800 })
+  await page.evaluate(() => localStorage.setItem('pagehub.assets.view', 'grid'))
+  await go(page, '/files', { wait: 1800 })
   await shot(page, lang, 'media/file-manager.png')
 })
 
@@ -56,62 +58,81 @@ await soft('blog/article-editor', async () => {
 })
 
 // --- toko -------------------------------------------------------------------
-const C = `/websites/${I.shop}/commerce`
-await soft('commerce/hub', async () => {
-  await go(page, C)
-  await shot(page, lang, 'commerce/locked.png') // diganti nanti kalau add-on aktif
+// Toko milik workspace: layarnya di grup "Toko" sidebar (/store/*) dan
+// mengikuti workspace aktif — openApp() sudah memilih workspace klien.
+const S = '/store'
+const unpaid = async () => {
+  // Pesanan "Diproses" yang belum dibayar: tombol Tandai lunas ada di sana.
+  const { get } = await import('./api.mjs')
+  const list = await get(`/commerce/orders?websiteId=${I.shop}`)
+  return (list.find((o) => o.paymentStatus !== 'paid' && o.status === 'process') || list[0]).id
+}
+await soft('commerce/usage', async () => {
+  await go(page, S, { wait: 1800 })
+  await shot(page, lang, 'commerce/usage.png', { clip: '.card-soft:has(.ph-gauge)' })
 })
 await soft('commerce/categories', async () => {
-  await go(page, `${C}/categories`)
+  await go(page, `${S}/categories`)
   await shot(page, lang, 'commerce/categories.png')
 })
 await soft('commerce/variants', async () => {
-  await go(page, `${C}/variants`)
+  await go(page, `${S}/variants`)
   await shot(page, lang, 'commerce/variants.png')
 })
 await soft('commerce/products', async () => {
-  await go(page, `${C}/products`)
+  await go(page, `${S}/products`, { wait: 1800 })
   await shot(page, lang, 'commerce/products-list.png')
 })
 await soft('commerce/product-variants', async () => {
   const p = (I.products || [])[0]
   if (!p) throw new Error('tidak ada produk')
-  await go(page, `${C}/products/${p}`, { wait: 1800 })
-  await page.evaluate(() => window.scrollTo(0, 600))
-  await page.waitForTimeout(500)
+  await go(page, `${S}/products/${p}`, { wait: 2000 })
+  // Bagian "Harga & stok": varian dengan harga, modal, stok, berat.
+  await page.evaluate(() => document.getElementById('pf-pricing')?.scrollIntoView({ block: 'start' }))
+  await page.waitForTimeout(600)
   await shot(page, lang, 'commerce/product-variants.png')
 })
 await soft('commerce/orders', async () => {
-  await go(page, `${C}/orders`)
+  await go(page, `${S}/orders`, { wait: 1800 })
   await shot(page, lang, 'commerce/orders-list.png')
 })
 await soft('commerce/order-form', async () => {
-  await go(page, `${C}/orders/new`, { wait: 1600 })
+  await go(page, `${S}/orders/new`, { wait: 1800 })
   await shot(page, lang, 'commerce/order-form.png')
 })
-await soft('commerce/order-detail', async () => {
-  const o = (I.orders || [])[0]
-  if (!o) throw new Error('tidak ada pesanan')
-  await go(page, `${C}/orders/${o}`, { wait: 1600 })
-  await shot(page, lang, 'commerce/payment-dialog.png')
+await soft('commerce/payment-dialog', async () => {
+  await go(page, `${S}/orders/${await unpaid()}`, { wait: 1800 })
+  await page.locator('button:has(.ph-check-circle)').first().click({ timeout: 8000 })
+  await page.waitForTimeout(1200)
+  await shot(page, lang, 'commerce/payment-dialog.png', { clip: '.p-dialog' })
+  await page.keyboard.press('Escape')
 })
 await soft('commerce/invoice-print', async () => {
   const o = (I.orders || [])[0]
   if (!o) throw new Error('tidak ada pesanan')
-  await go(page, `${C}/orders/${o}/print`, { wait: 2000 })
+  await go(page, `${S}/orders/${o}/print`, { wait: 2200 })
   await shot(page, lang, 'commerce/invoice-print.png')
 })
 await soft('commerce/carts', async () => {
-  await go(page, `${C}/carts`)
+  await go(page, `${S}/carts`, { wait: 1800 })
   await shot(page, lang, 'commerce/abandoned-carts.png')
 })
 await soft('commerce/banks', async () => {
-  await go(page, `${C}/banks`)
+  await go(page, `${S}/banks`)
   await shot(page, lang, 'commerce/bank-accounts.png')
 })
 await soft('commerce/store-settings', async () => {
-  await go(page, `${C}/store-settings`)
+  await go(page, `${S}/settings`, { wait: 1800 })
   await shot(page, lang, 'commerce/store-settings.png')
+})
+await soft('commerce/storefront', async () => {
+  // Yang tetap di website: tab Commerce = produk yang tampil + halaman toko.
+  await go(page, `/websites/${I.shop}/commerce`, { wait: 1800 })
+  await shot(page, lang, 'commerce/storefront.png')
+})
+await soft('commerce/shop-design', async () => {
+  await go(page, `/websites/${I.shop}/commerce/shop-design`, { wait: 3000 })
+  await shot(page, lang, 'commerce/shop-design.png', { full: true })
 })
 
 // --- leads ------------------------------------------------------------------
@@ -121,13 +142,32 @@ await soft('leads', async () => {
   await shot(page, lang, 'leads/inbox.png')
 })
 
+// --- form builder -------------------------------------------------------------
+await soft('leads/forms-list', async () => {
+  await go(page, '/forms', { wait: 1600 })
+  await shot(page, lang, 'leads/forms-list.png')
+})
+await soft('leads/form-builder', async () => {
+  if (!I.form) throw new Error('tidak ada form (jalankan 06-extras.mjs)')
+  await go(page, `/forms/${I.form}`, { wait: 2500 })
+  await shot(page, lang, 'leads/form-builder.png')
+})
+
+// --- reseller -----------------------------------------------------------------
+await soft('team/reseller-clients', async () => {
+  await go(page, '/reseller', { wait: 2500 })
+  await shot(page, lang, 'team/reseller-clients.png')
+})
+// Tab Saldo sudah tidak ada di halaman Reseller (tinggal Klien · Domain).
+
 // --- laporan ----------------------------------------------------------------
 await soft('reports/hub', async () => {
   await go(page, `/websites/${I.shop}/laporan`)
   await shot(page, lang, 'reports/hub.png')
 })
 await soft('reports/carts', async () => {
-  await go(page, `/websites/${I.shop}/laporan/keranjang`, { wait: 1800 })
+  // Laporan penjualan ikut toko (workspace): Kelola toko -> Laporan.
+  await go(page, '/store/reports/carts', { wait: 2200 })
   await shot(page, lang, 'reports/carts.png')
 })
 
@@ -162,6 +202,10 @@ await soft('account/billing', async () => {
 })
 await soft('account/upgrade', async () => {
   await go(page, '/billing/upgrade', { wait: 2000 })
+  // Paket org uji punya white label, jadi layar terbuka di keluarga itu;
+  // yang dijelaskan panduan adalah grid paket bulanan (tombol pertama).
+  await page.locator('.fam-switch .fam-btn').first().click({ timeout: 4000 }).catch(() => {})
+  await page.waitForTimeout(900)
   await shot(page, lang, 'account/upgrade-plans.png')
 })
 await soft('account/ai-credit', async () => {
@@ -170,7 +214,7 @@ await soft('account/ai-credit', async () => {
 })
 await soft('account/addons', async () => {
   await go(page, '/billing/addons', { wait: 1800 })
-  await shot(page, lang, 'account/addons.png')
+  await shot(page, lang, 'account/addons.png', { full: true })
 })
 await soft('account/appsumo', async () => {
   await go(page, '/billing/appsumo', { wait: 1600 })
@@ -180,6 +224,9 @@ await soft('account/appsumo', async () => {
 // --- bantuan ----------------------------------------------------------------
 await soft('help/tickets', async () => {
   await go(page, '/support', { wait: 1600 })
+  // Buka thread tiket yang sudah dibalas staf (yang terakhir di daftar).
+  await page.locator('.sup-row').last().click({ timeout: 6000 }).catch(() => {})
+  await page.waitForTimeout(1400)
   await shot(page, lang, 'help/tickets.png')
 })
 

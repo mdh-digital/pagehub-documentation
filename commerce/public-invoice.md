@@ -13,7 +13,7 @@ Pembeli membukanya lalu **mengetik nomor invoice**-nya. Nggak ada daftar pesanan
 Slug `invoices` dipesan sistem, jadi nggak bisa dipakai halaman biasa.
 
 <Shot src="/img/commerce/public-invoice.webp">
-Halaman invoice publik dari sisi pembeli: kotak isian nomor invoice di atas, lalu rincian pesanan berisi item, total, status pembayaran, dan dua tombol — "Kirim bukti pembayaran" dan "Batalkan pesanan".
+Halaman invoice publik dari sisi pembeli: kepala hijau berisi nama toko, nomor invoice, status pesanan dan status bayar, lalu blok pengiriman, pengirim dan penerima, tabel item, subtotal, ongkir, dan total tagihan, plus dua tombol — "Batalkan pesanan ini" dan "Bayar sekarang".
 </Shot>
 
 ## Yang bisa dilakukan pembeli

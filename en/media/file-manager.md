@@ -3,7 +3,7 @@
 Home for all your organisation's images and media files. Open it from **File Manager** in the sidebar.
 
 <Shot src="/img/media/file-manager.webp" wide>
-The File Manager in grid view: a folder breadcrumb at the top (Home › Products), folder and image cards with thumbnails, a search box, sort and grid/list view pickers in the top right, and a "Storage usage" bar at the bottom.
+The File Manager in grid view: a "Storage usage" bar with an Add storage link at the top, a search box, sort picker, list/grid view toggle, New folder and Upload buttons, the folder breadcrumb (Home), then folder and image cards with thumbnails.
 </Shot>
 
 ## Uploading

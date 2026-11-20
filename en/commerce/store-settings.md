@@ -7,7 +7,7 @@ Everything that isn't the catalogue and isn't an order: document identity, curre
 **Store → Manage store → Store settings**.
 
 <Shot src="/img/commerce/store-settings.webp">
-The Store settings page: an Identity section (outlet name, phone, email, logo, invoice logo), a Currency section, a Documents section (payment terms, invoice note, delivery note warning, document footer), and a Payments section with a manual bank transfer switch.
+The Store settings page: a section menu on the left (Identity, Currency, Payments, Pay online, Payment gateway, Email notifications, Documents), then the Identity section (outlet name, phone, email, logo, invoice logo), the Currency section, and the Manual bank transfer section; a Save button in the top right.
 </Shot>
 
 ### Identity

@@ -7,7 +7,7 @@ description: 'Website, landing page, workspace, team and storage quotas, how quo
 Open **Billing** in the sidebar (Business group).
 
 <Shot src="/img/account/billing-hub.webp" wide>
-The Billing hub: an active plan status card at the top with quota bars (Websites, Landing, Team, Storage, AI credits), then menu cards: Upgrade plan, AI Credit, Storage Add-On, Add-ons, and AppSumo.
+The Billing hub: menu cards — Upgrade plan, Partner Store, AI Credit, Storage Add-On, Add-ons, and AppSumo (shown only while AppSumo code redemption is open). Your plan quotas themselves are on the plan card on the Dashboard.
 </Shot>
 
 ## What the plan limits

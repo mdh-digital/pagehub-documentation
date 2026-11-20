@@ -13,7 +13,7 @@ AI di PageHub nggak langsung menembak satu halaman jadi dari satu kalimat. Dia b
 AI membaca idemu, lalu menuntunmu lewat beberapa pertanyaan pilihan — satu pertanyaan per layar, dengan penghitung langkah di atasnya: kesan visual apa yang diinginkan, warna aksennya, gaya hurufnya, section apa saja yang perlu ada.
 
 <Shot src="/img/ai/build-questions.webp">
-Satu pertanyaan dari wizard: penghitung "Langkah 2 dari 7" di atas, pertanyaan "Tema visual apa yang kamu inginkan?", lalu kartu-kartu pilihan bergambar pratinjau — dengan "Pilihkan saja" sebagai kartu pertama.
+Satu pertanyaan dari wizard: penghitung "Langkah 2 dari 7" di atas, pertanyaan yang disusun AI untuk idemu (di sini soal tema warna), lalu kartu-kartu pilihan bergambar pratinjau — dengan "Pilihkan saja" sebagai kartu pertama.
 </Shot>
 
 Nggak mau mikir? Tiap pertanyaan punya **Pilihkan saja** — AI yang memutuskan, dan pilihannya ditandai supaya kamu tahu mana yang bukan pilihanmu.
@@ -23,7 +23,7 @@ Nggak mau mikir? Tiap pertanyaan punya **Pilihkan saja** — AI yang memutuskan,
 Dari jawabanmu, AI menyusun daftar section yang bakal dibuat, lengkap dengan nama dan ringkasannya.
 
 <Shot src="/img/ai/build-plan.webp">
-Layar "Rencana — ini yang bakal dibuat": daftar kartu section (Header & Footer, Hero, Fitur, Testimoni, Harga, Kontak) yang bisa diubah namanya atau dibuang, dengan perkiraan kredit di bawah.
+Layar "Rencana — ini yang bakal dibuat": nama website di bawah judul, chip-chip jawabanmu (bisa diklik untuk mengubah), lalu daftar section bernomor — masing-masing dengan judul, satu kalimat isi, dan tombol buang — perkiraan pemakaian kredit beserta sisa kreditmu, dan tombol "Mulai bikin".
 </Shot>
 
 Di sini kamu masih bisa ikut campur: ganti nama section, atau buang yang nggak perlu. Di bawahnya ada **perkiraan pemakaian kredit** dan sisa kreditmu — kalau kurang, ada peringatan sebelum mulai.
@@ -39,7 +39,7 @@ Keputusan desain ini dipakai ulang untuk semua section berikutnya. Itulah sebabn
 Tiap section ditulis terpisah. Layarnya menunjukkan tahap yang sedang berjalan dan nomor section keberapa dari berapa, jadi kamu tahu prosesnya sampai di mana.
 
 <Shot src="/img/ai/build-progress.webp" wide>
-Layar progres: nama tahap yang sedang berjalan ("Menyusun struktur"), bilah kemajuan, penghitung "1 dari 8", catatan bahwa prosesnya boleh ditinggal, serta tautan "Ke halaman Websites" dan "Batal".
+Layar progres: nama tahap yang sedang berjalan ("Menyusun struktur"), bilah kemajuan, nama website dan penghitung langkah ("1 dari 9"), catatan bahwa prosesnya boleh ditinggal, serta tautan "Ke halaman Websites" dan "Batal".
 </Shot>
 
 Tahapnya dilabeli: *Mulai menyiapkan* → *Memilih tampilan* → *Menyusun struktur* → *Menulis isi* → *Merapikan*.

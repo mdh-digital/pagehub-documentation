@@ -7,7 +7,7 @@ description: 'Set the title, description, keywords, OG image and favicon per pag
 Open ⋯ → **SEO & Appearance** in the editor.
 
 <Shot src="/img/editor/page-seo.webp">
-The "SEO & Appearance" panel: a Thumbnail uploader at the top, then Title, Description, Keywords as chips, OG Image and Favicon URL — the last two with a "Pick from File Manager" button.
+The "SEO & Appearance" panel: a Thumbnail uploader at the top, a Focus keyphrase field, a Google preview (Mobile/Desktop) showing this page as a search result, then the Title field with a length meter and the Slug field with the full address plus copy and open buttons. Further down: Description, the share image, and a checklist.
 </Shot>
 
 ## The fields

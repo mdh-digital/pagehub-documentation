@@ -3,7 +3,7 @@
 The **Pages** tab is a website's home base: create pages, reorder them, publish them, and jump into the editor.
 
 <Shot src="/img/website/pages-tab.webp" wide>
-A website's Pages tab: a "Header & Footer" card at the top, then a list of pages with drag handles, titles, a "homepage" badge on the first one, published/draft status, view counts, and Edit buttons. A "At a glance" panel on the right shows the public URL, page count, total views, and custom domain status.
+A website's Pages tab: the page list with drag handles, titles, a "homepage" badge on the first one, view counts, published/draft status, and open, edit and menu buttons. In the right column, the "Header & Footer" card and then the "At a glance" panel with the public URL, page count, total views, custom domain and blog status.
 </Shot>
 
 ## New page

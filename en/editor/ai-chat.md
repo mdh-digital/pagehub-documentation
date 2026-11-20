@@ -3,7 +3,7 @@
 The **AI** mode in the editor is a conversation about the page you have open. You ask, AI changes it, the result lands in the page.
 
 <Shot src="/img/editor/ai-chat.webp" wide>
-AI mode: a chat panel on the left with the conversation history (your requests and AI replies showing token counts), a compose box below with an attach-image button and Send; the page preview on the right.
+AI mode: the "AI assistant" panel on the left with example requests and a compose box at the bottom (attach image, Send); the page preview on the right, with the targeted element outlined. The conversation history fills the same panel once you send a request.
 </Shot>
 
 ## How to use it

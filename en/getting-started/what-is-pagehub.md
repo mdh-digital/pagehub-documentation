@@ -5,7 +5,7 @@ PageHub is where you build and run your business's online presence: **multi-page
 What sets it apart from an ordinary page builder: pages are **assembled by AI from a description you write**, then refined by you in a visual editor or directly in the HTML. You never start from a blank canvas — you start from a page that already exists.
 
 <Shot src="/img/getting-started/dashboard.webp">
-The PageHub dashboard right after signing in: left sidebar with the Workspace and Business groups, Website / Pages / Total views stat cards in the middle, and a "Needs attention" panel on the right.
+The PageHub dashboard right after signing in: left sidebar with the Workspace, Store and Business groups; a greeting with "Create new website" and "Create landing page" buttons, Website / Pages / Total views stat cards in the top right, the plan card with quota bars, then the "Continue" and "Needs attention" sections below.
 </Shot>
 
 ## What you can build

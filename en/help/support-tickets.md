@@ -3,7 +3,7 @@
 **Support** in the sidebar (Workspace group). Report a problem or request a feature; replies come back in the same thread.
 
 <Shot src="/img/help/tickets.webp">
-The Support page: a ticket list with titles, kind, priority and message count; a "New ticket" button in the top right. On the right, one ticket's thread with your messages and replies marked "Staff".
+The Support page: All / Support / Feature request tabs, a ticket list with kind, title, status and message count; a "New ticket" button in the top right. One open ticket shows its thread with your messages and replies marked "Staff".
 </Shot>
 
 ## Opening a ticket

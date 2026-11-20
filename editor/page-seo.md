@@ -7,7 +7,7 @@ description: 'Mengatur title, description, keywords, OG image, dan favicon per h
 Buka ⋯ → **SEO & Tampilan** di editor.
 
 <Shot src="/img/editor/page-seo.webp">
-Panel "SEO & Tampilan": pengunggah Thumbnail di atas, lalu kolom Title, Description, Keywords berbentuk chip, OG Image, dan Favicon URL — dua yang terakhir punya tombol "Pilih dari File Manager".
+Panel "SEO & Tampilan": pengunggah Thumbnail di atas, kolom Focus keyphrase, Pratinjau Google (Mobile/Desktop) yang menampilkan hasil pencarian halaman ini, lalu kolom Title dengan meter panjang dan kolom Slug berisi alamat lengkap beserta tombol salin dan buka. Di bawahnya (digulir) ada Description, gambar share, dan daftar periksa.
 </Shot>
 
 ## Kolom-kolomnya

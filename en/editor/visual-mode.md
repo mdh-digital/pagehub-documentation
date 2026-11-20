@@ -3,7 +3,7 @@
 Visual mode works like any page editor: click something, change it, done. The difference is that what it writes is still ordinary HTML — so anything you do here remains readable and correctable in [code mode](/en/editor/code-mode).
 
 <Shot src="/img/editor/visual-mode.webp" wide>
-Visual mode with an element selected: a box outlines the element, a floating toolbar sits above it (drag handle, select parent, duplicate, delete), the Outline panel on the left highlights the same element, and the properties panel on the right shows content and style tabs.
+Visual mode with an element selected: a green box outlines the element, a floating toolbar sits above it (drag handle, select parent, move up/down, duplicate, delete), and the right panel switches by itself to the Attributes tab with the text content, attributes and style groups.
 </Shot>
 
 ## Selecting elements
@@ -45,7 +45,7 @@ Two controls that are easy to miss but matter:
 **State.** Normal / Hover / Focus / Active. Set hover styling here rather than writing separate CSS. Empty fields follow Normal.
 
 <Shot src="/img/editor/style-panel.webp">
-The style panel: Desktop/Tablet/Mobile breakpoint picker and Normal/Hover/Focus/Active state picker at the top, then collapsible Layout, Spacing and Typography groups, and a "Custom CSS" box below.
+The Attributes tab for an h1 element: the Text field, the Attributes section, then STYLE with a breakpoint picker (desktop/tablet/phone) and a Normal/Hover/Focus/Active state picker, followed by collapsible Layout, Spacing, Typography, Background, Border & corners, Advanced and Effects groups.
 </Shot>
 
 ### Custom CSS

@@ -3,7 +3,7 @@
 The **Blocks** panel on the left of the editor holds ready-made page pieces. They come from two places: built-in blocks, and blocks **AI derives from your own page design**.
 
 <Shot src="/img/editor/blocks-panel.webp">
-The Blocks panel on the left of the editor: a "Blocks from this design" section at the top with a "Match my design" button, then Basic, Layout and Ready-made sections groups of block cards.
+The Blocks tab in the editor's right panel (next to the Attributes tab): a "Your saved blocks" section with forms and store blocks (Featured products, Best sellers, Single product, Buy button, and more — store blocks are named in the website's language) and a "Regenerate blocks" button, then the "Built-in blocks" fold with the Layout group and the rest.
 </Shot>
 
 ## Built-in blocks

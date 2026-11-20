@@ -33,7 +33,7 @@ await shot(page, lang, 'getting-started/new-website-options.png')
 // --- Satu website: halaman, pengaturan, tema, menu, tracking, domain -------
 await go(page, `/websites/${I.shop}`)
 await shot(page, lang, 'website/pages-tab.png')
-await shot(page, lang, 'website/shell-card.png')
+await shot(page, lang, 'website/shell-card.png', { clip: '.col-lg-4 > .card-soft:not(.glance)' })
 
 await go(page, `/websites/${I.shop}/pengaturan`)
 await shot(page, lang, 'website/settings-general.png')

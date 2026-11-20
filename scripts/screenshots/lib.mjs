@@ -60,7 +60,9 @@ export async function launch() {
   const ctx = await browser.newContext({
     viewport: VIEWPORT,
     deviceScaleFactor: 2,
-    locale: 'en-US',
+    // Accept-Language ikut bahasa UI, seperti browser pembaca panduan itu.
+    // (Label blok toko di palet TIDAK ikut ini — ia ikut bahasa situs publik.)
+    locale: { id: 'id-ID', en: 'en-US', ar: 'ar' }[process.env.LANG_UI || 'id'] || 'en-US',
     colorScheme: 'light',
     reducedMotion: 'reduce',
   })

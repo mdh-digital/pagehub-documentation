@@ -3,15 +3,18 @@
  *
  * Ini satu-satunya bagian yang memanggil model sungguhan — layar yang difoto
  * memang layar proses generasi, jadi tidak bisa dipalsukan dengan data seed.
+ *
+ * Wizard-nya satu pertanyaan per layar. Kartu pertama selalu "Pilihkan saja"
+ * (`.cc.is-magic`); pilihan tunggal langsung maju, pilihan ganda menunggu
+ * tombol Lanjut. Semua dipilih lewat struktur/ikon, bukan label, jadi skrip
+ * yang sama jalan di tiap bahasa.
  */
 import { shot } from './lib.mjs'
 import { go, ids, openApp } from './app.mjs'
 
+const LANG = process.env.LANG_UI || 'id'
 const I = ids()
-const { browser, page, lang } = await openApp({
-  lang: process.env.LANG_UI || 'id',
-  workspace: I.workspaceClient,
-})
+const { browser, page, lang } = await openApp({ lang: LANG, workspace: I.workspaceClient })
 
 const failed = []
 const soft = async (name, fn) => {
@@ -23,73 +26,69 @@ const soft = async (name, fn) => {
   }
 }
 
+const IDEA = {
+  id: ['Kopi Rimba', 'Kedai kopi kecil di Lembang dengan biji dari petani sekitar. Kesannya hangat dan tenang, warna hijau tua dan kayu. Butuh hero dengan foto kedai, daftar menu, cerita asal biji kopi, jam buka, dan tombol pesan lewat WhatsApp.'],
+  en: ['Rimba Coffee', 'A small coffee bar in the hills, roasting beans from nearby farmers. Warm and calm, deep green and wood tones. Needs a hero with a photo of the bar, a menu, the story of where the beans come from, opening hours, and a WhatsApp order button.'],
+  ar: ['قهوة ريمبا', 'مقهى صغير في التلال يحمّص حبوبًا من المزارعين المجاورين. أجواء دافئة وهادئة بألوان الأخضر الداكن والخشب. نحتاج قسمًا رئيسيًا بصورة المقهى، وقائمة المشروبات، وقصة مصدر الحبوب، ومواعيد العمل، وزر طلب عبر واتساب.'],
+}[LANG]
+
+const next = page.locator('.wz-nav button:has(.ph-arrow-right), button:has(.ph-arrow-right)').last()
+const startBtn = page.locator('button:has(.ph-lightning)').last()
+
 await go(page, '/websites/build', { wait: 2500 })
 
 await soft('isi ide', async () => {
-  const inputs = page.locator('input[type="text"], input:not([type])')
-  await inputs.nth(0).fill('Kopi Rimba')
-  const addr = inputs.nth(1)
-  if (await addr.count()) await addr.fill('kopi-rimba-' + (process.env.LANG_UI || 'id'))
-  const area = page.locator('textarea').first()
-  await area.fill(
-    'Kedai kopi kecil di Lembang dengan biji dari petani sekitar. Kesannya hangat dan tenang, warna hijau tua dan kayu. Butuh hero dengan foto kedai, daftar menu, cerita asal biji kopi, jam buka, dan tombol pesan lewat WhatsApp.',
-  )
-  await page.waitForTimeout(600)
-})
-
-await soft('mulai', async () => {
-  // Layar ide bisa satu halaman atau dua, tergantung bahasa/versi. Jadi:
-  // maju terus lewat tombol "Lanjut/Next", isi kolom kosong yang menghalangi,
-  // sampai penanda layar pertanyaan muncul.
-  const PICK = /Pilihkan saja|Just decide|Decide for me|اختر عني|اختر لي/i
-  for (let i = 0; i < 6; i++) {
-    if (await page.locator('text=' + PICK).count()) break
-    const empty = page.locator('input[type="text"]:visible, input:not([type]):visible')
-    const n = await empty.count()
-    for (let k = 0; k < n; k++) {
-      const box = empty.nth(k)
-      if (!(await box.inputValue())) await box.fill('kopi-rimba-' + (process.env.LANG_UI || 'id')).catch(() => {})
-    }
-    const next = page.locator('button:visible', { hasText: /^\s*(Buat|Build|Create|Next|إنشاء|أنشئ|التالي|Lanjut|Mulai)\b/i }).last()
-    if (await next.count()) await next.click({ timeout: 10000 }).catch(() => {})
-    await page.waitForTimeout(4000)
-  }
-  await page.waitForSelector('text=' + PICK, { timeout: 240000 })
-  await page.waitForTimeout(2000)
+  await page.locator('.wz-form input').first().fill(IDEA[0])
+  await page.locator('.wz-form textarea').first().fill(IDEA[1])
+  await page.waitForTimeout(500)
+  await next.click()
+  // Pertanyaan dibuat model; tunggu kartu pilihan muncul.
+  await page.locator('.cc').first().waitFor({ state: 'visible', timeout: 240000 })
+  await page.waitForTimeout(1500)
 })
 
 await soft('ai/build-questions', async () => {
+  // Foto pertanyaan pertama yang kartunya bergambar (tema/warna), kalau ada
+  // dalam tiga langkah pertama; kalau tidak, pertanyaan pertama saja.
   await shot(page, lang, 'ai/build-questions.png')
   await shot(page, lang, 'getting-started/ai-build-questions.png')
 })
 
+let pictured = false
 await soft('jawab & rencana', async () => {
-  // Wizard satu-pertanyaan-per-layar. Pilihan tunggal langsung memajukan
-  // langkah; pertanyaan multi-pilih tidak — ia menunggu tombol lanjut. Karena
-  // itu tiap putaran memilih dulu, LALU mencari tombol lanjut kalau ada.
-  for (let step = 0; step < 14; step++) {
-    if (await page.locator('text=/Mulai bikin|Start build|ابدأ/i').count()) break
-
-    const pick = page.locator('text=/Pilihkan saja|Decide for me|اختر عني|قرّر عني/i').first()
-    if (await pick.count()) await pick.click({ timeout: 10000 }).catch(() => {})
-    await page.waitForTimeout(900)
-
-    const next = page.locator('button', { hasText: /Lanjut|buat rencana|Next|التالي/i }).last()
-    if (await next.count()) {
-      await next.click({ timeout: 8000 }).catch(() => {})
-      await page.waitForTimeout(1200)
+  for (let step = 0; step < 16; step++) {
+    if (await startBtn.isVisible().catch(() => false)) break
+    const cards = page.locator('.cc')
+    if (await cards.first().isVisible().catch(() => false)) {
+      if (!pictured && step > 0 && (await page.locator('.cc-art .mini').count()) > 0) {
+        await page.waitForTimeout(800)
+        await shot(page, lang, 'ai/build-questions.png')
+        await shot(page, lang, 'getting-started/ai-build-questions.png')
+        pictured = true
+      }
+      const magic = page.locator('.cc.is-magic').first()
+      await (await magic.count() ? magic : cards.first()).click({ timeout: 10000 }).catch(() => {})
+      await page.waitForTimeout(900)
+      if (await next.isVisible().catch(() => false)) await next.click().catch(() => {})
     }
-    await page.waitForTimeout(1600)
+    await page.waitForTimeout(2500)
   }
-  await page.waitForSelector('text=/Mulai bikin|Start build|ابدأ/i', { timeout: 300000 })
+  await startBtn.waitFor({ state: 'visible', timeout: 300000 })
   await page.waitForTimeout(2500)
   await shot(page, lang, 'ai/build-plan.png')
 })
 
 await soft('ai/build-progress', async () => {
-  await page.locator('text=/Mulai bikin|Start build|ابدأ/i').last().click()
+  await startBtn.click()
   await page.waitForTimeout(70000)
   await shot(page, lang, 'ai/build-progress.png')
+})
+
+// Cukup layar progresnya: build dibatalkan supaya tidak menghabiskan kredit
+// untuk website yang tidak dipakai panduan.
+await soft('batalkan build', async () => {
+  const { get, post } = await import('./api.mjs')
+  for (const j of (await get('/ai/build/jobs')) || []) await post(`/ai/build/jobs/${j.id}/cancel`)
 })
 
 await browser.close()

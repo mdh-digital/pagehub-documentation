@@ -3,7 +3,7 @@
 Panel **Blok** di sisi kiri editor berisi potongan halaman siap pakai. Ada dua sumber: blok bawaan, dan blok yang **diturunkan AI dari desain halamanmu sendiri**.
 
 <Shot src="/img/editor/blocks-panel.webp">
-Panel Blok di sisi kiri editor: bagian atas "Blok desain ini" dengan tombol "Sesuaikan desainku", lalu kelompok Dasar, Tata letak, dan Bagian siap pakai berisi kartu-kartu blok bergambar.
+Tab Blok di panel kanan editor (di sebelah tab Atribut): bagian "Blok simpananmu" berisi form dan blok toko (Produk unggulan, Produk terlaris, Satu produk, Tombol beli, dll.) dengan tombol "Susun ulang blok", lalu lipatan "Blok bawaan" berisi kelompok Tata letak dan seterusnya.
 </Shot>
 
 ## Blok bawaan
