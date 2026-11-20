@@ -46,6 +46,15 @@ Status berubah jadi **Menunggu verifikasi**. Admin memeriksanya secara manual.
 Kalau tampilan hargamu sedang dalam mata uang lain, halaman pembayaran tetap menuliskan **nominal Rupiah yang harus ditransfer** secara eksplisit. Transfer angka itu, bukan angka yang tampil di kartu paket.
 :::
 
+## Kode voucher
+
+Punya kode voucher, misalnya dari pembelian ebook atau promo? Pakai saat membeli paket:
+
+1. Di **Ringkasan**, ketik kodenya di kolom **Kode voucher**.
+2. Klik **Pakai**. Potongannya muncul sebagai baris tersendiri, dan total tagihan ikut turun.
+
+Voucher hanya berlaku untuk pembelian paket, tidak untuk kredit AI, storage, atau domain. Pembayaran kartu lewat Lemon Squeezy atau Polar menagih harga katalog, jadi tidak tersedia saat memakai voucher; bayar lewat transfer bank atau opsi lain yang tampil. Voucher yang menutup seluruh harga langsung mengaktifkan paketmu.
+
 ## Status transaksi
 
 | Status | Artinya |

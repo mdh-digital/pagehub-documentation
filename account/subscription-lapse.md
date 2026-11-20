@@ -1,74 +1,98 @@
+---
+description: 'Yang terjadi kalau masa coba atau langganan berakhir: masa tenggang, situs tidak tayang, lalu konten dihapus. Lengkap dengan tanggal pengingatnya.'
+---
+
 # Kalau langganan berhenti
 
-Halaman ini menjelaskan apa yang terjadi kalau langgananmu lewat tanggalnya tanpa diperpanjang — supaya nggak ada kejutan.
+Halaman ini menjelaskan apa yang terjadi kalau masa coba atau langgananmu lewat tanggalnya tanpa diperpanjang, supaya tidak ada kejutan.
 
-## Dua tahap
+## Ringkasnya
+
+**Paket berbayar yang tidak diperpanjang:**
 
 ```
-Periode habis  →  Masa tenggang 7 hari  →  Pembersihan
+Periode habis → 7 hari masa tenggang → situs tidak tayang → 30 hari → konten dihapus
 ```
 
-## Tahap 1: masa tenggang
+**Masa coba (trial) yang habis:**
 
-Begitu periode habis, akunmu **turun ke paket gratis** dan masuk masa tenggang selama **7 hari**.
+```
+Trial habis → situs langsung tidak tayang → 7 hari → konten dihapus
+```
 
-<Shot src="/img/account/grace-banner.webp">
-Spanduk peringatan di atas dashboard: "Langganan berakhir — akun turun ke paket Free, fitur edit dinonaktifkan", dengan hitungan hari tersisa, jumlah kelebihan website dan landing page, serta tombol Perpanjang, Kelola Website, dan Kelola Landing.
-</Shot>
+Bayar kapan saja **sebelum** konten dihapus, dan semuanya kembali persis seperti semula.
 
-Selama masa tenggang:
+## Pengingat lewat email
+
+| Kapan | Email |
+| --- | --- |
+| 3 hari dan 1 hari sebelum paket habis | Ajakan memperpanjang |
+| Saat masa tenggang mulai | Tanggal situs berhenti tayang dan tanggal konten dihapus |
+| Saat situs berhenti tayang | Tanggal konten dihapus |
+| 3 hari dan 1 hari sebelum konten dihapus | Peringatan terakhir |
+| Setelah konten dihapus | Apa yang dihapus dan apa yang disimpan |
+
+Email dikirim ke pemilik akun, dalam bahasa akunnya.
+
+## Masa tenggang (paket berbayar)
+
+Selama 7 hari setelah periode habis:
 
 | Tetap jalan | Berhenti |
 | --- | --- |
-| Situsmu **tetap tayang** | Mengedit dan membuat konten baru |
-| [Domain kustom](/website/custom-domain) **tetap melayani** | Fitur berbayar lainnya |
-| Kamu bisa melihat semuanya | |
+| Situs dan landing page **tetap tayang** | Mengedit dan membuat konten |
+| [Domain kustom](/website/custom-domain) tetap melayani | Fitur berbayar lain |
+| Billing, Bantuan, Saldo, dan Profil bisa dibuka | |
 
-Kamu juga dapat email pemberitahuan.
+Spanduk merah di atas aplikasi menyebut tanggal situs berhenti tayang dan tanggal konten dihapus.
 
-**Yang harus kamu lakukan:** perpanjang langganan, **atau** rapikan konten sampai muat di kuota paket gratis. Spanduknya menyebut angkanya secara eksplisit — misal *"kelebihan 3 website"* — dan menyediakan tombol langsung ke daftar website dan landing page.
+## Tidak tayang (Parked)
 
-## Tahap 2: pembersihan
+Setelah masa tenggang lewat, atau langsung setelah trial habis:
 
-Kalau 7 hari lewat tanpa perpanjangan:
+- Situs dan landing page **tidak bisa dibuka** pengunjung.
+- Mengedit tetap mati.
+- Menu konten (Websites, Landing Page, dan lainnya) mengarah ke Billing. **Billing, Bantuan, Saldo, dan Profil** tetap bisa dibuka, jadi kamu masih bisa membayar, bertanya, atau menarik saldo toko.
 
-- **Konten yang melebihi kuota gratis dihapus permanen.** Yang dipertahankan adalah yang **paling lama** dibuat, sisanya dihapus — urutan yang bisa diprediksi, bukan acak.
-- Akun **diaktifkan kembali di paket gratis**.
-- **Domain kustom berhenti melayani.** Situsmu tetap bisa dibuka lewat alamat platform.
-- Kamu dapat email pemberitahuan.
+<Shot src="/img/account/grace-banner.webp">
+Spanduk merah di atas aplikasi: "Situs kamu tidak tayang dan fitur edit dimatikan", tanggal konten akan dihapus beserta sisa harinya, dan tombol Perpanjang.
+</Shot>
+
+## Penghapusan
+
+Pada tanggal yang tertulis di spanduk dan email (30 hari setelah tidak tayang untuk paket berbayar, 7 hari untuk trial):
+
+| Dihapus | Disimpan |
+| --- | --- |
+| Website dan halamannya | Akun dan login |
+| Landing page | Riwayat tagihan |
+| Media di File Manager | Katalog dan pesanan toko |
+| Isian form di halaman yang dihapus | [Partner Store](/commerce/partner-store) beserta medianya |
 
 ::: warning Yang dihapus tidak bisa dikembalikan
-Kalau kamu ragu akan sempat memperpanjang, **[unduh ZIP](/website/settings)** situs-situsmu selama masa tenggang, atau simpan sebagai [template website](/website/website-templates) — template hidup terpisah dari website aslinya.
+Kalau ragu sempat memperpanjang, simpan situsmu sebagai [template website](/website/website-templates) atau unduh ZIP-nya dari [Pengaturan website](/website/settings) **sebelum** tanggal penghapusan.
 :::
 
-## Kalau kamu membayar di tengah masa tenggang
+## Membayar di tengah jalan
 
-Pembayaran yang masuk **langsung mengaktifkan kembali** akunmu dan membatalkan pembersihan. Kontenmu nggak akan terhapus setelah kamu membayar — pengaman untuk ini dipasang berlapis, termasuk untuk kasus pembayaran yang mendarat tepat saat pembersihan mulai berjalan.
+Pembayaran yang masuk sebelum penghapusan **langsung mengaktifkan kembali** akunmu: situs tayang lagi, edit kembali menyala, dan penghapusan dibatalkan. Pembayaran yang masuk tepat saat penghapusan mulai berjalan juga aman: kontenmu tidak akan terhapus setelah pembayaran tercatat.
 
-## Suspend manual oleh admin
+## Partner Store tidak ikut
 
-Akun yang di-suspend oleh administrator platform **tidak** ikut alur ini. Nggak ada penghitung mundur, dan nggak ada penghapusan otomatis.
+Toko yang dijadikan [Partner Store](/commerce/partner-store) tetap tayang dan tetap bisa diurus walaupun paketmu berakhir, dan tidak pernah ikut dihapus.
+
+Kamu juga bisa **membuat Partner Store baru** saat paket sudah berakhir, dari **Billing → Partner Store**.
 
 ## Paket lifetime
 
-Pemegang paket seumur hidup — termasuk pembeli [AppSumo](/account/appsumo) — **tidak pernah** kena alur ini. Paketnya nggak punya tanggal habis.
+Pemegang paket seumur hidup, termasuk pembeli [AppSumo](/account/appsumo), tidak pernah kena alur ini karena paketnya tidak punya tanggal habis.
 
-Pengecualiannya cuma refund: lisensi yang di-refund membawa akunnya turun ke Free lewat masa tenggang yang sama.
+Pengecualiannya refund. Kalau kamu menumpuk beberapa kode AppSumo dan satu di-refund, paketmu turun satu tingkat. Kalau kode terakhir di-refund, akunmu masuk alur paket berbayar di atas: 7 hari masa tenggang, lalu tidak tayang, lalu dihapus 30 hari kemudian.
+
+## Suspend manual oleh admin
+
+Akun yang di-suspend administrator platform tidak ikut alur ini. Tidak ada hitung mundur dan tidak ada penghapusan otomatis.
 
 ## Kredit AI
 
-Jatah kredit bulanan berhenti diisi begitu langganan nggak aktif. Kredit **top-up** yang sudah kamu beli tetap ada — dia nggak pernah hangus.
-
-## Ringkasan waktu
-
-| Waktu | Yang terjadi |
-| --- | --- |
-| Hari 0 | Periode habis. Turun ke Free, edit dimatikan, situs tetap tayang, email terkirim |
-| Hari 0–7 | Masa tenggang. Perpanjang, atau rapikan konten |
-| Hari 7 | Konten melebihi kuota dihapus (yang tertua dipertahankan), domain kustom berhenti, akun aktif di Free |
-
-## Mencegahnya
-
-- Perpanjang **sebelum** tanggal habis; perpanjangan menambah dari sisa periode, jadi nggak ada hari yang terbuang.
-- Perhatikan panel **Perlu perhatian** di dashboard dan email pengingat.
-- Kalau kamu butuh banyak website tapi nggak semuanya aktif, pertimbangkan menyimpan yang nganggur sebagai [template](/website/website-templates) lalu menghapus website-nya — template nggak memakan kuota website.
+Jatah kredit bulanan berhenti diisi saat langganan tidak aktif. Kredit yang kamu beli sendiri (top-up) tetap ada.

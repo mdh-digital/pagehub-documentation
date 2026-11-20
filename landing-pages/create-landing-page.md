@@ -54,7 +54,8 @@ Slug landing page unik di seluruh workspace.
 | Header & footer | Ada di halaman itu sendiri | Dari [shell](/website/header-footer) bersama |
 | Tema | Sendiri | Ikut theme global website |
 | Menu | Nggak ada | Menu website disuntikkan otomatis |
-| Blog & toko | Nggak bisa | Bisa |
+| Blog | Nggak bisa | Bisa |
+| Jualan produk | Bisa, lewat form checkout di halaman itu ([caranya](/commerce/sell-on-sites)) | Bisa, lewat halaman toko |
 | Kuota | Kuota **landing** | Kuota **website** |
 | Palet blok | Per halaman | Dipakai bersama satu website |
 
@@ -66,7 +67,7 @@ Buka satu landing page dari daftarnya:
 
 | Tab | Isinya |
 | --- | --- |
-| **Halaman** | Preview dan tombol edit |
+| **Ringkasan** | Preview, tombol edit, dan kartu **Produk di situs ini** untuk memilih produk yang dijual |
 | **Pengaturan** | Nama, alamat, tracking & pixel, hapus halaman |
 | **Leads** | Isian form dari halaman ini |
 | **Sharing** | Tautan preview read-only dan kolaborator |

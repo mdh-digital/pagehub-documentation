@@ -46,6 +46,15 @@ The status becomes **Awaiting verification**. An admin reviews it manually.
 If your price display is in another currency, the payment page still writes out the **Rupiah amount to transfer** explicitly. Transfer that number, not the one on the plan card.
 :::
 
+## Voucher code
+
+Have a voucher code, for example from an ebook purchase or a promotion? Use it when buying a plan:
+
+1. In the **Summary**, type the code into the **Voucher code** field.
+2. Click **Apply**. The discount shows as its own line and the total drops.
+
+Vouchers apply to plan purchases only, not to AI credits, storage or domains. Card payment through Lemon Squeezy or Polar charges the catalogue price, so it is not offered with a voucher; pay by bank transfer or another option shown. A voucher that covers the whole price activates your plan straight away.
+
 ## Transaction statuses
 
 | Status | Meaning |

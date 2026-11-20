@@ -45,7 +45,7 @@ In the editor a block appears as a marker. The real products show in the preview
 
 ## Store design
 
-**Commerce → Store design** sets the look of every card from one place.
+**Websites → (pick a website) → Commerce tab → Store design** sets the look of every card from one place.
 
 <Shot src="/img/commerce/shop-design.webp" wide>
 The Store design page: a Store style section with pickers for button colour, card background, image ratio, radius, spacing and shadow; below it the card library, each card previewed with the store's real products.

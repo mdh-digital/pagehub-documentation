@@ -22,28 +22,37 @@ hero:
       link: https://account.pagehub.id
 
 features:
-  - title: Website & landing page
-    details: Susun situs multi-halaman dengan header, footer, dan menu yang dipakai bersama — atau lepas satu landing page cepat buat kampanye.
+  - title: "Buat website"
+    details: "Website multi-halaman dengan header, footer, dan menu yang dipakai bersama. Mulai dari template, AI, atau halaman kosong."
     link: /website/create-website
-    linkText: Mulai bikin website
-  - title: Editor tiga mode
-    details: Visual buat nyeret dan ngatur, kode buat ngoprek HTML langsung, chat AI buat minta revisi pakai bahasa sehari-hari.
-    link: /editor/overview
-    linkText: Kenalan sama editor
-  - title: Toko online
-    details: Produk bervarian, harga grosir, keranjang, checkout, invoice cetak, sampai halaman invoice buat pembeli.
-    link: /commerce/overview
-    linkText: Buka modul toko
-  - title: Leads jadi pipeline
-    details: Isian form nggak berhenti di kotak masuk — masuk ke papan kanban dengan tahapan, catatan, dan penanggung jawab.
+    linkText: "Buat website"
+  - title: "Buat landing page"
+    details: "Satu halaman untuk satu penawaran, lengkap dengan form dan tombol beli. Bisa dari template, AI, atau tempel kode sendiri."
+    link: /landing-pages/create-landing-page
+    linkText: "Buat landing page"
+  - title: "Kelola produk"
+    details: "Katalog toko workspace: harga per varian, stok, gambar, harga grosir, dan produk digital dari Google Drive."
+    link: /commerce/products
+    linkText: "Kelola produk"
+  - title: "Kelola transaksi"
+    details: "Pesanan dari semua website dan landing page di satu tempat: pembayaran, ongkir, resi, dan invoice."
+    link: /commerce/orders
+    linkText: "Kelola transaksi"
+  - title: "Kelola blog & SEO"
+    details: "Nyalakan blog, tulis artikel, lalu atur judul, deskripsi, dan gambar share tiap halaman dan artikel."
+    link: /blog/enable-blog
+    linkText: "Kelola blog & SEO"
+  - title: "Kelola lead (CRM)"
+    details: "Isian form masuk ke papan kanban: tahapan, catatan, penanggung jawab, dan form builder."
     link: /leads/pipeline
-    linkText: Atur pipeline
-  - title: Laporan & SEO
-    details: Sepuluh laporan trafik, penjualan, dan pemakaian AI. Sitemap, robots, feed, dan data terstruktur dibikin otomatis.
-    link: /reports/overview
-    linkText: Lihat laporan
-  - title: Tim, workspace & brand
-    details: Pisahkan pekerjaan per klien, undang anggota dengan akses terbatas, dan ganti merek PageHub jadi merekmu sendiri.
-    link: /team/workspaces
-    linkText: Kelola tim
+    linkText: "Kelola lead"
 ---
+
+## Panduan lain yang sering dicari
+
+- [Partner Store](/commerce/partner-store) — toko gratis tanpa masa berlaku untuk merchant Indonesia
+- [Produk digital](/commerce/digital-products) — jual ebook atau template, berkas dari Google Drive
+- [Pembayaran online & saldo](/commerce/online-payments) — QRIS, VA, e-wallet, dan tarik saldo
+- [Ongkir & lacak resi](/commerce/shipping) — tarif kurir otomatis untuk toko di Indonesia
+- [Booking](/website/booking) — terima janji temu dari situsmu
+- [Kalau langganan berhenti](/account/subscription-lapse) — masa tenggang, situs tidak tayang, dan penghapusan

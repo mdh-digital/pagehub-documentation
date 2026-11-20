@@ -29,7 +29,7 @@ The cart lives in browser storage, which is separated **per site address**. Beca
 
 ## After checkout
 
-The order appears under **Commerce → Orders** with status **New** and payment **Unpaid**.
+The order appears under **Store → Orders** with status **New** and payment **Unpaid**.
 
 If [email notifications](/en/commerce/store-settings) are on, emails go to you and to the buyer.
 

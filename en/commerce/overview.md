@@ -1,63 +1,69 @@
+---
+description: 'A PageHub store belongs to the workspace: one catalogue and one order list, sold through any website or landing page in that workspace.'
+---
+
 # Store module overview
 
-The **Commerce** module turns a website into a store: a product catalogue, cart, checkout, orders, invoices, and follow-up on abandoned carts.
+A PageHub store **belongs to the workspace**, not to one website. A workspace has one catalogue, one order list and one list of abandoned carts. Each website and landing page in it simply **chooses which products to show**.
 
-A store belongs to **one website**. An organisation can run several stores at once — each with its own catalogue, currency and bank accounts.
+So if you run a store website and a few promo landing pages, they all sell from the same catalogue, and every order lands in one place.
 
-## Part of every plan
+## The Store menu in the sidebar
 
-The online store is **included in every plan**: one website, one store. There is no add-on to buy before you can sell; just switch the store on for that website.
+The **Store** group in the sidebar follows the active workspace (the workspace picker at the top of the sidebar).
 
-Plans differ on two limits only, counted **per workspace** (every store in that workspace added together):
+| Menu | What it holds | Guide |
+| --- | --- | --- |
+| **Products** | Catalogue: prices, variants, stock, images, digital products | [Products](/en/commerce/products) |
+| **Orders** | Orders, payments, shipping, invoices | [Orders](/en/commerce/orders) |
+| **Abandoned carts** | Buyers who started an order and did not finish | [Abandoned carts](/en/commerce/abandoned-carts) |
+| **Manage store** | Categories, master variants, business addresses, bank accounts, store settings, sales reports | [Store settings](/en/commerce/store-settings) |
 
-- **Number of products** — a hard limit. Once it is full, new products cannot be added.
-- **Orders per month** — a soft limit. Checkout is never refused; orders past the allowance still arrive and are marked **Over quota**.
+What stays on the website (the **Commerce** tab of a website): which products that site shows, the [storefront](/en/commerce/storefront), and the [product card design](/en/commerce/product-cards).
+
+## Included in every plan
+
+The store comes with every plan. Plans differ only in two limits, counted **per workspace**:
+
+- **Number of products** — a hard limit. Once full, no new products can be added.
+- **Orders per month** — a soft limit. Checkout is never refused; orders past the allowance still come in and are marked **Over quota**.
 
 <Shot src="/img/commerce/usage.webp">
-The store usage card in the Commerce hub: the workspace name, a "products" bar and an "orders this month" bar showing used and limit, and a link to add more room.
+The store usage card: the workspace name, a "products" bar and an "orders this month" bar with used and limit figures, and a link to add capacity.
 </Shot>
 
-Need more room in one workspace? Buy extra room under [Add-ons](/en/account/add-ons).
-
-## Module map
-
-| Menu | Contents | Guide |
-| --- | --- | --- |
-| **Product categories** | Catalogue grouping | [Categories & variants](/en/commerce/categories-and-variants) |
-| **Master variants** | Reusable option sets | [Categories & variants](/en/commerce/categories-and-variants) |
-| **Products** | The catalogue: prices, variants, images, wholesale | [Products](/en/commerce/products) |
-| **Orders** | Orders, status, payment, invoices | [Orders](/en/commerce/orders) |
-| **Abandoned cart** | People who started but didn't finish | [Abandoned carts](/en/commerce/abandoned-carts) |
-| **Business addresses** | Where orders ship from | [Store settings](/en/commerce/store-settings) |
-| **Bank accounts** | Where buyers transfer to | [Store settings](/en/commerce/store-settings) |
-| **Store settings** | Document identity, currency, email, gateway | [Store settings](/en/commerce/store-settings) |
-| **Storefront** | The public shop pages | [Storefront pages](/en/commerce/storefront) |
+Need more room? Buy extra capacity under [Add-ons](/en/account/add-ons). A store made a [Partner Store](/en/commerce/partner-store) has no product or order limit.
 
 ## A sensible order
 
-1. **[Store settings](/en/commerce/store-settings)** — currency first, before any price is typed.
-2. **[Business addresses](/en/commerce/store-settings)** and **[bank accounts](/en/commerce/store-settings)** — both are printed on documents.
-3. **[Categories](/en/commerce/categories-and-variants)** and master variants if your products have options.
-4. **[Products](/en/commerce/products)**.
-5. **[Storefront](/en/commerce/storefront)** — generate the shop pages.
-6. Test **[cart & checkout](/en/commerce/cart-and-checkout)** yourself before telling anyone.
+1. **[Store settings](/en/commerce/store-settings)** — the currency first, before any price is typed.
+2. **[Business address](/en/commerce/store-settings)** and **[bank accounts](/en/commerce/store-settings)** — both print on documents, and the address is used for [shipping rates](/en/commerce/shipping).
+3. **[Categories](/en/commerce/categories-and-variants)** and **master variants** if your products have options.
+4. **[Products](/en/commerce/products)** (physical or [digital](/en/commerce/digital-products)).
+5. **[Choose the products shown](/en/commerce/sell-on-sites)** on each website or landing page.
+6. **[Storefront](/en/commerce/storefront)** for websites.
+7. Test **[cart & checkout](/en/commerce/cart-and-checkout)** yourself before sharing.
 
-## Design choices worth knowing
+## Things worth knowing
 
-A few things here work deliberately differently from typical online stores. Knowing them up front saves confusion:
+**Prices always live on variants, not on the product.** Even a simple product has exactly one variant row, and its price is in the **Price & stock** section.
 
-**Prices always live on variants, not on the product.** Even a simple product has exactly one variant row. So if you're hunting for the price field on the product form, it's in the **Pricing & stock** section, per variant row.
+**Order lines keep a copy.** Item names and prices are copied when the order is created. Raise a price tomorrow and yesterday's order still shows the old one.
 
-**Order lines store a snapshot.** Item names, prices and details are copied when the order is created. Raise your prices tomorrow and yesterday's order still shows yesterday's price.
+**Every order records where it came from.** The order list has a **Source** column: which website, which landing page, or **Entered by staff**. When a workspace sells in more than one place, you can filter by site.
 
-**No automatic shipping rates.** No courier integration, no rate calculation, no region tables. Addresses, couriers and shipping costs are typed manually — because stores on PageHub are also meant for cross-border selling, where a domestic rate table would be wrong.
+**Automatic shipping rates are for Indonesia only.** Stores that ship from Indonesia can get courier rates and track waybills. Stores elsewhere type the shipping cost by hand. See [Shipping & tracking](/en/commerce/shipping).
 
-**Store currency is never converted.** Prices are stored exactly as typed. Changing the store currency only changes the label. This is different from the currency picker in the dashboard header, which does convert *PageHub subscription* prices.
+**The store currency is never converted.** Prices are stored exactly as typed. Changing the store currency only changes the label.
 
-**No customer registry.** Buyer details live on their orders. There's no separate "Customers" page.
+**There is no customer registry.** Buyer details live on their orders. There is no separate "Customers" page.
 
-## Opening and closing the store
+## How buyers pay
 
-The **Storefront** page has a **Shop open / Shop closed** switch. Turn it off and the generated pages are kept, but the store disappears from the site: the cart isn't in the menu, and the product, cart and checkout pages don't open.
+| Method | Where the money goes | Fee |
+| --- | --- | --- |
+| Transfer to the store's bank account | Straight to your account | Free |
+| QRIS, VA, e-wallet through PageHub | Into your **Balance**, which you withdraw | Service fee paid by the buyer |
+| Your own gateway (Stripe, PayPal and others) | Straight to your gateway account | Per the gateway |
 
-Useful while you're still building the catalogue, or during a long break.
+Details in [Online payments & balance](/en/commerce/online-payments).

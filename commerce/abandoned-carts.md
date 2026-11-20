@@ -4,7 +4,7 @@ description: 'Pengunjung yang mulai memesan tapi tidak menyelesaikannya — cara
 
 # Keranjang ditinggalkan
 
-**Commerce → Abandoned cart**. Pengunjung yang mulai memesan tapi nggak menyelesaikannya — daftar tindak lanjut, bukan sekadar statistik.
+**Toko → Abandoned Cart**. Pengunjung yang mulai memesan tapi nggak menyelesaikannya — daftar tindak lanjut, bukan sekadar statistik.
 
 <Shot src="/img/commerce/abandoned-carts.webp" wide>
 Halaman Abandoned cart: empat kartu statistik (terbuka, jadi order, gagal, nilai tertahan), lalu tabel dengan kolom Pengunjung, Halaman, Terisi, Nilai, PJ, dan Terakhir; filter status dan kotak pencarian di atas.

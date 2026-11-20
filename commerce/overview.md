@@ -1,63 +1,69 @@
+---
+description: 'Toko di PageHub milik workspace: satu katalog dan satu daftar pesanan, dijual lewat website atau landing page mana pun di workspace itu.'
+---
+
 # Mengenal modul toko
 
-Modul **Commerce** mengubah sebuah website jadi toko: katalog produk, keranjang, checkout, pesanan, invoice, dan tindak lanjut keranjang yang ditinggalkan.
+Toko di PageHub **milik workspace**, bukan milik satu website. Satu workspace punya satu katalog, satu daftar pesanan, dan satu daftar keranjang yang ditinggalkan. Website dan landing page di workspace itu tinggal **memilih produk mana yang mereka tampilkan**.
 
-Toko itu **milik satu website**. Satu organisasi bisa punya beberapa toko sekaligus — masing-masing dengan katalog, mata uang, dan rekening banknya sendiri.
+Jadi kalau kamu punya website toko dan beberapa landing page promo, semuanya menjual dari katalog yang sama, dan semua pesanannya masuk ke satu tempat.
 
-## Termasuk di semua paket
+## Menu Toko di sidebar
 
-Toko online **sudah termasuk di setiap paket**: satu website, satu toko. Tidak ada add-on yang perlu dibeli untuk mulai berjualan; cukup nyalakan toko di website itu.
-
-Yang dibedakan paket hanya dua batas, dihitung **per workspace** (semua toko di workspace itu dijumlah):
-
-- **Jumlah produk** — batas keras. Setelah penuh, produk baru tidak bisa ditambahkan.
-- **Pesanan per bulan** — batas lunak. Checkout tidak pernah ditolak; pesanan yang melewati jatah tetap masuk dan ditandai **Melebihi kuota**.
-
-<Shot src="/img/commerce/usage.webp">
-Kartu pemakaian toko di hub Commerce: nama workspace, bilah "produk" dan bilah "pesanan bulan ini" dengan angka terpakai dan batasnya, serta tautan untuk menambah kapasitas.
-</Shot>
-
-Butuh ruang lebih di satu workspace? Beli kapasitas tambahan di [Add-on](/account/add-ons).
-
-## Peta modul
+Grup **Toko** di sidebar mengikuti workspace yang sedang aktif (pemilih workspace di atas sidebar).
 
 | Menu | Isinya | Panduan |
 | --- | --- | --- |
-| **Kategori produk** | Pengelompokan katalog | [Kategori & varian](/commerce/categories-and-variants) |
-| **Master variants** | Set pilihan yang bisa dipakai ulang | [Kategori & varian](/commerce/categories-and-variants) |
-| **Master produk** | Katalog: harga, varian, gambar, grosir | [Produk](/commerce/products) |
-| **Transaksi** | Pesanan, status, pembayaran, invoice | [Transaksi](/commerce/orders) |
-| **Abandoned cart** | Yang mulai pesan tapi nggak selesai | [Keranjang ditinggalkan](/commerce/abandoned-carts) |
-| **Alamat bisnis** | Tempat pesanan dikirim dari | [Pengaturan toko](/commerce/store-settings) |
-| **Rekening bank** | Tujuan transfer pembeli | [Pengaturan toko](/commerce/store-settings) |
-| **Pengaturan toko** | Identitas dokumen, mata uang, email, gateway | [Pengaturan toko](/commerce/store-settings) |
-| **Halaman toko** | Storefront publik | [Halaman toko](/commerce/storefront) |
+| **Produk** | Katalog: harga, varian, stok, gambar, produk digital | [Produk](/commerce/products) |
+| **Transaksi** | Pesanan, pembayaran, pengiriman, invoice | [Transaksi](/commerce/orders) |
+| **Abandoned Cart** | Pembeli yang mulai pesan tapi tidak selesai | [Keranjang ditinggalkan](/commerce/abandoned-carts) |
+| **Kelola toko** | Kategori, master variants, alamat bisnis, rekening bank, pengaturan toko, laporan penjualan | [Pengaturan toko](/commerce/store-settings) |
+
+Yang tetap ada di website (tab **Commerce** di halaman website): pilihan produk yang ditampilkan situs itu, [halaman toko](/commerce/storefront), dan [desain kartu produk](/commerce/product-cards).
+
+## Termasuk di semua paket
+
+Toko sudah termasuk di setiap paket. Yang dibedakan paket hanya dua batas, dihitung **per workspace**:
+
+- **Jumlah produk** — batas keras. Setelah penuh, produk baru tidak bisa ditambahkan.
+- **Pesanan per bulan** — batas lunak. Checkout tidak pernah ditolak; pesanan yang lewat jatah tetap masuk dan ditandai **Melebihi kuota**.
+
+<Shot src="/img/commerce/usage.webp">
+Kartu pemakaian toko: nama workspace, bilah "produk" dan bilah "pesanan bulan ini" dengan angka terpakai dan batasnya, serta tautan untuk menambah kapasitas.
+</Shot>
+
+Butuh ruang lebih? Beli kapasitas tambahan di [Add-on](/account/add-ons). Toko yang dijadikan [Partner Store](/commerce/partner-store) tidak dibatasi produk maupun pesanan.
 
 ## Urutan yang masuk akal
 
 1. **[Pengaturan toko](/commerce/store-settings)** — mata uang dulu, sebelum ada harga yang diketik.
-2. **[Alamat bisnis](/commerce/store-settings)** dan **[rekening bank](/commerce/store-settings)** — keduanya tercetak di dokumen.
+2. **[Alamat bisnis](/commerce/store-settings)** dan **[rekening bank](/commerce/store-settings)** — keduanya tercetak di dokumen, dan alamat dipakai untuk [cek ongkir](/commerce/shipping).
 3. **[Kategori](/commerce/categories-and-variants)** dan **master varian** kalau produkmu punya pilihan.
-4. **[Produk](/commerce/products)**.
-5. **[Halaman toko](/commerce/storefront)** — generate storefront-nya.
-6. Uji **[keranjang & checkout](/commerce/cart-and-checkout)** sendiri sebelum disebar.
+4. **[Produk](/commerce/products)** (fisik atau [digital](/commerce/digital-products)).
+5. **[Pilih produk yang tampil](/commerce/sell-on-sites)** di tiap website atau landing page.
+6. **[Halaman toko](/commerce/storefront)** untuk website.
+7. Uji **[keranjang & checkout](/commerce/cart-and-checkout)** sendiri sebelum disebar.
 
-## Pilihan desain yang perlu kamu tahu
+## Hal yang perlu kamu tahu
 
-Beberapa hal di PageHub sengaja dibuat berbeda dari toko online kebanyakan. Mengetahuinya di depan menghemat kebingungan:
+**Harga selalu ada di varian, bukan di produk.** Produk sederhana pun punya tepat satu baris varian, dan harganya ada di bagian **Harga & stok**.
 
-**Harga selalu ada di varian, bukan di produk.** Produk sederhana pun punya tepat satu baris varian. Konsekuensinya: kalau kamu mencari kolom harga di form produk, dia ada di bagian **Harga & stok**, per baris varian.
+**Baris pesanan menyimpan salinan.** Nama dan harga item disalin saat pesanan dibuat. Harga dinaikkan besok, pesanan kemarin tetap menunjukkan harga waktu itu.
 
-**Baris pesanan menyimpan salinan.** Nama, harga, dan detail item disalin saat pesanan dibuat. Kamu naikkan harga besok, pesanan kemarin tetap menunjukkan harga waktu itu.
+**Tiap pesanan mencatat asalnya.** Daftar transaksi punya kolom **Asal**: website mana, landing page mana, atau **Diinput staf**. Kalau workspace punya lebih dari satu tempat jualan, kamu bisa menyaring per situs.
 
-**Nggak ada ongkir otomatis.** Nggak ada integrasi kurir, nggak ada hitung ongkir, nggak ada tabel wilayah. Alamat, kurir, dan ongkir diketik manual — karena toko di PageHub ditujukan juga untuk penjualan lintas negara, di mana tabel ongkir domestik justru salah.
+**Ongkir otomatis hanya untuk Indonesia.** Toko yang mengirim dari Indonesia bisa menghitung ongkir dan melacak resi lewat kurir. Toko di negara lain mengisi ongkir manual. Lihat [Ongkir & lacak resi](/commerce/shipping).
 
-**Mata uang toko nggak pernah dikonversi.** Harga disimpan persis seperti yang kamu ketik. Mengganti mata uang toko cuma mengganti labelnya. Ini berbeda dari pemilih mata uang di header dashboard, yang memang mengonversi harga *langganan PageHub*.
+**Mata uang toko tidak pernah dikonversi.** Harga disimpan persis seperti yang kamu ketik. Mengganti mata uang toko hanya mengganti labelnya.
 
-**Nggak ada registri pelanggan.** Data pembeli tersimpan di pesanannya. Nggak ada halaman "Pelanggan" terpisah.
+**Tidak ada registri pelanggan.** Data pembeli tersimpan di pesanannya. Tidak ada halaman "Pelanggan" terpisah.
 
-## Membuka dan menutup toko
+## Cara pembeli membayar
 
-Di **Halaman toko** ada sakelar **Toko aktif / Toko nonaktif**. Kalau dimatikan, halaman yang sudah dibuat tetap tersimpan, tapi toko hilang dari situs: keranjang nggak muncul di menu, dan halaman produk, keranjang, serta checkout nggak bisa dibuka.
+| Cara bayar | Uang ke mana | Biaya |
+| --- | --- | --- |
+| Transfer ke rekening toko | Langsung ke rekeningmu | Gratis |
+| QRIS, VA, e-wallet lewat PageHub | Masuk ke **Saldo**, lalu kamu tarik | Biaya layanan ditanggung pembeli |
+| Gateway milikmu sendiri (Stripe, PayPal, dan lainnya) | Langsung ke akun gateway-mu | Sesuai gateway |
 
-Berguna waktu kamu sedang menyiapkan katalog, atau saat libur panjang.
+Detailnya di [Pembayaran online & saldo](/commerce/online-payments).

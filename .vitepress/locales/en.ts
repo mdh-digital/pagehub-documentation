@@ -33,6 +33,7 @@ const labels: Labels = {
     'website/navigation-menu': 'Navigation menu',
     'website/tracking': 'Tracking & pixels',
     'website/custom-domain': 'Custom domain',
+    'website/booking': 'Booking (appointments)',
     'website/website-templates': 'Website templates',
 
     'editor/overview': 'Editor basics',
@@ -57,14 +58,19 @@ const labels: Labels = {
     'blog/write-articles': 'Writing articles',
 
     'commerce/overview': 'Store module overview',
+    'commerce/sell-on-sites': 'Selling on websites & landing pages',
     'commerce/store-settings': 'Store settings',
     'commerce/categories-and-variants': 'Categories & variants',
     'commerce/products': 'Products',
+    'commerce/digital-products': 'Digital products',
     'commerce/storefront': 'Storefront pages',
     'commerce/product-cards': 'Product cards & store blocks',
     'commerce/cart-and-checkout': 'Cart & checkout',
     'commerce/orders': 'Orders',
+    'commerce/shipping': 'Shipping & tracking',
     'commerce/payments-and-invoices': 'Payments & invoices',
+    'commerce/online-payments': 'Online payments & balance',
+    'commerce/partner-store': 'Partner Store',
     'commerce/public-invoice': 'Public invoice',
     'commerce/abandoned-carts': 'Abandoned carts',
 

@@ -4,7 +4,7 @@ Semua yang bukan katalog dan bukan pesanan: identitas di dokumen, mata uang, ala
 
 ## Pengaturan toko
 
-**Commerce → Pengaturan toko**.
+**Toko → Kelola toko → Pengaturan toko**.
 
 <Shot src="/img/commerce/store-settings.webp">
 Halaman Pengaturan toko: bagian Identitas (nama outlet, telepon, email, logo, logo invoice), bagian Mata uang, bagian Dokumen (tempo pembayaran, catatan invoice, peringatan surat jalan, footer dokumen), dan bagian Pembayaran dengan sakelar transfer bank manual.
@@ -16,7 +16,7 @@ Tercetak di kepala tiap invoice, struk, dan surat jalan.
 
 | Kolom | Keterangan |
 | --- | --- |
-| **Nama outlet** | Kalau dikosongkan, dokumen memakai nama website |
+| **Nama outlet** | Kalau dikosongkan, dokumen memakai nama website atau landing page tempat pesanan dibuat |
 | **Telepon**, **Email** | Kontak yang dicetak |
 | **Logo** | Logo toko |
 | **Logo invoice** | Khusus cetak. Kosong berarti ikut logo utama |
@@ -40,11 +40,13 @@ Harga disimpan persis seperti yang kamu ketik — mengganti mata uang cuma mengg
 
 ### Pembayaran
 
-**Transfer bank manual** aktif secara bawaan begitu commerce dinyalakan: pembeli transfer ke salah satu rekeningmu, lalu kamu konfirmasi. Bisa dimatikan kalau kamu cuma mau menerima pembayaran lewat gateway.
+**Transfer bank manual** aktif secara bawaan: pembeli transfer ke salah satu rekeningmu, lalu kamu konfirmasi. Bisa dimatikan kalau kamu cuma mau menerima pembayaran lewat gateway.
+
+**Bayar online (QRIS, VA, e-wallet)** lewat gateway PageHub bisa dinyalakan di sini setelah identitasmu diverifikasi. Uangnya masuk ke menu **Saldo**. Lihat [Pembayaran online & saldo](/commerce/online-payments).
 
 ## Alamat bisnis
 
-**Commerce → Alamat bisnis** — tempat pesanan dikirim **dari**.
+**Toko → Kelola toko → Alamat bisnis** — tempat pesanan dikirim **dari**.
 
 | Kolom | Keterangan |
 | --- | --- |
@@ -58,7 +60,7 @@ Alamat asal di sebuah pesanan bisa diubah — perubahannya cuma berlaku untuk pe
 
 ## Rekening bank
 
-**Commerce → Rekening bank** — tujuan transfer pembeli.
+**Toko → Kelola toko → Rekening bank** — tujuan transfer pembeli.
 
 <Shot src="/img/commerce/bank-accounts.webp">
 Halaman Rekening bank: daftar kartu rekening berisi nama bank, atas nama, nomor rekening dengan tombol salin, dan penanda "Utama" pada salah satunya.
@@ -81,7 +83,7 @@ Rekening di sini adalah **rekening kamu** untuk menerima pembayaran pembeli. Rek
 
 ## Notifikasi email
 
-**Commerce → Pengaturan toko → Notifikasi email**. Email pesanan dikirim dari **SMTP milikmu sendiri**, dan **mati secara bawaan** — nggak ada email terkirim sampai kamu menyalakannya.
+**Toko → Kelola toko → Pengaturan toko → Notifikasi email**. Email pesanan dikirim dari **SMTP milikmu sendiri**, dan **mati secara bawaan** — nggak ada email terkirim sampai kamu menyalakannya.
 
 Isi host, port, username, password, email & nama pengirim, enkripsi, plus **email notifikasi kamu** (ke sini notifikasi pemilik dikirim).
 
@@ -105,7 +107,7 @@ Event yang bisa dinyalakan satu per satu:
 
 ## Payment gateway
 
-**Commerce → Pengaturan toko → Payment gateway**. Hubungkan akun gateway **milikmu sendiri** supaya pembeli membayar langsung ke kamu. Transfer bank manual tetap tersedia berdampingan.
+**Toko → Kelola toko → Pengaturan toko → Payment gateway**. Hubungkan akun gateway **milikmu sendiri** (Stripe, PayPal, Razorpay, Paystack, Flutterwave, atau Mollie) supaya pembeli membayar langsung ke kamu. Untuk QRIS, VA, dan e-wallet Indonesia, pakai [gateway PageHub](/commerce/online-payments). Transfer bank manual tetap tersedia berdampingan.
 
 Isi kredensial gateway, pilih **Mode** (Sandbox untuk uji, Live untuk sungguhan), lalu **daftarkan URL webhook** yang ditampilkan di dashboard gateway-mu.
 

@@ -54,7 +54,8 @@ Landing page slugs are unique across a workspace.
 | Header & footer | On the page itself | From the shared [shell](/en/website/header-footer) |
 | Theme | Its own | The website's global theme |
 | Menu | None | The website menu is injected |
-| Blog & store | Not available | Available |
+| Blog | Not available | Available |
+| Selling products | Yes, through a checkout form on the page itself ([how](/en/commerce/sell-on-sites)) | Yes, through the storefront |
 | Quota | **Landing** quota | **Website** quota |
 | Block palette | Per page | Shared across a website |
 
@@ -66,7 +67,7 @@ Open a landing page from the list:
 
 | Tab | Contents |
 | --- | --- |
-| **Page** | Preview and the edit button |
+| **Overview** | Preview, the edit button, and the **Products on this site** card for choosing what the page sells |
 | **Settings** | Name, address, tracking & pixels, delete |
 | **Leads** | Form submissions from this page |
 | **Sharing** | Read-only preview link and collaborators |

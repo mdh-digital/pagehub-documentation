@@ -1,74 +1,98 @@
-# When a subscription lapses
+---
+description: 'What happens when a trial or subscription ends unrenewed: a grace period, sites going offline, then content deleted. With every reminder date.'
+---
 
-This page explains what happens if your subscription passes its date without being renewed — so nothing comes as a surprise.
+# When a subscription stops
 
-## Two stages
+This page explains what happens when your trial or subscription passes its end date without being renewed, so nothing comes as a surprise.
+
+## In short
+
+**A paid plan that is not renewed:**
 
 ```
-Period ends  →  7-day grace period  →  Cleanup
+Period ends → 7-day grace period → sites go offline → 30 days → content deleted
 ```
 
-## Stage 1: the grace period
+**A trial that runs out:**
 
-As soon as the period ends, your account **drops to the free plan** and enters a **7-day** grace period.
+```
+Trial ends → sites go offline at once → 7 days → content deleted
+```
+
+Pay at any time **before** the content is deleted and everything comes back exactly as it was.
+
+## Email reminders
+
+| When | Email |
+| --- | --- |
+| 3 days and 1 day before the plan ends | A reminder to renew |
+| When the grace period starts | The date sites go offline and the date content is deleted |
+| When sites go offline | The date content is deleted |
+| 3 days and 1 day before deletion | A final warning |
+| After deletion | What was deleted and what was kept |
+
+Emails go to the account owner, in the account's language.
+
+## Grace period (paid plans)
+
+For 7 days after the period ends:
+
+| Keeps working | Stops |
+| --- | --- |
+| Sites and landing pages **stay live** | Editing and creating content |
+| [Custom domains](/en/website/custom-domain) keep serving | Other paid features |
+| Billing, Support, Balance and Profile can be opened | |
+
+A red banner at the top of the app shows the date sites go offline and the date content is deleted.
+
+## Offline (Parked)
+
+After the grace period, or straight after a trial ends:
+
+- Sites and landing pages **cannot be opened** by visitors.
+- Editing stays off.
+- Content menus (Websites, Landing Pages and the rest) lead to Billing. **Billing, Support, Balance and Profile** can still be opened, so you can still pay, ask for help, or withdraw your store balance.
 
 <Shot src="/img/account/grace-banner.webp">
-A warning banner above the dashboard: "Subscription ended — account dropped to the Free plan, editing disabled", with a countdown of days remaining, the number of excess websites and landing pages, and Renew, Manage Websites and Manage Landing buttons.
+The red banner at the top of the app: your sites are offline and editing is switched off, the date content will be deleted with the days left, and a Renew button.
 </Shot>
 
-During the grace period:
+## Deletion
 
-| Still works | Stopped |
+On the date shown in the banner and emails (30 days after going offline on a paid plan, 7 days on a trial):
+
+| Deleted | Kept |
 | --- | --- |
-| Your sites **stay live** | Editing and creating content |
-| [Custom domains](/en/website/custom-domain) **keep serving** | Other paid features |
-| You can see everything | |
+| Websites and their pages | Your account and login |
+| Landing pages | Billing history |
+| Media in the File Manager | Store catalogue and orders |
+| Form entries on deleted pages | [Partner Stores](/en/commerce/partner-store) and their media |
 
-You also get a notification email.
-
-**What you need to do:** renew the subscription, **or** trim your content down to fit the free plan's quota. The banner names the figures explicitly — e.g. *"3 websites over the limit"* — and gives you buttons straight to the website and landing page lists.
-
-## Stage 2: cleanup
-
-If seven days pass without renewal:
-
-- **Content over the free quota is permanently deleted.** The **oldest** items are kept and the rest removed — a predictable order, not a random one.
-- The account is **reactivated on the free plan**.
-- **Custom domains stop serving.** Your site is still reachable at the platform address.
-- You get a notification email.
-
-::: warning What's deleted can't be recovered
-If you're unsure you'll manage to renew in time, **[download a ZIP](/en/website/settings)** of your sites during the grace period, or save them as [website templates](/en/website/website-templates) — templates live independently of the original website.
+::: warning Deleted content cannot be restored
+If you are not sure you will renew in time, save your site as a [website template](/en/website/website-templates) or download its ZIP from [Website settings](/en/website/settings) **before** the deletion date.
 :::
 
-## If you pay during the grace period
+## Paying midway
 
-A payment that arrives **immediately reactivates** your account and calls off the cleanup. Your content will not be deleted after you've paid — the safeguards for this are layered, including for a payment that lands exactly as cleanup begins.
+A payment that arrives before deletion **reactivates** your account at once: sites go live again, editing comes back, and the deletion is cancelled. A payment that lands just as deletion starts is also safe: your content is not deleted once the payment is recorded.
 
-## Manual suspension by an admin
+## Partner Stores are exempt
 
-Accounts suspended by a platform administrator do **not** enter this flow. There's no countdown and no automatic deletion.
+A store made a [Partner Store](/en/commerce/partner-store) stays live and can still be managed when your plan ends, and is never deleted with the rest.
+
+You can also **create a new Partner Store** after your plan has ended, from **Billing → Partner Store**.
 
 ## Lifetime plans
 
-Lifetime plan holders — including [AppSumo](/en/account/appsumo) buyers — are **never** subject to this flow. Their plan has no expiry date.
+Holders of a lifetime plan, including [AppSumo](/en/account/appsumo) buyers, never go through this flow because the plan has no end date.
 
-The one exception is a refund: a refunded licence takes the account down to Free through the same grace period.
+The exception is a refund. If you stacked several AppSumo codes and one is refunded, your plan steps down one tier. If the last code is refunded, the account enters the paid-plan flow above: 7 days of grace, then offline, then deletion 30 days later.
+
+## Manual suspension by an admin
+
+An account suspended by the platform administrator is outside this flow. There is no countdown and no automatic deletion.
 
 ## AI credits
 
-The monthly credit allowance stops being topped up once the subscription is inactive. **Top-up** credits you've bought remain — they never expire.
-
-## Timeline summary
-
-| Time | What happens |
-| --- | --- |
-| Day 0 | Period ends. Drop to Free, editing disabled, sites stay live, email sent |
-| Days 0–7 | Grace period. Renew, or trim content |
-| Day 7 | Content over quota deleted (oldest kept), custom domains stop, account active on Free |
-
-## Avoiding it
-
-- Renew **before** the expiry date; renewal extends from the remaining period, so no days are wasted.
-- Watch the **Needs attention** panel on the dashboard and the reminder emails.
-- If you need many websites but not all of them active, consider saving idle ones as [templates](/en/website/website-templates) and deleting the websites — templates don't consume website quota.
+The monthly credit allowance stops refilling while the subscription is inactive. Credits you bought yourself (top-ups) stay.

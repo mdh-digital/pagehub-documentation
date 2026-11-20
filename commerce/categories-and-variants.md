@@ -4,7 +4,7 @@ Dua daftar induk yang dipakai berulang oleh produk-produkmu.
 
 ## Kategori produk
 
-**Commerce → Kategori produk**. Pengelompokan yang muncul di katalog dan jadi filter di [halaman toko](/commerce/storefront).
+**Toko → Kelola toko → Kategori produk**. Pengelompokan yang muncul di katalog dan jadi filter di [halaman toko](/commerce/storefront).
 
 <Shot src="/img/commerce/categories.webp">
 Halaman Kategori produk: tabel berisi kolom Ikon, Nama, dan jumlah Produk; tombol "Tambah kategori" di kanan atas dan kotak pencarian.
@@ -21,7 +21,7 @@ Tiap kategori punya slug sendiri yang dipakai di URL filter halaman toko.
 
 ## Master variants
 
-**Commerce → Master variants**. Set pilihan yang bisa dipakai ulang di produk mana pun: Warna, Ukuran, Rasa, Durasi.
+**Toko → Kelola toko → Master variants**. Set pilihan yang bisa dipakai ulang di produk mana pun: Warna, Ukuran, Rasa, Durasi.
 
 <Shot src="/img/commerce/variants.webp">
 Halaman Master variants: daftar varian dengan nama (Warna, Ukuran) dan chip-chip pilihan di bawahnya (Merah, Biru, Hitam), plus jumlahnya.

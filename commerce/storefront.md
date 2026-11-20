@@ -12,7 +12,7 @@ Tampilan bawaan itu dipakai selama sebuah template belum punya versi sendiri. Be
 
 ## Membuat halaman toko
 
-**Commerce → Halaman toko** → **Buat halaman toko**.
+**Websites → (pilih website) → tab Commerce → Halaman toko** → **Buat halaman toko**.
 
 <Shot src="/img/commerce/storefront.webp">
 Halaman "Halaman toko": daftar template (Halaman toko, Halaman produk, Keranjang, Checkout, Strip produk) masing-masing dengan status, tombol "Susun ulang halaman toko", sakelar "Toko aktif", dan centang "Tampilkan keranjang di menu situs".

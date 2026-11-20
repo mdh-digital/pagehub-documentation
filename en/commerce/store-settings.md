@@ -4,7 +4,7 @@ Everything that isn't the catalogue and isn't an order: document identity, curre
 
 ## Store settings
 
-**Commerce → Store settings**.
+**Store → Manage store → Store settings**.
 
 <Shot src="/img/commerce/store-settings.webp">
 The Store settings page: an Identity section (outlet name, phone, email, logo, invoice logo), a Currency section, a Documents section (payment terms, invoice note, delivery note warning, document footer), and a Payments section with a manual bank transfer switch.
@@ -16,7 +16,7 @@ Printed at the head of every invoice, receipt and delivery note.
 
 | Field | Notes |
 | --- | --- |
-| **Outlet name** | If left blank, documents use the website name |
+| **Outlet name** | If left blank, documents use the name of the website or landing page the order came from |
 | **Phone**, **Email** | The contact details printed |
 | **Logo** | The store logo |
 | **Invoice logo** | Print only. Empty means it follows the main logo |
@@ -42,9 +42,11 @@ Prices are stored exactly as typed — changing the currency only swaps the labe
 
 **Manual bank transfer** is on by default once commerce is enabled: the buyer transfers to one of your accounts and you confirm it. You can turn it off if you only want gateway payments.
 
+**Pay online (QRIS, VA, e-wallet)** through the PageHub gateway can be switched on here once your identity is verified. The money goes into the **Balance** menu. See [Online payments & balance](/en/commerce/online-payments).
+
 ## Business addresses
 
-**Commerce → Business addresses** — where orders ship **from**.
+**Store → Manage store → Business addresses** — where orders ship **from**.
 
 | Field | Notes |
 | --- | --- |
@@ -58,7 +60,7 @@ An order's origin address can be edited — the change applies to that order onl
 
 ## Bank accounts
 
-**Commerce → Bank accounts** — where buyers transfer to.
+**Store → Manage store → Bank accounts** — where buyers transfer to.
 
 <Shot src="/img/commerce/bank-accounts.webp">
 The Bank accounts page: account cards with the bank name, account holder, account number with a copy button, and a "Primary" marker on one of them.
@@ -81,7 +83,7 @@ The accounts here are **yours**, for receiving buyer payments. The accounts used
 
 ## Email notifications
 
-**Commerce → Store settings → Email notifications**. Order emails are sent from **your own SMTP** and are **off by default** — nothing is sent until you switch it on.
+**Store → Manage store → Store settings → Email notifications**. Order emails are sent from **your own SMTP** and are **off by default** — nothing is sent until you switch it on.
 
 Fill in host, port, username, password, sender email and name, encryption, plus **your notification email** (where owner notifications go).
 
@@ -105,7 +107,7 @@ Events you can switch on individually:
 
 ## Payment gateway
 
-**Commerce → Store settings → Payment gateway**. Connect **your own** gateway account so buyers pay you directly. Manual bank transfer remains available alongside it.
+**Store → Manage store → Store settings → Payment gateway**. Connect **your own** gateway account (Stripe, PayPal, Razorpay, Paystack, Flutterwave or Mollie) so buyers pay you directly. For Indonesian QRIS, VA and e-wallets, use the [PageHub gateway](/en/commerce/online-payments). Manual bank transfer remains available alongside it.
 
 Enter your gateway credentials, choose a **Mode** (Sandbox for testing, Live for real), then **register the webhook URL** shown here in your gateway dashboard.
 

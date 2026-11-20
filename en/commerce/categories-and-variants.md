@@ -4,7 +4,7 @@ Two master lists your products reuse.
 
 ## Product categories
 
-**Commerce → Product categories**. The grouping shown in the catalogue and used as filters on the [storefront](/en/commerce/storefront).
+**Store → Manage store → Product categories**. The grouping shown in the catalogue and used as filters on the [storefront](/en/commerce/storefront).
 
 <Shot src="/img/commerce/categories.webp">
 The Product categories page: a table with Icon, Name and product-count columns; a "New category" button in the top right and a search box.
@@ -21,7 +21,7 @@ Each category has its own slug, used in storefront filter URLs.
 
 ## Master variants
 
-**Commerce → Master variants**. Reusable option sets you can apply to any product: Colour, Size, Flavour, Duration.
+**Store → Manage store → Master variants**. Reusable option sets you can apply to any product: Colour, Size, Flavour, Duration.
 
 <Shot src="/img/commerce/variants.webp">
 The Master variants page: a list of variants with names (Colour, Size) and their option chips beneath (Red, Blue, Black), plus a count.

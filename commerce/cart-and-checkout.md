@@ -29,7 +29,7 @@ Keranjang disimpan di penyimpanan browser, yang dipisahkan **per alamat situs**.
 
 ## Setelah checkout
 
-Pesanan muncul di **Commerce → Transaksi** dengan status **Baru** dan pembayaran **Belum bayar**.
+Pesanan muncul di **Toko → Transaksi** dengan status **Baru** dan pembayaran **Belum bayar**.
 
 Kalau [notifikasi email](/commerce/store-settings) aktif, email terkirim ke kamu dan ke pembeli.
 

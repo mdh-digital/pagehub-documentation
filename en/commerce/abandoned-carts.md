@@ -4,7 +4,7 @@ description: 'Visitors who started ordering but never finished: how the data arr
 
 # Abandoned carts
 
-**Commerce → Abandoned cart**. Visitors who started ordering but never finished — a follow-up list, not just a statistic.
+**Store → Abandoned carts**. Visitors who started ordering but never finished — a follow-up list, not just a statistic.
 
 <Shot src="/img/commerce/abandoned-carts.webp" wide>
 The Abandoned cart page: four stat cards (open, converted, lost, value held), then a table with Visitor, Page, Filled, Value, Owner and Last seen columns; status filter and search box above.

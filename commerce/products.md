@@ -4,7 +4,7 @@ description: 'Mengisi katalog toko: kenapa harga selalu ada di varian, membuat k
 
 # Produk
 
-**Commerce → Master produk**. Katalog toko: harga, varian, gambar, dan harga grosir bertingkat.
+**Toko → Produk**. Katalog toko workspace: harga, varian, gambar, dan harga grosir bertingkat. Produk yang kamu buat di sini bisa dijual di website atau landing page mana pun di workspace yang sama; lihat [Menjual di website & landing page](/commerce/sell-on-sites).
 
 <Shot src="/img/commerce/products-list.webp" wide>
 Halaman Master produk: tabel dengan kolom Produk (nama + thumbnail), Kategori, Harga, Stok, dan sakelar aktif/nonaktif; filter kategori dan status di atas, kotak "Cari nama atau SKU", tombol "Tambah produk".
@@ -17,6 +17,11 @@ Tiap produk punya **minimal satu baris varian**, dan harga selalu ada di baris i
 Sekali paham ini, sisa form-nya jadi masuk akal.
 
 ## Bagian-bagian form
+
+### Jenis produk
+
+- **Fisik** — dikirim ke alamat. Ada stok, berat, dan ongkir.
+- **Digital** — diunduh setelah bayar. Tanpa alamat, tanpa ongkir, stok tak terbatas, dan berkasnya dipilih dari Google Drive. Lihat [Produk digital](/commerce/digital-products).
 
 ### Dasar
 
@@ -42,7 +47,8 @@ Pertama, pilih modenya:
 | **Harga modal** | Untuk menghitung profit di [laporan](/reports/overview). Nggak pernah tampil ke pembeli |
 | **Stok** | Jumlah tersedia |
 | **Lacak stok** | Matikan untuk produk tanpa batas (jasa, produk digital). Tampil sebagai *tak dilacak* |
-| **Berat** | Untuk keperluanmu sendiri — nggak ada hitung ongkir otomatis |
+| **Berat** | Dalam gram. Dipakai untuk [ongkir otomatis](/commerce/shipping) kalau toko mengirim dari Indonesia |
+| **Ukuran paket** | Panjang × lebar × tinggi dalam cm, untuk berat volume. Opsional |
 
 ### Pilihan & varian
 

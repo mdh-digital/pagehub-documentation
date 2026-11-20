@@ -12,7 +12,7 @@ The built-in design is used for as long as a template has no version of its own.
 
 ## Generating the storefront
 
-**Commerce → Storefront** → **Build storefront**.
+**Websites → (pick a website) → Commerce tab → Storefront** → **Build storefront**.
 
 <Shot src="/img/commerce/storefront.webp">
 The Storefront page: a list of templates (Shop page, Product page, Cart, Checkout, Product strip) each with a status, a "Rebuild storefront" button, a "Shop open" switch, and a "Show the cart in the site menu" checkbox.

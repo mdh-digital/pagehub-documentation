@@ -45,7 +45,7 @@ Di editor, blok tampil sebagai penanda. Produk aslinya muncul di pratinjau dan d
 
 ## Desain toko
 
-**Commerce → Desain toko** mengatur tampilan semua kartu dari satu tempat.
+**Websites → (pilih website) → tab Commerce → Desain toko** mengatur tampilan semua kartu dari satu tempat.
 
 <Shot src="/img/commerce/shop-design.webp" wide>
 Halaman Desain toko: bagian Gaya toko dengan pemilih warna tombol, latar kartu, rasio gambar, radius, jarak, dan bayangan; di bawahnya perpustakaan kartu berisi pratinjau tiap kartu dengan produk asli toko.

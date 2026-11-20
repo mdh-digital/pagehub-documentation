@@ -33,6 +33,7 @@ const labels: Labels = {
     'website/navigation-menu': 'قائمة التنقّل',
     'website/tracking': 'التتبّع والبكسل',
     'website/custom-domain': 'النطاق المخصّص',
+    'website/booking': 'الحجز (المواعيد)',
     'website/website-templates': 'قوالب المواقع',
 
     'editor/overview': 'التعرّف على المحرّر',
@@ -57,14 +58,19 @@ const labels: Labels = {
     'blog/write-articles': 'كتابة المقالات',
 
     'commerce/overview': 'نظرة على وحدة المتجر',
+    'commerce/sell-on-sites': 'البيع في المواقع وصفحات الهبوط',
     'commerce/store-settings': 'إعدادات المتجر',
     'commerce/categories-and-variants': 'التصنيفات والخيارات',
     'commerce/products': 'المنتجات',
+    'commerce/digital-products': 'المنتجات الرقمية',
     'commerce/storefront': 'صفحات المتجر',
     'commerce/product-cards': 'بطاقات المنتجات وكتل المتجر',
     'commerce/cart-and-checkout': 'السلة وإتمام الطلب',
     'commerce/orders': 'الطلبات',
+    'commerce/shipping': 'الشحن وتتبّع الشحنات',
     'commerce/payments-and-invoices': 'المدفوعات والفواتير',
+    'commerce/online-payments': 'الدفع الإلكتروني والرصيد',
+    'commerce/partner-store': 'متجر الشريك',
     'commerce/public-invoice': 'الفاتورة العامة',
     'commerce/abandoned-carts': 'السلات المتروكة',
 

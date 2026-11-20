@@ -33,6 +33,7 @@ const labels: Labels = {
     'website/navigation-menu': 'Menu navigasi',
     'website/tracking': 'Tracking & pixel',
     'website/custom-domain': 'Domain kustom',
+    'website/booking': 'Booking (janji temu)',
     'website/website-templates': 'Template website',
 
     'editor/overview': 'Mengenal editor',
@@ -57,14 +58,19 @@ const labels: Labels = {
     'blog/write-articles': 'Menulis artikel',
 
     'commerce/overview': 'Mengenal modul toko',
+    'commerce/sell-on-sites': 'Menjual di website & landing page',
     'commerce/store-settings': 'Pengaturan toko',
     'commerce/categories-and-variants': 'Kategori & varian',
     'commerce/products': 'Produk',
+    'commerce/digital-products': 'Produk digital',
     'commerce/storefront': 'Halaman toko',
     'commerce/product-cards': 'Kartu produk & blok toko',
     'commerce/cart-and-checkout': 'Keranjang & checkout',
     'commerce/orders': 'Transaksi',
+    'commerce/shipping': 'Ongkir & lacak resi',
     'commerce/payments-and-invoices': 'Pembayaran & invoice',
+    'commerce/online-payments': 'Pembayaran online & saldo',
+    'commerce/partner-store': 'Partner Store',
     'commerce/public-invoice': 'Invoice publik',
     'commerce/abandoned-carts': 'Keranjang ditinggalkan',
 

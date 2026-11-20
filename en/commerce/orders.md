@@ -4,7 +4,7 @@ description: 'Run your store''s orders: six statuses and when stock is deducted,
 
 # Orders
 
-**Commerce → Orders**. Every order for this store — payment, stock and shipping in one place.
+**Store → Orders**. Every order for this store — payment, stock and shipping in one place.
 
 <Shot src="/img/commerce/orders-list.webp" wide>
 The Orders page: five stat cards at the top (Orders, New, Unpaid, completed, Completed revenue), then a table with Order no., Customer, Items, Total, status, Payment and Owner columns; date range, status and payment filters plus a search box above the table.

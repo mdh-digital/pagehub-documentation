@@ -4,7 +4,7 @@ description: 'Fill your store catalogue: why prices always live on variants, gen
 
 # Products
 
-**Commerce → Products**. Your store catalogue: prices, variants, images and tiered wholesale pricing.
+**Store → Products**. Your store catalogue: prices, variants, images and tiered wholesale pricing. The catalogue belongs to the workspace; each website and landing page [chooses which products it shows](/en/commerce/sell-on-sites).
 
 <Shot src="/img/commerce/products-list.webp" wide>
 The Products page: a table with Product (name + thumbnail), Category, Price, Stock columns and an active/inactive switch; category and status filters above, a "Search name or SKU" box, and an "Add product" button.
@@ -17,6 +17,11 @@ Every product has **at least one variant row**, and the price always lives on th
 Once that clicks, the rest of the form makes sense.
 
 ## Form sections
+
+### Product type
+
+- **Physical** — shipped to an address. Has stock, weight and shipping.
+- **Digital** — downloaded after payment. No address, no shipping, unlimited stock, and the files are picked from Google Drive. See [Digital products](/en/commerce/digital-products).
 
 ### Basics
 
@@ -42,7 +47,8 @@ First, pick the mode:
 | **Cost price** | Used for profit figures in [reports](/en/reports/overview). Never shown to buyers |
 | **Stock** | Quantity available |
 | **Track stock** | Turn off for unlimited products (services, digital goods). Shown as *untracked* |
-| **Weight** | For your own reference — there's no automatic shipping calculation |
+| **Weight** | In grams. Used for [automatic shipping rates](/en/commerce/shipping) when the store ships from Indonesia |
+| **Package size** | Length × width × height in cm, for volumetric weight. Optional |
 
 ### Options & variants
 
