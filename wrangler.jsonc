@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "pagehub-documentation",
+  "name": "fragrant-breeze-71dc",
   "compatibility_date": "2025-06-01",
 
   // Worker tanpa skrip — cuma menyajikan hasil build VitePress sebagai
